@@ -1,4 +1,4 @@
-def generate(content,question,Local=False):
+def generate(context,question,Local=False):
     if Local:
         from langchain_community.llms.huggingface_pipeline import HuggingFacePipeline
         from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
@@ -118,10 +118,10 @@ def generate(content,question,Local=False):
     print('- '*40)
 
 if __name__ == '__main__':
-    content = """
+    context = """
     CHAI is a student in Hong Kong PolyU\\
     CHAI is from China\\
     END OF RESULT\\
     """
     question = "Who is CHAI?"
-    generate(content,question)
+    generate(context,question)
