@@ -118,10 +118,18 @@ def generate(context,question,Local=False):
     print('- '*40)
 
 if __name__ == '__main__':
+    import argparse
+    
+    parser = argparse.ArgumentParser()
+    parser.add_argument("question", help="Input User question", type=str, default="Who is CHAI?", nargs='?')
+    args = parser.parse_args()
+    question = args.question
+    
     context = """
     CHAI is a student in Hong Kong PolyU\\
     CHAI is from China\\
+    
     END OF RESULT\\
     """
-    question = "Who is CHAI?"
+    
     generate(context,question)
