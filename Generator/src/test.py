@@ -98,7 +98,7 @@ def generate(context,question,Local=False):
     from langchain.prompts import PromptTemplate
     # template = """Question: {question}
     # Answer: Let's think step by step, """
-    template = """Use the following pieces of context to answer the question at the end. \\ seperate each chrunk, END OF RESULT\\ means the end of retrieved content. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+    template = """Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer. You should provide precise answer based on the context and show the source sentence of your answer in format xxx[Source].
     
     {context}
     
@@ -127,7 +127,6 @@ if __name__ == '__main__':
     context = """
     CHAI is a student in Hong Kong PolyU\\
     CHAI is from China\\
-    
     END OF RESULT\\
     """
     
