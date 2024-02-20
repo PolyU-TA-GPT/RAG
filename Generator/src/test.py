@@ -113,7 +113,7 @@ def generate(context,question,Local=False):
     
     print()
     print('- '*40)
-    print(chain.invoke({"context":context,"question": question}))
+    print(chain.invoke({"context":context,"question": question}).content)
     print('- '*40)
 
 if __name__ == '__main__':
