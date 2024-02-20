@@ -1,4 +1,4 @@
-def generate(context,question,Local=False):
+def generate(context,question,Local=False,temp=0):
     if Local:
         from langchain_community.llms.huggingface_pipeline import HuggingFacePipeline
         from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
@@ -91,43 +91,91 @@ def generate(context,question,Local=False):
             model="mistralai/mistral-7b-instruct:free",
             openai_api_key=getenv("OPENROUTER_API_KEY"),
             openai_api_base="https://openrouter.ai/api/v1",
-            temperature=0,
+            temperature=temp
         )
     #------------------------------------------------------------
     
     from langchain.prompts import PromptTemplate
     # template = """Question: {question}
     # Answer: Let's think step by step, """
-    template = """Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer. You should provide precise answer based on the context and show the source sentence of your answer in format xxx[Source].
-    
+    template = """Use the following pieces of context to answer the question at the end. 
+
+Provide precise answer based on the context and attach the source coordinate SC of your answer in [SC]:
+```
+------------------------------------------------------------
+    @0a3f01//HAER is a current student of CBS//
+    @01f588//HAER is a boy//
+    @e956dd//HAER is from USA//
+    END OF RESULT//
+------------------------------------------------------------
+    Question: Who is HAER?
+------------------------------------------------------------
+```
+Think and response with [@SC] in several complete and logical sentense: 
+```
+THOUGHT: The question ~~Who is HAER?~~ is asking for HAER's information.
+
+ANSWER: HAER is a student from USA[SC: @01f588] and currently in CBS[SC: @0a3f01].
+
+THOUGHT: 'HAER is a student from USA[SC: @01f588]' is not related to '@01f588//HAER is a boy//'.
+
+FINAL ANSWER: As far as I know, HAER is a student from USA[SC: @e956dd] and currently in CBS[SC: @0a3f01].
+```
+
+If don't know the answer or the question is not related, think and response like this: 
+```
+THOUGHT: The question ~~xxx~~ is asking for xxx.
+
+ANSWER: No information for 'xxx'.
+
+THOUGHT: 'xxx' is NOT related to the context.
+
+FINAL ANSWER: 'xxx' is NOT related to the context[SC: NO INFORMATION].
+```
+
+Now do the real task below!
+
+------------------------------------------------------------
     {context}
-    
+------------------------------------------------------------
     Question: {question}
-    Helpful Answer:"""
+------------------------------------------------------------
+
+"""
     
     # question = "Who is Mao ZeDong?"
     prompt = PromptTemplate.from_template(template)
     
     chain = prompt | hf
     
-    
-    print()
-    print('- '*40)
-    print(chain.invoke({"context":context,"question": question}).content)
-    print('- '*40)
+    return chain.invoke({"context":context,"question": question}).content
 
 if __name__ == '__main__':
     import argparse
-    
+    import time
     parser = argparse.ArgumentParser()
     parser.add_argument("question", help="Input User question", type=str, default="Who is CHAI?", nargs='?')
     args = parser.parse_args()
     question = args.question
     
     context = """
-    CHAI is a student in Hong Kong PolyU\\
-    CHAI is from China\\
-    END OF RESULT\\
+    @00ff01//CWC is an undergraduate student//
+    @03a4c2//CWC is from China//
+    @052b13//In 2022, Hong Kong PolyU accepted an COMP student named CWC//
+    @14e0f5//CHAI Wenchang, who is also called CWC, has shown a great interest in LLM//
+    END OF RESULT//
     """
-    
-    generate(context,question)
+    result = generate(context,question,temp=0)
+    print(result)
+    for i in range(1,10,2):
+        if result.find('FINAL ANSWER:')<0:
+            time.sleep(5)
+            result = generate(context,question,temp=i/10)
+            print(i/10,result)
+        else:
+            break
+    result = result[result.find('FINAL ANSWER:')+14:]
+    print()
+    print('- '*40)
+    print(result)
+    print('- '*40)
