@@ -83,7 +83,7 @@ def generate(content,question,Local=False):
         
         hf = HuggingFacePipeline(pipeline=pipe,max_new_tokens=200)
     else:
-        from openai import OpenAI
+        from langchain_openai import ChatOpenAI
         from os import getenv
         
         # gets API Key from environment variable OPENAI_API_KEY
