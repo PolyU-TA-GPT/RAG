@@ -103,6 +103,7 @@ def generate(content,question,Local=False):
     {context}
     
     Question: {question}
+    I will just say that I don't know if I don't know the answer and won't try to make up an answer.
     Helpful Answer:"""
     
     # question = "Who is Mao ZeDong?"
