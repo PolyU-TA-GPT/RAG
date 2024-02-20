@@ -86,6 +86,12 @@ hf = HuggingFacePipeline(pipeline=pipe,max_new_tokens=200)
 from langchain.prompts import PromptTemplate
 template = """Question: {question}
 Answer: Let's think step by step, """
+#template = """Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+#{context}
+
+#Question: {question}
+#Helpful Answer:"""
 
 question = "Who is Mao ZeDong?"
 prompt = PromptTemplate.from_template(template)
