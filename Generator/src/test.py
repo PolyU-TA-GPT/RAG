@@ -96,7 +96,7 @@ def generate(content,question,Local=False):
     from langchain.prompts import PromptTemplate
     # template = """Question: {question}
     # Answer: Let's think step by step, """
-    template = """Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+    template = """Use the following pieces of context to answer the question at the end. \\ seperate each chrunk, END OF RESULT\\ means the end of retrieved content. If you don't know the answer, just say that you don't know, don't try to make up an answer.
     
     {context}
     
@@ -113,3 +113,12 @@ def generate(content,question,Local=False):
     print('- '*40)
     print(chain.invoke({"context":context,"question": question}))
     print('- '*40)
+
+if __name == '__main__':
+    content = """
+    CHAI is a student in Hong Kong PolyU\\
+    CHAI is from China\\
+    END OF RESULT\\
+    """
+    question = "Who is CHAI?"
+    generate(content,question)
