@@ -87,9 +87,11 @@ def generate(content,question,Local=False):
         from os import getenv
         
         # gets API Key from environment variable OPENAI_API_KEY
-        hf = OpenAI(
-          base_url="https://openrouter.ai/api/v1",
-          api_key=getenv("OPENROUTER_API_KEY"),
+        hf = ChatOpenAI(
+            model="mistralai/mistral-7b-instruct:free",
+            openai_api_key=getenv("OPENROUTER_API_KEY"),
+            openai_api_base="https://openrouter.ai/api/v1",
+            temperature=0,
         )
     #------------------------------------------------------------
     
@@ -114,7 +116,7 @@ def generate(content,question,Local=False):
     print(chain.invoke({"context":context,"question": question}))
     print('- '*40)
 
-if __name == '__main__':
+if __name__ == '__main__':
     content = """
     CHAI is a student in Hong Kong PolyU\\
     CHAI is from China\\
