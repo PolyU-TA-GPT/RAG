@@ -83,13 +83,13 @@ def generate(content,question,Local=False):
         
         hf = HuggingFacePipeline(pipeline=pipe,max_new_tokens=200)
     else:
-        from openai import OpenAI
+        from langchain_openai import ChatOpenAI
         from os import getenv
         
         # gets API Key from environment variable OPENAI_API_KEY
-        hf = OpenAI(
+        hf = ChatOpenAI(
           base_url="https://openrouter.ai/api/v1",
-          api_key=getenv("OPENROUTER_API_KEY"),
+          openai_api_key=getenv("OPENROUTER_API_KEY"),
         )
     #------------------------------------------------------------
     
@@ -114,7 +114,7 @@ def generate(content,question,Local=False):
     print(chain.invoke({"context":context,"question": question}))
     print('- '*40)
 
-if __name == '__main__':
+if __name__ == '__main__':
     content = """
     CHAI is a student in Hong Kong PolyU\\
     CHAI is from China\\
