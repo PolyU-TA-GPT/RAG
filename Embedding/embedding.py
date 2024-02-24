@@ -4,7 +4,7 @@ import argparse
 def main():
     parser = argparse.ArgumentParser(description='Encode sentences to sentence embeddings')
     parser.add_argument('sentences', type=str, nargs='+', help='Sentences to encode')
-    parser.add_argument('--model', type=str, default="all-MiniLM-L6-v2", help='Model to use for encoding')
+    parser.add_argument('--model', type=str, default="all-MiniLM-L6-v2", help='Model to use for encodigit push -u origin masterng')
     parser.add_argument('--max_seq_length', type=int, default=128, help='Maximum sequence length')
     parser.add_argument('--huggingface', action=argparse.BooleanOptionalAction, default=False, help='Use huggingface model')
     args = parser.parse_args()
