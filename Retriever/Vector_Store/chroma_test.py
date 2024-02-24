@@ -47,7 +47,7 @@ class chroma_test:
     
     def query(self, db_disk):
         # query it
-        query = "What platforms can R programs run?"
+        query = "Who is the instructor?"
         docs = db_disk.similarity_search(query)
 
         # print results
