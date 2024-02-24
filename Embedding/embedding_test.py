@@ -2,31 +2,47 @@ import sys
 sys.path.append(r'./Text_Splitter')  
 from textSplitting import TextSplitting
 from sentenceEmbeddings import sentenceEmbeddings
-a1 = TextSplitting()
-texts_recursive = a1.split_recursive_character("./Embedding/output.txt")
-result = []
-result_sentence = []
-result_embedding = []
-encoder = sentenceEmbeddings("sentence-transformers/all-MiniLM-L6-v2", 128, True)
 
-'''Compute the embeddings one by one
-return a list of dictionaries, each dictionary contains a sentence and its embedding'''
-
-# for text in texts_recursive:
-#     dict = {}
-#     dict['sentence'] = text.page_content
-#     dict['embedding'] = encoder.encode(text.page_content)
-#     result.append(dict)
-# print(len(result))
-# print(result[0:5])
+class TAembedding:
 
 
-'''Compute the embeddings in batches
-return a list of sentences, a list of embeddings'''
 
-for text in texts_recursive:
-    result_sentence.append(text.page_content)
+    '''This class is used to split the text and encode the text into embeddings.'''
+    def __init__(self, model = "sentence-transformers/all-MiniLM-L6-v2", max_seq_length = 512, huggingface = True):
+        self.text_splitter = TextSplitting()
+        self.encoder = sentenceEmbeddings("sentence-transformers/all-MiniLM-L6-v2", max_seq_length, huggingface)
+        self.result = []
 
-result_embedding.append(encoder.encode(result_sentence))
-print(len(result_sentence))
-print(result[0:5])
+
+
+    '''This function is used to split the text into sentences and encode the sentences into embeddings.'''
+    def split_recursive(self, file_path):
+        texts_recursive = self.text_splitter.split_recursive_character(file_path)
+        for text in texts_recursive:
+            dict = {}
+            dict['sentence'] = text.page_content
+            dict['embedding'] = self.encoder.encode(text.page_content)
+            self.result.append(dict)
+        return self.result
+    
+
+
+    '''This function is used to split the single pdf into sentences and encode the sentences into embeddings.'''
+    def split_pdf(self, file_path):
+        single_pdf_chunks = self.text_splitter.split_single_pdf(file_path)
+        for chunk in single_pdf_chunks:
+            dict = {}
+            dict['sentence'] = chunk
+            dict['embedding'] = self.encoder.encode(chunk)
+            self.result.append(dict)
+        return self.result
+
+if __name__ == "__main__":
+    a1 = TAembedding()
+    # texts_recursive = a1.split_recursive_character("./Embedding/output.txt")
+    # print(len(texts_recursive))
+    # print(texts_recursive[0:5])
+    single_pdf_chunks = a1.split_pdf("./Text_Splitter/summer_exchange/Summer_Outbound_Info_Session.pdf")
+    print(len(single_pdf_chunks))
+    print(single_pdf_chunks[0:5])
+    print(single_pdf_chunks[0]['embedding'].shape)
