@@ -202,8 +202,8 @@ def test():
     
     # No need to repeatedly add documents 
     # Please comment out the following two lines if you did not change the file path to a new one
-    # retriever.addDocuments(collection_name=collection_name, embeddings_list=embeddings_list, \
-    #                    documents_list=documents_list, metadata_list=metadata_list)
+    #retriever.addDocuments(collection_name=collection_name, embeddings_list=embeddings_list, \
+    #                     documents_list=documents_list, metadata_list=metadata_list)
     
     query_text = "What are available summer exchange types in PolyU?"
     query_embeddings = embedder.encode(query_text).tolist() # tensor to list

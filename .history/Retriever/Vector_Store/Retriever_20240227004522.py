@@ -19,8 +19,6 @@ import chromadb
 import sys
 sys.path.append('../..')
 import torch
-import time
-from Generator.src.test import generate
 from Embedding.sentenceEmbeddings import sentenceEmbeddings
 
 ###### TO BE REMOVED ######
@@ -108,11 +106,11 @@ class Retriever:
 
     
     def query (self, collection_name: str, query_embeddings: list[list[float]]) -> dict:
-        """return n (by now, set as top-5) closest results (chunks and metadatas) in order """
+        """return n (by now, set as top-3) closest results (chunks and metadatas) in order """
         collection = self.getCollection(collection_name)
         result = collection.query(
             query_embeddings=query_embeddings,
-            n_results=5,
+            n_results=3,
         )
         return result
 
@@ -138,17 +136,17 @@ class Retriever:
                 logs = json.load(chunklog)
         except (FileNotFoundError, json.decoder.JSONDecodeError):
             logs = [] # old_log does not exist or empty, then no need to update
-        else:
-            for i in range(num):
-                for log in logs:
-                    if (log["chunk_id"] == update_list[i]["chunk_id"]):
-                        log["metadata"] = update_list[i]["metadata"]
-                        log["page_content"] = update_list[i]["page_content"]
-                        break
+       
+        for i in range(num):
+            for log in logs:
+                if (log["chunk_id"] == update_list[i]["chunk_id"]):
+                    log["metadata"] = update_list[i]["metadata"]
+                    log["page_content"] = update_list[i]["page_content"]
+                    break
 
         # write back
         with open (logpath, "w") as chunklog:
-            json.dump(logs, chunklog, indent=4)
+            json.dump(log, chunklog, indent=4)
 
     def delete(self, collection_name: str, id_list: list[str]):
         """delete the collection by list of ids
@@ -165,9 +163,11 @@ class Retriever:
 def load_split_pdf(filepath: str) :
     loader = PyPDFLoader(filepath)
     docs = loader.load()
-    text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
-        chunk_size=500, 
-        chunk_overlap=100,
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=300, 
+        chunk_overlap=60,
+        length_function=len,
+        is_separator_regex=False,
     )
     splits = []
     for doc in docs:
@@ -197,46 +197,22 @@ def test():
     documents_list = spliter_result
 
     # The metadata_list should be provided from embedding / text splitter, provisionally use file title
-
-    metadata_list = [{"doc_name": "Summer_Outbound_Info_Session.pdf"} for i in range(num)]
+    metadata_list = [{"doc_name": "Summer_Outbound_Info_Session.pdf", "chunk_id": str(uuid.uuid4())} for i in range(num)]
     
-    # No need to repeatedly add documents 
-    # Please comment out the following two lines if you did not change the file path to a new one
-    # retriever.addDocuments(collection_name=collection_name, embeddings_list=embeddings_list, \
-    #                    documents_list=documents_list, metadata_list=metadata_list)
+    # No need to repeatedly add documents if you don't change the file path to a new one
+    retriever.addDocuments(collection_name=collection_name, embeddings_list=embeddings_list, \
+                         documents_list=documents_list, metadata_list=metadata_list)
     
-    query_text = "What are available summer exchange types in PolyU?"
+    query_text = "What are the available types of summer exchange in PolyU?"
     query_embeddings = embedder.encode(query_text).tolist() # tensor to list
     query_result = retriever.query(collection_name = collection_name, query_embeddings= query_embeddings)
     
-    print("The following is the full query result as a dictionary:")
+    print()
     print(query_result, "\n")
 
-
-    print("The following is the chunk content in the result:")
     query_result_chunks = query_result["documents"][0]
-    query_result_ids = query_result["ids"][0]
     for chunk in query_result_chunks:
         print(chunk)
-    
-    num = len(query_result_chunks)
-    context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i].replace("\n", ".") for i in range (num)])
-                
-    print("context is: ", context)
-    result = generate(context=context,question=query_text,temp=0)
-    print(result)
-    for i in range(1,10,2):
-        if result.find('FINAL ANSWER:')<0:
-            time.sleep(5)
-            result = generate(context=context,question=query_text,temp=i/10)
-            print(i/10,result)
-        else:
-            break
-    result = result[result.find('FINAL ANSWER:')+14:]
-    print()
-    print('- '*40)
-    print(result)
-    print('- '*40)
     
 
 

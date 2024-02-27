@@ -166,8 +166,8 @@ def load_split_pdf(filepath: str) :
     loader = PyPDFLoader(filepath)
     docs = loader.load()
     text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
-        chunk_size=500, 
-        chunk_overlap=100,
+        chunk_size=200, 
+        chunk_overlap=20,
     )
     splits = []
     for doc in docs:
@@ -202,8 +202,8 @@ def test():
     
     # No need to repeatedly add documents 
     # Please comment out the following two lines if you did not change the file path to a new one
-    # retriever.addDocuments(collection_name=collection_name, embeddings_list=embeddings_list, \
-    #                    documents_list=documents_list, metadata_list=metadata_list)
+    #retriever.addDocuments(collection_name=collection_name, embeddings_list=embeddings_list, \
+    #                     documents_list=documents_list, metadata_list=metadata_list)
     
     query_text = "What are available summer exchange types in PolyU?"
     query_embeddings = embedder.encode(query_text).tolist() # tensor to list

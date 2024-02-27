@@ -108,11 +108,11 @@ class Retriever:
 
     
     def query (self, collection_name: str, query_embeddings: list[list[float]]) -> dict:
-        """return n (by now, set as top-5) closest results (chunks and metadatas) in order """
+        """return n (by now, set as top-3) closest results (chunks and metadatas) in order """
         collection = self.getCollection(collection_name)
         result = collection.query(
             query_embeddings=query_embeddings,
-            n_results=5,
+            n_results=3,
         )
         return result
 
@@ -166,8 +166,8 @@ def load_split_pdf(filepath: str) :
     loader = PyPDFLoader(filepath)
     docs = loader.load()
     text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
-        chunk_size=500, 
-        chunk_overlap=100,
+        chunk_size=200, 
+        chunk_overlap=20,
     )
     splits = []
     for doc in docs:
@@ -202,10 +202,10 @@ def test():
     
     # No need to repeatedly add documents 
     # Please comment out the following two lines if you did not change the file path to a new one
-    # retriever.addDocuments(collection_name=collection_name, embeddings_list=embeddings_list, \
-    #                    documents_list=documents_list, metadata_list=metadata_list)
+    #retriever.addDocuments(collection_name=collection_name, embeddings_list=embeddings_list, \
+    #                     documents_list=documents_list, metadata_list=metadata_list)
     
-    query_text = "What are available summer exchange types in PolyU?"
+    query_text = "What are available summer exchange in PolyU?"
     query_embeddings = embedder.encode(query_text).tolist() # tensor to list
     query_result = retriever.query(collection_name = collection_name, query_embeddings= query_embeddings)
     
@@ -220,8 +220,7 @@ def test():
         print(chunk)
     
     num = len(query_result_chunks)
-    context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i].replace("\n", ".") for i in range (num)])
-                
+    context = '//'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i]] for i in range (num))
     print("context is: ", context)
     result = generate(context=context,question=query_text,temp=0)
     print(result)
