@@ -4,8 +4,7 @@ It also integrates with the retrieval functionality to enable the match between 
 
 '''
 
-
-
+from langchain_community.document_loaders import PyPDFLoader
 import uuid
 import os
 import json
@@ -21,8 +20,6 @@ import sys
 sys.path.append('../..')
 import torch
 import time
-from langchain_community.document_loaders import PyPDFLoader
-from pypdf import PdfReader
 from Generator.src.test import generate
 from Embedding.sentenceEmbeddings import sentenceEmbeddings
 
@@ -111,11 +108,11 @@ class Retriever:
 
     
     def query (self, collection_name: str, query_embeddings: list[list[float]]) -> dict:
-        """return n (by now, set as top-3) closest results (chunks and metadatas) in order """
+        """return n (by now, set as top-5) closest results (chunks and metadatas) in order """
         collection = self.getCollection(collection_name)
         result = collection.query(
             query_embeddings=query_embeddings,
-            n_results=3,
+            n_results=5,
         )
         return result
 
@@ -153,11 +150,9 @@ class Retriever:
         with open (logpath, "w") as chunklog:
             json.dump(logs, chunklog, indent=4)
 
-    def delete_collection_entries(self, collection_name: str, id_list: list[str]):
-        """delete the collection entries by list of ids
+    def delete(self, collection_name: str, id_list: list[str]):
+        """delete the collection by list of ids
         ### can NOT be undone"""
-        print("The id list: {} of \n collection {} will be deleted forever! \nWaiting for 3 seconds.".format(id_list, collection_name))    
-        time.sleep(3)
         collection = self.getCollection(collection_name)
         collection.delete(
             ids=id_list,
@@ -168,55 +163,25 @@ class Retriever:
         """delete the collection itself and all entries in the collection 
         The log of this collection will also be deleted"""
         ### can NOT be undone"""
-        print("The collection {} will be deleted forever! \nWaiting for 3 seconds.".format(collection_name))    
-        time.sleep(3)
 
         self.client.delete_collection(collection_name)
-      
-        try:
-            print("Collection {} has been removed, deleting log file of this collection".format(collection_name))
-            os.remove("{}/assets/log/{}".format(self.cur_dir, collection_name))
-        except FileNotFoundError:
-            print("The log of this collection did not exist!")
-        
-
+        os.remove("{}/assets/log/{}".format(self.cur_dir, collection_name))
         
 
 
 def load_split_pdf(filepath: str) :
-    '''
     loader = PyPDFLoader(filepath)
     docs = loader.load()
-    '''
-    chunks = ""
-    reader = PdfReader(filepath)
-    for page in reader.pages:
-        chunks+=page.extract_text()
-   
-    
     text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
-        chunk_size=200, 
-        chunk_overlap=40,
+        chunk_size=1000, 
+        chunk_overlap=200,
     )
-
-    
-    doc_splits = text_splitter.split_text(chunks)
-    """
     splits = []
     for doc in docs:
         doc_splits = text_splitter.split_text(doc.page_content)
         splits.extend(doc_splits)
     #print(splits)
-    
     return splits
-    """
-    """
-    print("The first five doc splits")
-    for i in doc_splits[:5]:
-        print(i)
-    """
-    return doc_splits   
-    
 
     
 
@@ -243,12 +208,11 @@ def test():
     metadata_list = [{"doc_name": "Summer_Outbound_Info_Session.pdf"} for i in range(num)]
     
     # No need to repeatedly add documents 
-    # Please comment out the following two lines ONCE you have added the required documents 
+    # Please comment out the following two lines if you did not change the file path to a new one
     retriever.addDocuments(collection_name=collection_name, embeddings_list=embeddings_list, \
-        documents_list=documents_list, metadata_list=metadata_list)
+                        documents_list=documents_list, metadata_list=metadata_list)
     
-    #query_text = "What are available summer exchange types in PolyU?"
-    query_text = "What are available summer exchange institutions located in Singapore?"
+    query_text = "What are available summer exchange types in PolyU?"
     query_embeddings = embedder.encode(query_text).tolist() # tensor to list
     query_result = retriever.query(collection_name = collection_name, query_embeddings= query_embeddings)
     
@@ -263,8 +227,7 @@ def test():
         print(chunk)
     
     num = len(query_result_chunks)
-    #context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i].replace("\n", ".") for i in range (num)])
-    context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i] for i in range (num)])
+    context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i].replace("\n", ".") for i in range (num)])
                 
     print("context is: ", context)
     result = generate(context=context,question=query_text,temp=0)
@@ -289,10 +252,6 @@ def test():
 
 
 if __name__ == "__main__":
-    retriever = Retriever()
-    retriever.delete_collection("SummerExchange")
-
     test()
-   
 
     

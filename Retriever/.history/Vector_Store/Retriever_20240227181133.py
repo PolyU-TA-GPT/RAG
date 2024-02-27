@@ -175,7 +175,7 @@ class Retriever:
       
         try:
             print("Collection {} has been removed, deleting log file of this collection".format(collection_name))
-            os.remove("{}/assets/log/{}".format(self.cur_dir, collection_name))
+            os.remove("{}/assets/log/{}.json".format(self.cur_dir, collection_name))
         except FileNotFoundError:
             print("The log of this collection did not exist!")
         
@@ -195,8 +195,8 @@ def load_split_pdf(filepath: str) :
    
     
     text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
-        chunk_size=200, 
-        chunk_overlap=40,
+        chunk_size=500, 
+        chunk_overlap=60,
     )
 
     
@@ -248,7 +248,7 @@ def test():
         documents_list=documents_list, metadata_list=metadata_list)
     
     #query_text = "What are available summer exchange types in PolyU?"
-    query_text = "What are available summer exchange institutions located in Singapore?"
+    query_text = "What are available summer exchange institutions in Singapore?"
     query_embeddings = embedder.encode(query_text).tolist() # tensor to list
     query_result = retriever.query(collection_name = collection_name, query_embeddings= query_embeddings)
     
@@ -263,8 +263,7 @@ def test():
         print(chunk)
     
     num = len(query_result_chunks)
-    #context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i].replace("\n", ".") for i in range (num)])
-    context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i] for i in range (num)])
+    context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i].replace("\n", ".") for i in range (num)])
                 
     print("context is: ", context)
     result = generate(context=context,question=query_text,temp=0)
@@ -289,10 +288,9 @@ def test():
 
 
 if __name__ == "__main__":
-    retriever = Retriever()
-    retriever.delete_collection("SummerExchange")
-
     test()
-   
+    #retriever = Retriever()
+    #retriever.delete_collection("SummerExchange")
+
 
     

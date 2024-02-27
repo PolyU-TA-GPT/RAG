@@ -263,8 +263,7 @@ def test():
         print(chunk)
     
     num = len(query_result_chunks)
-    #context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i].replace("\n", ".") for i in range (num)])
-    context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i] for i in range (num)])
+    context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i].replace("\n", ".") for i in range (num)])
                 
     print("context is: ", context)
     result = generate(context=context,question=query_text,temp=0)

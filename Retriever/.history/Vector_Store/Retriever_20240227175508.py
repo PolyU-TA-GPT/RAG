@@ -243,12 +243,11 @@ def test():
     metadata_list = [{"doc_name": "Summer_Outbound_Info_Session.pdf"} for i in range(num)]
     
     # No need to repeatedly add documents 
-    # Please comment out the following two lines ONCE you have added the required documents 
+    # Please comment out the following two lines if you did not change the file path to a new one
     retriever.addDocuments(collection_name=collection_name, embeddings_list=embeddings_list, \
         documents_list=documents_list, metadata_list=metadata_list)
     
-    #query_text = "What are available summer exchange types in PolyU?"
-    query_text = "What are available summer exchange institutions located in Singapore?"
+    query_text = "What are available summer exchange types in PolyU?"
     query_embeddings = embedder.encode(query_text).tolist() # tensor to list
     query_result = retriever.query(collection_name = collection_name, query_embeddings= query_embeddings)
     
@@ -263,8 +262,7 @@ def test():
         print(chunk)
     
     num = len(query_result_chunks)
-    #context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i].replace("\n", ".") for i in range (num)])
-    context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i] for i in range (num)])
+    context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i].replace("\n", ".") for i in range (num)])
                 
     print("context is: ", context)
     result = generate(context=context,question=query_text,temp=0)
@@ -289,10 +287,9 @@ def test():
 
 
 if __name__ == "__main__":
-    retriever = Retriever()
-    retriever.delete_collection("SummerExchange")
-
     test()
-   
+    #retriever = Retriever()
+    #retriever.delete_collection("SummerExchange")
+
 
     
