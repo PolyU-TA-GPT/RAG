@@ -14,7 +14,9 @@ class chroma_test:
     persist_directory = './chroma_db'
 
     def __init__ (self):
-        self.loader = PyPDFLoader(self.path + "/../Lecture_notes/Lecture 6.pdf")
+        # self.loader = PyPDFLoader(self.path + "/../Lecture_notes/Lecture 6.pdf")
+        # self.loader = PyPDFLoader(self.path + "/../../Doc_Loader/Data/syllabus/SDFAAE1001Introduction to Artificial Intelligence and Data Analytics in Aerospace and Aviation Engin.pdf")
+        self.loader = PyPDFLoader(self.path + "/../../Doc_Loader/Data/summer_exchange/Summer_Outbound_Info_Session.pdf")
 
     def init_path(self, file_path):
         self.loader = PyPDFLoader(self.path + file_path)
@@ -25,7 +27,7 @@ class chroma_test:
         # load the document and split it into chunks
         
         pages = self.loader.load_and_split()
-        print(pages[2])
+        # print(pages[2])
         return pages
 
     def embedding(self):
@@ -45,13 +47,14 @@ class chroma_test:
         db_disk = Chroma(persist_directory=self.persist_directory, embedding_function=embedding_function)
         return db_disk
     
-    def query(self, db_disk):
+    def query(self, db_disk, query):
         # query it
-        query = "Who is the instructor?"
-        docs = db_disk.similarity_search(query)
+        docs = db_disk.similarity_search(query, k=3)
 
         # print results
-        print(docs[0].page_content)
+        for doc in docs:
+            print(doc.page_content)
+            print("------------------")
 
     def update(self):
         #load and process to get new pages (schedule file)
@@ -89,7 +92,9 @@ class chroma_test:
         embedding_function = self.embedding()
         self.save_disk(pages,embedding_function)
         db_disk = self.load_disk(embedding_function)
-        self.query(db_disk)
+        print("Please enter your query: ")
+        query = input()
+        self.query(db_disk, query)
 
 
 
@@ -101,6 +106,6 @@ if __name__ == '__main__':
     chroma_test_prime.run()
     print()
 
-    #test update of vector store
-    chroma_test_prime.init_path("/../Lecture_notes/Schedule.pdf")
-    chroma_test_prime.update()
+    # #test update of vector store
+    # chroma_test_prime.init_path("/../Lecture_notes/Schedule.pdf")
+    # chroma_test_prime.update()
