@@ -1,0 +1,302 @@
+'''
+This class Retriever is used to store and load chunks with embeddings and metadata
+It also integrates with the retrieval functionality to enable the match between queries and chunk embeddings
+
+'''
+
+
+
+import uuid
+import os
+import json
+
+from langchain_community.embeddings.sentence_transformer import (
+    SentenceTransformerEmbeddings,
+)
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+import chromadb
+
+##### TO BE REMOVED #####
+import sys
+sys.path.append('../..')
+import torch
+import time
+from langchain_community.document_loaders import PyMuPDFLoader
+from pypdf import PdfReader
+from Generator.src.test import generate
+from Embedding.sentenceEmbeddings import sentenceEmbeddings
+
+###### TO BE REMOVED ######
+
+class Retriever:
+    client = None
+    cur_dir = os.path.dirname(os.path.abspath(__file__))
+    chromadb_path = "{}/chromadb".format(cur_dir)
+
+    def __init__ (self):
+        '''
+        initialize the persistent client based on chromadb_path \n
+        heartbeat() return value will be printed out to test connection
+        '''
+        self.client = chromadb.PersistentClient(path=self.chromadb_path)
+        print("client connection heartbeat code: ", self.client.heartbeat())
+    
+   
+
+    def createCollection(self, collection_name: str):
+        """
+        Please create a collection for each independent ''topic'' (e.g., summer exchange information of PolyU)\n
+        The Collection will be created with collection_name, the name must follow the rules:
+        0. Collection name must be unique, if the name exists then try to get this collection 
+        1. The length of the name must be between 3 and 63 characters.\n
+        2. The name must start and end with a lowercase letter or a digit, and it can contain dots, dashes, and underscores in between.\n
+        3. The name must not contain two consecutive dots.\n
+        4. The name must not be a valid IP address.\n
+        """
+        try: 
+            self.client.create_collection(name=collection_name)
+        except chromadb.db.base.UniqueConstraintError: 
+            self.getCollection(collection_name)
+        return collection_name
+
+
+
+    def getCollection (self, collection_name: str):
+        """
+        return the created collection withe name collection_name\n
+        The exception will be raised if no collection with specified collection_name has been created
+        """
+        collection = self.client.get_collection(name=collection_name)
+        return collection
+    
+
+    def addDocuments (self, collection_name: str, embeddings_list: list[list[float]], documents_list: list[dict], metadata_list: list[dict]) :
+        """
+        Please make sure that embeddings_list and metadata_list is matched with documents_list\n
+        Example of one metadata: {"chapter": "3", "verse": "16"}\n
+        The id will be created automatically as uuid v4 
+        The chunks content and metadata will be logged (appended) into ./assets/log/<collection_name>.json
+        """
+        collection = self.getCollection(collection_name)
+        num = len(documents_list)
+        ids=[str(uuid.uuid4()) for i in range(num) ]
+
+        collection.add(
+            documents= documents_list,
+            metadatas= metadata_list,
+            embeddings= embeddings_list,
+            ids=ids 
+        )
+        logpath = "{:0}/assets/log/{:1}.json".format(self.cur_dir, collection_name)
+
+        logs = []
+        try:  
+            with open (logpath, 'r') as chunklog:
+                logs = json.load(chunklog)
+        except (FileNotFoundError, json.decoder.JSONDecodeError):
+            logs = [] # old_log does not exist or empty
+       
+        added_log= [{"chunk_id": ids[i], "metadata": metadata_list[i], "page_content": documents_list[i]} \
+                       for i in range(num)]
+      
+        logs.extend(added_log)
+
+        # write back
+        with open (logpath, "w") as chunklog:
+            json.dump(logs, chunklog, indent=4)
+            
+        
+        
+
+
+    
+    def query (self, collection_name: str, query_embeddings: list[list[float]]) -> dict:
+        """return n (by now, set as top-3) closest results (chunks and metadatas) in order """
+        collection = self.getCollection(collection_name)
+        result = collection.query(
+            query_embeddings=query_embeddings,
+            n_results=3,
+        )
+        return result
+
+
+    def update (self, collection_name: str, id_list: list[str], embeddings_list: list[list[float]], documents_list: list[str], metadata_list: list[dict]):
+        collection = self.getCollection(collection_name)
+        num = len(documents_list)
+        collection.update(
+            ids=id_list,
+            embeddings=embeddings_list,
+            metadatas=metadata_list,
+            documents=documents_list,
+        )
+
+        update_list = [{"chunk_id": id_list[i], "metadata": metadata_list[i], "page_content": documents_list[i]} \
+                        for i in range(num)]
+        
+        # update the chunk log 
+        logs = []
+        logpath = "{:0}/assets/log/{:1}.json".format(self.cur_dir, collection_name)
+        try:  
+            with open (logpath, 'r') as chunklog:
+                logs = json.load(chunklog)
+        except (FileNotFoundError, json.decoder.JSONDecodeError):
+            logs = [] # old_log does not exist or empty, then no need to update
+        else:
+            for i in range(num):
+                for log in logs:
+                    if (log["chunk_id"] == update_list[i]["chunk_id"]):
+                        log["metadata"] = update_list[i]["metadata"]
+                        log["page_content"] = update_list[i]["page_content"]
+                        break
+
+        # write back
+        with open (logpath, "w") as chunklog:
+            json.dump(logs, chunklog, indent=4)
+
+    def delete_collection_entries(self, collection_name: str, id_list: list[str]):
+        """delete the collection entries by list of ids
+        ### can NOT be undone"""
+        print("The id list: {} of \n collection {} will be deleted forever! \nWaiting for 3 seconds.".format(id_list, collection_name))    
+        time.sleep(3)
+        collection = self.getCollection(collection_name)
+        collection.delete(
+            ids=id_list,
+        )
+
+
+    def delete_collection (self, collection_name: str):
+        """delete the collection itself and all entries in the collection 
+        The log of this collection will also be deleted"""
+        ### can NOT be undone"""
+        print("The collection {} will be deleted forever! \nWaiting for 3 seconds.".format(collection_name))    
+        time.sleep(3)
+
+        self.client.delete_collection(collection_name)
+      
+        try:
+            print("Collection {} has been removed, deleting log file of this collection".format(collection_name))
+            os.remove("{}/assets/log/{}.json".format(self.cur_dir, collection_name))
+        except FileNotFoundError:
+            print("The log of this collection did not exist!")
+        
+
+        
+
+
+def load_split_pdf(filepath: str) :
+    
+    loader = PyMuPDFLoader(filepath)
+    pages = loader.load()
+    
+    docs = []
+    #reader = PdfReader(filepath)
+    print("The num of pages is: ", len(pages))
+    for page in pages:
+        docs.append(page.page_content)
+    
+
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=200, 
+        chunk_overlap=60,
+        length_function=len,
+    )
+    
+    
+    #doc_splits = text_splitter.split_text(chunks)
+    
+    splits = []
+    counter = 0
+    for doc in docs:
+        if (len(doc) > 400):
+            doc_splits = text_splitter.split_text(doc)
+            splits.extend(doc_splits)
+            counter += 1
+        else:
+            splits.append(doc)
+    print(counter, " of pages are splitted")
+
+    return splits
+    
+    
+    
+
+    
+
+def test():
+    """This function is just used for testing Retriever class, please don't use it outside the Retriever.py file"""
+    cur_dir = os.path.dirname(os.path.abspath(__file__))
+    retriever = Retriever()
+
+    # load and split the sample pdf
+    spliter_result = load_split_pdf("{}/assets/Summer_Outbound_Info_Session.pdf".format(cur_dir)) # list of page contents
+    
+    # embed the chunks
+    embedder = sentenceEmbeddings(model="sentence-transformers/all-MiniLM-L6-v2", 
+                                  max_seq_length=128, huggingface=True)
+    
+    embed_result = embedder.encode(spliter_result).tolist() # tensor to list
+    
+    num = len(spliter_result)
+    embeddings_list = embed_result
+    documents_list = spliter_result
+
+    # The metadata_list should be provided from embedding / text splitter, provisionally use file title
+
+    metadata_list = [{"doc_name": "Summer_Outbound_Info_Session.pdf"} for i in range(num)]
+    
+    # No need to repeatedly add documents 
+    # Please comment out the following two lines ONCE you have added the required documents 
+    collection_name = retriever.createCollection("SummerExchange")
+    retriever.addDocuments(collection_name=collection_name, embeddings_list=embeddings_list, documents_list=documents_list, metadata_list=metadata_list)
+    collection_name = "SummerExchange"
+    #query_text = "What are available summer exchange types in PolyU?"
+    #query_text = "What is the summer exchange duration in Sweden"
+    query_text = "What are available summer exchange institutions located in Singapore?"
+    
+    query_embeddings = embedder.encode(query_text).tolist() # tensor to list
+    query_result = retriever.query(collection_name = collection_name, query_embeddings= query_embeddings)
+    
+    print("The following is the full query result as a dictionary:")
+    print(query_result, "\n")
+
+
+    print("The following is the chunk content in the result:")
+    query_result_chunks = query_result["documents"][0]
+    query_result_ids = query_result["ids"][0]
+    for chunk in query_result_chunks:
+        print(chunk)
+    
+    num = len(query_result_chunks)
+    #context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i].replace("\n", ".") for i in range (num)])
+    context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i] for i in range (num)])
+                
+    print("context is: ", context)
+    result = generate(context=context,question=query_text,temp=0)
+    print(result)
+    for i in range(1,10,2):
+        if result.find('FINAL ANSWER:')<0:
+            time.sleep(5)
+            result = generate(context=context,question=query_text,temp=i/10)
+            print(i/10,result)
+        else:
+            break
+    result = result[result.find('FINAL ANSWER:')+14:]
+    print()
+    print('- '*40)
+    print(result)
+    print('- '*40)
+
+    # Test for deleting the collection "SummerExchange"
+    # retriever = Retriever()
+    # retriever.delete_collection("SummerExchange")
+    
+
+
+if __name__ == "__main__":
+    retriever = Retriever()
+    retriever.delete_collection("SummerExchange")
+
+    test()
+   
+
+    

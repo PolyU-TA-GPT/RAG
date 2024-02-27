@@ -21,7 +21,7 @@ import sys
 sys.path.append('../..')
 import torch
 import time
-from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyMuPDFLoader
 from pypdf import PdfReader
 from Generator.src.test import generate
 from Embedding.sentenceEmbeddings import sentenceEmbeddings
@@ -120,7 +120,7 @@ class Retriever:
         return result
 
 
-    def update (self, collection_name: str, id_list: list[str], embeddings_list: list[list[float]], documents_list: list[dict], metadata_list: list[dict]):
+    def update (self, collection_name: str, id_list: list[str], embeddings_list: list[list[float]], documents_list: list[str], metadata_list: list[dict]):
         collection = self.getCollection(collection_name)
         num = len(documents_list)
         collection.update(
@@ -175,7 +175,7 @@ class Retriever:
       
         try:
             print("Collection {} has been removed, deleting log file of this collection".format(collection_name))
-            os.remove("{}/assets/log/{}".format(self.cur_dir, collection_name))
+            os.remove("{}/assets/log/{}.json".format(self.cur_dir, collection_name))
         except FileNotFoundError:
             print("The log of this collection did not exist!")
         
@@ -184,38 +184,40 @@ class Retriever:
 
 
 def load_split_pdf(filepath: str) :
-    '''
-    loader = PyPDFLoader(filepath)
-    docs = loader.load()
-    '''
-    chunks = ""
-    reader = PdfReader(filepath)
-    for page in reader.pages:
-        chunks+=page.extract_text()
-   
     
-    text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
-        chunk_size=200, 
-        chunk_overlap=40,
-    )
+    loader = PyMuPDFLoader(filepath)
+    pages = loader.load()
+    
+    docs = []
+    #reader = PdfReader(filepath)
+    print("The num of pages is: ", len(pages))
+    for page in pages:
+        docs.append(page.page_content)
+    
 
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=400, 
+        chunk_overlap=80,
+        length_function=len,
+    )
     
-    doc_splits = text_splitter.split_text(chunks)
-    """
+    
+    #doc_splits = text_splitter.split_text(chunks)
+    
     splits = []
+    counter = 0
     for doc in docs:
-        doc_splits = text_splitter.split_text(doc.page_content)
-        splits.extend(doc_splits)
-    #print(splits)
-    
+        if (len(doc) > 700):
+            doc_splits = text_splitter.split_text(doc)
+            splits.extend(doc_splits)
+            counter += 1
+        else:
+            splits.append(doc)
+    print(counter, " of pages are splitted")
+
     return splits
-    """
-    """
-    print("The first five doc splits")
-    for i in doc_splits[:5]:
-        print(i)
-    """
-    return doc_splits   
+    
+    
     
 
     
@@ -231,7 +233,7 @@ def test():
     # embed the chunks
     embedder = sentenceEmbeddings(model="sentence-transformers/all-MiniLM-L6-v2", 
                                   max_seq_length=128, huggingface=True)
-    collection_name = retriever.createCollection("SummerExchange")
+    
     embed_result = embedder.encode(spliter_result).tolist() # tensor to list
     
     num = len(spliter_result)
@@ -244,11 +246,13 @@ def test():
     
     # No need to repeatedly add documents 
     # Please comment out the following two lines ONCE you have added the required documents 
-    retriever.addDocuments(collection_name=collection_name, embeddings_list=embeddings_list, \
-        documents_list=documents_list, metadata_list=metadata_list)
-    
+    collection_name = retriever.createCollection("SummerExchange")
+    retriever.addDocuments(collection_name=collection_name, embeddings_list=embeddings_list, documents_list=documents_list, metadata_list=metadata_list)
+    collection_name = "SummerExchange"
     #query_text = "What are available summer exchange types in PolyU?"
+    #query_text = "What is the summer exchange duration in Sweden"
     query_text = "What are available summer exchange institutions located in Singapore?"
+    
     query_embeddings = embedder.encode(query_text).tolist() # tensor to list
     query_result = retriever.query(collection_name = collection_name, query_embeddings= query_embeddings)
     
