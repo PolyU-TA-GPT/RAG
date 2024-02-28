@@ -1,0 +1,39 @@
+{
+    "ids": [
+        [
+            "cd54ee46-f29a-4eb8-906e-6c427e6eede4",
+            "b5f75397-420d-4064-9988-a61eca76a720",
+            "d22055ca-a900-4d19-a4bf-e102ac558cd4"
+        ]
+    ],
+    "distances": [
+        [
+            27.315715778408276,
+            28.666321394031968,
+            29.581397741509843
+        ]
+    ],
+    "metadatas": [
+        [
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            },
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            },
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            }
+        ]
+    ],
+    "embeddings": null,
+    "documents": [
+        [
+            "Summer Exchange (Europe)\nSweden - University of Gothenburg\nSummer School for Sustainability\n27 June - 2 August 2024\nAll courses are at Bachelor\u2019s level and taught in English. \nEach course earns 7.5 credits (ECTS) and running over a five week period.\nCourse Options: \n\u2022\nBiodiversity in Western Sweden",
+            "Summer Exchange (Europe)\nDenmark - Copenhagen Business School \nInternational Summer University Programme 2024\n24 June - 2 August 2024 \n\u2022\nPolyU students must take ordinary 6-week courses\n(courses: 24 June - 26 July: written sit-in exam: 29 July - 2 August)\n\u2022",
+            "Summer Exchange (Europe)\nFinland - Aalto University\nSchool of Business, Mikkeli Campus \u2013 Summer Studies 2024\n20 May - 16 August 2024\nIntensive 3 weeks modules (Worth 6 ECTS credits)\nPolyU nominated students are required to complete 2 modules:\nModules & Dates\nCourses\n\u2022\nSocial Media Analytics"
+        ]
+    ],
+    "uris": null,
+    "data": null
+}

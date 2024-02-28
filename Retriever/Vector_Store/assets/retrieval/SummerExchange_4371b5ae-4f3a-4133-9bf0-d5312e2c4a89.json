@@ -1,0 +1,91 @@
+{
+    "ids": [
+        [
+            "791b4da5-17be-47d6-b4ea-637e717bcbd8",
+            "6cb878fe-a054-4e65-b393-85b0c26f08a7",
+            "1ba30885-59d8-4ba1-bf34-2be9d801f62f"
+        ],
+        [
+            "6cb878fe-a054-4e65-b393-85b0c26f08a7",
+            "1ba30885-59d8-4ba1-bf34-2be9d801f62f",
+            "4f07447f-bf99-4d17-a36e-ff1b3da77fe5"
+        ],
+        [
+            "6cb878fe-a054-4e65-b393-85b0c26f08a7",
+            "1ba30885-59d8-4ba1-bf34-2be9d801f62f",
+            "4f07447f-bf99-4d17-a36e-ff1b3da77fe5"
+        ]
+    ],
+    "distances": [
+        [
+            27.315715778408276,
+            28.666321394031968,
+            29.581397741509843
+        ],
+        [
+            19.198044763177236,
+            19.21895791558999,
+            19.7441760177045
+        ],
+        [
+            19.19804128253846,
+            19.21895425295285,
+            19.744173433354078
+        ]
+    ],
+    "metadatas": [
+        [
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            },
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            },
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            }
+        ],
+        [
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            },
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            },
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            }
+        ],
+        [
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            },
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            },
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            }
+        ]
+    ],
+    "embeddings": null,
+    "documents": [
+        [
+            "Summer Exchange (Europe)\nSweden - University of Gothenburg\nSummer School for Sustainability\n27 June - 2 August 2024\nAll courses are at Bachelor\u2019s level and taught in English. \nEach course earns 7.5 credits (ECTS) and running over a five week period.\nCourse Options: \n\u2022\nBiodiversity in Western Sweden",
+            "Summer Exchange (Europe)\nDenmark - Copenhagen Business School \nInternational Summer University Programme 2024\n24 June - 2 August 2024 \n\u2022\nPolyU students must take ordinary 6-week courses\n(courses: 24 June - 26 July: written sit-in exam: 29 July - 2 August)\n\u2022",
+            "Summer Exchange (Europe)\nFinland - Aalto University\nSchool of Business, Mikkeli Campus \u2013 Summer Studies 2024\n20 May - 16 August 2024\nIntensive 3 weeks modules (Worth 6 ECTS credits)\nPolyU nominated students are required to complete 2 modules:\nModules & Dates\nCourses\n\u2022\nSocial Media Analytics"
+        ],
+        [
+            "Summer Exchange (Europe)\nDenmark - Copenhagen Business School \nInternational Summer University Programme 2024\n24 June - 2 August 2024 \n\u2022\nPolyU students must take ordinary 6-week courses\n(courses: 24 June - 26 July: written sit-in exam: 29 July - 2 August)\n\u2022",
+            "Summer Exchange (Europe)\nFinland - Aalto University\nSchool of Business, Mikkeli Campus \u2013 Summer Studies 2024\n20 May - 16 August 2024\nIntensive 3 weeks modules (Worth 6 ECTS credits)\nPolyU nominated students are required to complete 2 modules:\nModules & Dates\nCourses\n\u2022\nSocial Media Analytics",
+            "Summer Exchange (Europe)\nFrance - Excelia\nSummer School: Short study courses\n24 June - 19 July 2024 (Corporate Social Responsibility & Event Management) or\n1 July - 26 July 2024 (French Language, Culture and Gastronomy)\nCorporate Social Responsibility & Event Management\n\u2022"
+        ],
+        [
+            "Summer Exchange (Europe)\nDenmark - Copenhagen Business School \nInternational Summer University Programme 2024\n24 June - 2 August 2024 \n\u2022\nPolyU students must take ordinary 6-week courses\n(courses: 24 June - 26 July: written sit-in exam: 29 July - 2 August)\n\u2022",
+            "Summer Exchange (Europe)\nFinland - Aalto University\nSchool of Business, Mikkeli Campus \u2013 Summer Studies 2024\n20 May - 16 August 2024\nIntensive 3 weeks modules (Worth 6 ECTS credits)\nPolyU nominated students are required to complete 2 modules:\nModules & Dates\nCourses\n\u2022\nSocial Media Analytics",
+            "Summer Exchange (Europe)\nFrance - Excelia\nSummer School: Short study courses\n24 June - 19 July 2024 (Corporate Social Responsibility & Event Management) or\n1 July - 26 July 2024 (French Language, Culture and Gastronomy)\nCorporate Social Responsibility & Event Management\n\u2022"
+        ]
+    ],
+    "uris": null,
+    "data": null
+}
