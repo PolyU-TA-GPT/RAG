@@ -1,0 +1,39 @@
+{
+    "ids": [
+        [
+            "c7b99123-6f85-4766-a2da-954e7db68b89",
+            "4a78f144-077a-4767-a1b6-81b7ef9fbedd",
+            "fe592bf5-b933-4e41-abb0-7c17c146302b"
+        ]
+    ],
+    "distances": [
+        [
+            20.697386713870046,
+            21.56453673671877,
+            22.93958527253111
+        ]
+    ],
+    "metadatas": [
+        [
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            },
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            },
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            }
+        ]
+    ],
+    "embeddings": null,
+    "documents": [
+        [
+            "Types of Summer Opportunities\nSummer Exchange\nSummer@OxBridge\nShort-term Non-local \nStudy Fund\nExploring China\nCompare programmes and prioritize your options\n\u29bf Preference on location and area of study \n\u29bf Relevance to your PolyU studies\n\u29bf Credit transferability (compulsory for Summer Exchange and Summer@OxBridge) \n\u29bf Budget and financial support \n\u29bf Your other planned engagements and obligations in Summer 2024\n4\n",
+            "Summer Exchange (Europe)\nDenmark - Copenhagen Business School \nInternational Summer University Programme 2024\n24 June - 2 August 2024 \n\u2022\nPolyU students must take ordinary 6-week courses\n(courses: 24 June - 26 July: written sit-in exam: 29 July - 2 August)\n\u2022",
+            "Summer Exchange (Europe)\nFinland - Aalto University\nSchool of Business, Mikkeli Campus \u2013 Summer Studies 2024\n20 May - 16 August 2024\nIntensive 3 weeks modules (Worth 6 ECTS credits)\nPolyU nominated students are required to complete 2 modules:\nModules & Dates\nCourses\n\u2022\nSocial Media Analytics"
+        ]
+    ],
+    "uris": null,
+    "data": null
+}

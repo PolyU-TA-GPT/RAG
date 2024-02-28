@@ -1,0 +1,39 @@
+{
+    "ids": [
+        [
+            "e0f8f19a-f59b-451b-816d-688f0c9a2ae3",
+            "613b32b3-c255-41c7-87ab-33e555f6283d",
+            "457c32e2-db99-436b-beff-bb694237c263"
+        ]
+    ],
+    "distances": [
+        [
+            14.241274218114382,
+            15.135514692142198,
+            16.57313902330953
+        ]
+    ],
+    "metadatas": [
+        [
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            },
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            },
+            {
+                "doc_name": "Summer_Outbound_Info_Session.pdf"
+            }
+        ]
+    ],
+    "embeddings": null,
+    "documents": [
+        [
+            "Summer Exchange (Asia)\nSingapore - Singapore Management University\nGlobal Summer Programme 2024\n24 June - 19 July 2024\nCourses (Three Tracks):\n\u2022\nAsian Insights \n\u2022\nDigital Intelligence\n\u2022\nSustainable Futures\nEach course confers one SMU Credit Unit, equivalent to",
+            "Summer Exchange (Asia)\nSingapore - Nanyang Technological University\nGEM Trailblazer Summer Programme 2024\n26 June - 27 July 2024\nCourse syllabus (Five Tracks):\n\u2022\nTrack 1: Language and cultural studies\n\u2022\nTrack 2: Entrepreneurship and innovation*\n\u2022\nTrack 3: Creative design and media\n\u2022",
+            "Summer Exchange (Asia)\nKorea - Korea Advanced Institute of Science & Technology\n2024 KAIST Research Summer School\nJuly - August 2024 (6 weeks)\n(exact programme dates for 2024 are to be confirmed) \nProgramme Link\nTuition Fee: waived for PolyU nominated students.\nExchange student has to pay a research activity fee, and a programme fee, \nwhich covers accommodation, cultural experience, etc.\n12\n"
+        ]
+    ],
+    "uris": null,
+    "data": null
+}
