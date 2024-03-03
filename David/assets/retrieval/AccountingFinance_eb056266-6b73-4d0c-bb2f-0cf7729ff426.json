@@ -1,0 +1,691 @@
+{
+    "ids": [
+        [
+            "3ee915a0-e6f5-4526-8dc9-19a1510f360b",
+            "28f4d4ee-203f-4611-b393-8edd27521da4",
+            "44b4cdda-99c6-4d48-b8dd-02b23ec2066e",
+            "a5bbf879-d6b2-4cc7-9db8-65c4cb57423f",
+            "ef1caf2a-aebc-4920-8e6f-d269d4cda14a",
+            "94ebfb40-5dcc-4e5f-9754-91c270449134",
+            "85941065-978d-4be1-bf71-5d69aa70c28c",
+            "73d8e0e2-4c84-48b7-ab67-2a09abdf6815",
+            "77df7b0e-d50d-4510-9cab-98907a58bfe8",
+            "3272cc69-5720-4b74-b085-7e91c1fe3267",
+            "08af0cce-98ef-4865-954b-bcc5cdcd044b",
+            "a606bd5f-cea2-469f-8dea-138c01e1cfe9",
+            "fc33fa5b-639e-412f-b6b1-de85ecb9c94b",
+            "6ed273e0-5fb6-45ac-bc59-240c43624c4c",
+            "b4a0a774-56ab-40ae-bd29-c0e81d19d833"
+        ],
+        [
+            "ef1caf2a-aebc-4920-8e6f-d269d4cda14a",
+            "e5fc0ef1-c579-465d-8533-ca6dcc9efb2b",
+            "a5bbf879-d6b2-4cc7-9db8-65c4cb57423f",
+            "3ee915a0-e6f5-4526-8dc9-19a1510f360b",
+            "44b4cdda-99c6-4d48-b8dd-02b23ec2066e",
+            "73d8e0e2-4c84-48b7-ab67-2a09abdf6815",
+            "28f4d4ee-203f-4611-b393-8edd27521da4",
+            "94ebfb40-5dcc-4e5f-9754-91c270449134",
+            "3f93db2a-6ea1-42a9-8249-efaa90c79622",
+            "85941065-978d-4be1-bf71-5d69aa70c28c",
+            "e1ea9d44-2b94-430b-b309-1ecb9001a8c6",
+            "d13518e4-05c7-41b7-917c-a847399bbb50",
+            "1e5f5a0e-fdb8-4b1b-a5b4-7189a75ca806",
+            "8603a8b0-7bc2-4219-b4f5-a6913c17de7c",
+            "5197dffc-167c-4959-88b1-4e9a4e42fb81"
+        ],
+        [
+            "a5bbf879-d6b2-4cc7-9db8-65c4cb57423f",
+            "e1ea9d44-2b94-430b-b309-1ecb9001a8c6",
+            "82dded25-9514-482c-9617-323ac4b6606c",
+            "8603a8b0-7bc2-4219-b4f5-a6913c17de7c",
+            "65d049e7-081d-4e8c-91ae-c8128ad535b2",
+            "5197dffc-167c-4959-88b1-4e9a4e42fb81",
+            "2fd28098-8135-4b09-b6ff-46e2dd9cf95f",
+            "4cddefac-69d4-4c0c-abff-9106fe46930f",
+            "94ebfb40-5dcc-4e5f-9754-91c270449134",
+            "3f93db2a-6ea1-42a9-8249-efaa90c79622",
+            "a606bd5f-cea2-469f-8dea-138c01e1cfe9",
+            "30614312-ea1d-49e7-b187-4df6f70bc542",
+            "fc33fa5b-639e-412f-b6b1-de85ecb9c94b",
+            "65c321ba-5085-478e-80ab-e0223e122101",
+            "5a28a004-8860-4956-b2fb-69f7d781dcc4"
+        ],
+        [
+            "f6f98254-7441-4774-97a0-81cde412250b",
+            "2e6c1ebd-536e-4dfa-81b9-5e555cea1142",
+            "95305ce6-d5ea-40a0-ada4-7e616d9ebb05",
+            "5854405f-83b1-46e7-9719-1c1b7c573e3e",
+            "99b4d3ee-b747-4143-acb5-bf6f32822fda",
+            "82dded25-9514-482c-9617-323ac4b6606c",
+            "8603a8b0-7bc2-4219-b4f5-a6913c17de7c",
+            "65d049e7-081d-4e8c-91ae-c8128ad535b2",
+            "5197dffc-167c-4959-88b1-4e9a4e42fb81",
+            "2fd28098-8135-4b09-b6ff-46e2dd9cf95f",
+            "c93b7db9-bd93-4af2-adff-98782afaa43b",
+            "7ce2d3a3-6c74-4f04-9fd4-2e8a1cc90868",
+            "3e6ee5e1-82f5-4f87-8360-5197604273d0",
+            "f7ed71d9-6520-4c9c-88f9-fccd17c01f1b",
+            "96b2deba-2f76-445b-a146-a4e5a79f0303"
+        ],
+        [
+            "fc33fa5b-639e-412f-b6b1-de85ecb9c94b",
+            "f6f98254-7441-4774-97a0-81cde412250b",
+            "2e6c1ebd-536e-4dfa-81b9-5e555cea1142",
+            "95305ce6-d5ea-40a0-ada4-7e616d9ebb05",
+            "5854405f-83b1-46e7-9719-1c1b7c573e3e",
+            "99b4d3ee-b747-4143-acb5-bf6f32822fda",
+            "a606bd5f-cea2-469f-8dea-138c01e1cfe9",
+            "c93b7db9-bd93-4af2-adff-98782afaa43b",
+            "7ce2d3a3-6c74-4f04-9fd4-2e8a1cc90868",
+            "3e6ee5e1-82f5-4f87-8360-5197604273d0",
+            "f7ed71d9-6520-4c9c-88f9-fccd17c01f1b",
+            "96b2deba-2f76-445b-a146-a4e5a79f0303",
+            "65c321ba-5085-478e-80ab-e0223e122101",
+            "3f93db2a-6ea1-42a9-8249-efaa90c79622",
+            "77df7b0e-d50d-4510-9cab-98907a58bfe8"
+        ],
+        [
+            "a5bbf879-d6b2-4cc7-9db8-65c4cb57423f",
+            "82dded25-9514-482c-9617-323ac4b6606c",
+            "8603a8b0-7bc2-4219-b4f5-a6913c17de7c",
+            "65d049e7-081d-4e8c-91ae-c8128ad535b2",
+            "5197dffc-167c-4959-88b1-4e9a4e42fb81",
+            "2fd28098-8135-4b09-b6ff-46e2dd9cf95f",
+            "c93b7db9-bd93-4af2-adff-98782afaa43b",
+            "7ce2d3a3-6c74-4f04-9fd4-2e8a1cc90868",
+            "3e6ee5e1-82f5-4f87-8360-5197604273d0",
+            "f7ed71d9-6520-4c9c-88f9-fccd17c01f1b",
+            "96b2deba-2f76-445b-a146-a4e5a79f0303",
+            "1e187d85-bab2-4d2a-afad-70830770aa7d",
+            "b8bdfbbf-af85-4c77-a501-6edcf0344c8b",
+            "74304216-8e83-4b18-ae06-5dc9dec6b440",
+            "1a9188eb-496a-45ee-9bf6-1a035981556e"
+        ]
+    ],
+    "distances": [
+        [
+            16.968040466308594,
+            17.02774429321289,
+            17.05945587158203,
+            17.142702102661133,
+            17.188777923583984,
+            17.23612403869629,
+            17.305400848388672,
+            17.343759536743164,
+            17.560020446777344,
+            17.63033676147461,
+            17.686195373535156,
+            17.81720542907715,
+            17.8384952545166,
+            17.84656524658203,
+            17.88040542602539
+        ],
+        [
+            16.723159790039062,
+            16.797903060913086,
+            16.804710388183594,
+            16.84903907775879,
+            16.933134078979492,
+            16.964487075805664,
+            16.966787338256836,
+            17.048452377319336,
+            17.149307250976562,
+            17.157896041870117,
+            17.181734085083008,
+            17.181753158569336,
+            17.188793182373047,
+            17.20012664794922,
+            17.20012664794922
+        ],
+        [
+            20.74821662902832,
+            20.840177536010742,
+            20.86470603942871,
+            20.86470603942871,
+            20.86470603942871,
+            20.86470603942871,
+            20.86470603942871,
+            20.90057373046875,
+            21.094831466674805,
+            21.148914337158203,
+            21.173452377319336,
+            21.181665420532227,
+            21.22591209411621,
+            21.22712516784668,
+            21.247745513916016
+        ],
+        [
+            18.65096664428711,
+            18.65096664428711,
+            18.65096664428711,
+            18.65096664428711,
+            18.65096664428711,
+            18.784648895263672,
+            18.784648895263672,
+            18.784648895263672,
+            18.784648895263672,
+            18.784648895263672,
+            18.822389602661133,
+            18.822389602661133,
+            18.822389602661133,
+            18.822389602661133,
+            18.822389602661133
+        ],
+        [
+            14.337394714355469,
+            14.414838790893555,
+            14.414838790893555,
+            14.414838790893555,
+            14.414838790893555,
+            14.414838790893555,
+            14.431422233581543,
+            14.448075294494629,
+            14.448075294494629,
+            14.448075294494629,
+            14.448075294494629,
+            14.448075294494629,
+            14.478541374206543,
+            14.486096382141113,
+            14.519964218139648
+        ],
+        [
+            50.80221939086914,
+            50.90512466430664,
+            50.90512466430664,
+            50.90512466430664,
+            50.90512466430664,
+            50.90512466430664,
+            51.06232833862305,
+            51.06232833862305,
+            51.06232833862305,
+            51.06232833862305,
+            51.06232833862305,
+            51.086631774902344,
+            51.086631774902344,
+            51.086631774902344,
+            51.086631774902344
+        ]
+    ],
+    "metadatas": [
+        [
+            {
+                "course_code": "AF3110",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            },
+            {
+                "course_code": "AF2108",
+                "information_type": "Reading List and References"
+            },
+            {
+                "course_code": "AF2111",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            },
+            {
+                "course_code": "AF4326",
+                "information_type": "Subject Synopsis/ Indicative Syllabus (Note 2)"
+            },
+            {
+                "course_code": "AF3110",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            },
+            {
+                "course_code": "AF4326",
+                "information_type": "Subject Synopsis/ Indicative Syllabus (Note 2)"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            },
+            {
+                "course_code": "AF2111",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            },
+            {
+                "course_code": "AF1605",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            },
+            {
+                "course_code": "AF2108",
+                "information_type": "Reading List and References"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF1605",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF3111",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            }
+        ],
+        [
+            {
+                "course_code": "AF3110",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            },
+            {
+                "course_code": "AF3318",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            },
+            {
+                "course_code": "AF4326",
+                "information_type": "Subject Synopsis/ Indicative Syllabus (Note 2)"
+            },
+            {
+                "course_code": "AF3110",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            },
+            {
+                "course_code": "AF2111",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            },
+            {
+                "course_code": "AF2111",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            },
+            {
+                "course_code": "AF2108",
+                "information_type": "Reading List and References"
+            },
+            {
+                "course_code": "AF4326",
+                "information_type": "Subject Synopsis/ Indicative Syllabus (Note 2)"
+            },
+            {
+                "course_code": "AF4513",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3318",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            },
+            {
+                "course_code": "AF3318",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            }
+        ],
+        [
+            {
+                "course_code": "AF4326",
+                "information_type": "Subject Synopsis/ Indicative Syllabus (Note 2)"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF4326",
+                "information_type": "Subject Synopsis/ Indicative Syllabus (Note 2)"
+            },
+            {
+                "course_code": "AF4513",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3213",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF4513",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF3213",
+                "information_type": "Subject Synopsis/ Indicative Syllabus"
+            }
+        ],
+        [
+            {
+                "course_code": "AF4513",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF4513",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF4513",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF4513",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF4513",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            }
+        ],
+        [
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF4513",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF4513",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF4513",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF4513",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF4513",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF4513",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF4513",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            },
+            {
+                "course_code": "AF1605",
+                "information_type": "Assessment Methods in Alignment with Intended Learning Outcomes"
+            }
+        ],
+        [
+            {
+                "course_code": "AF4326",
+                "information_type": "Subject Synopsis/ Indicative Syllabus (Note 2)"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3626",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF4325",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF4325",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF4325",
+                "information_type": "Teaching/Learning Methodology"
+            },
+            {
+                "course_code": "AF4325",
+                "information_type": "Teaching/Learning Methodology"
+            }
+        ]
+    ],
+    "embeddings": null,
+    "documents": [
+        [
+            "This is AF3110 This is AF3110 This is AF3110 AF3110's Subject Synopsis/ Indicative Syllabus: Foundations of Financial Reporting\nThe Conceptual Framework. The Regulatory Format and Content. The Statement of\nFinancial Position, The Statement of Profit or Loss and Other Comprehensive Income,\nand The Statement of Changes in Equity.\nOperating Activities of a Business\nRevenue from Contracts with Customers. Cost of Sales and Inventory Valuation.\nDiscontinued Operations.\nInvesting Activities of a Business\nProperty, Plant and Equipment. Investment Properties. Financial Assets. Intangible\nassets. Non-current Assets Held for Sale.\nOthers\nBorrowing Costs. Change in Accounting Policies, Accounting Estimates and Errors.\nEvents after the Reporting Period. Impairment of Assets. SME-FRS and HKFRS for\nPrivate Entities.",
+            "This is AF2108 This is AF2108 This is AF2108 AF2108's Reading List and References: Recommended Textbook\nWeygandt, Kimmel and Kieso, Weygandt, Kieso and Kimmel, Financial Accounting with\nInternational Financial Reporting Standards, , 5th edition, 2022, Wiley.\nRecommended References\nWilliams, Haka, Bettner, Carcello, Financial Accounting, 18th edition, 2020, McGraw-\nHill.\nFerrell, Fraedrich and Ferrell, Ethical Decision Making in Business, 12th edition, 2018,\nCengage.\nHarrison, Horngren, Thomas, Suwardy, Financial Accounting International Financial\nReporting Standards, Global edition, 11th edition, 2020, Pearson.",
+            "This is AF2111 This is AF2111 This is AF2111 AF2111's Subject Synopsis/ Indicative Syllabus: Weygandt, J & et al, 2012, Accounting Principles, 10th Edition, John Wiley & Sons,\n(Asia) Pte Ltd.\nLarson & Chiapetta, 2013, Fundamental Accounting Principles, McGraw-Hill\nIrwin.\nMarshall, McManus & Viele, 2014, Accounting - What the Numbers Mean, McGraw-\nHill Irwin.\nDyson, J. R. 2010. Accounting for Non-Accounting Students, Financial Times\nPrentice Hall.",
+            "AF4326's Subject Synopsis/ Indicative Syllabus (Note 2): The Basic Products\nBond price arithmetic. Treasury bills, notes, bonds and strips. Organization of\ngovernment bond markets. Spot rates, par rates and forward rates. Constructing zero\ncurves.\nRisk Management\nMeasures of price sensitivity. Simple hedging strategies using fixed income\nderivatives. Eurodollar futures. Bond futures. Interest rate swaps.\nPricing Interest Rate Claims\nTheories of the term structure. Arbitrage free pricing.\nCorporate Bonds and Credit Risk\nCredit ratings. Default risk and credit spread. Credit derivatives.\nMortgages and Their Derivatives",
+            "AF3110's Subject Synopsis/ Indicative Syllabus: Foundations of Financial Reporting\nThe Conceptual Framework. The Regulatory Format and Content. The Statement of\nFinancial Position, The Statement of Profit or Loss and Other Comprehensive Income,\nand The Statement of Changes in Equity.\nOperating Activities of a Business\nRevenue from Contracts with Customers. Cost of Sales and Inventory Valuation.\nDiscontinued Operations.\nInvesting Activities of a Business\nProperty, Plant and Equipment. Investment Properties. Financial Assets. Intangible\nassets. Non-current Assets Held for Sale.\nOthers\nBorrowing Costs. Change in Accounting Policies, Accounting Estimates and Errors.\nEvents after the Reporting Period. Impairment of Assets. SME-FRS and HKFRS for\nPrivate Entities.",
+            "This is AF4326 This is AF4326 This is AF4326 AF4326's Subject Synopsis/ Indicative Syllabus (Note 2): The Basic Products\nBond price arithmetic. Treasury bills, notes, bonds and strips. Organization of\ngovernment bond markets. Spot rates, par rates and forward rates. Constructing zero\ncurves.\nRisk Management\nMeasures of price sensitivity. Simple hedging strategies using fixed income\nderivatives. Eurodollar futures. Bond futures. Interest rate swaps.\nPricing Interest Rate Claims\nTheories of the term structure. Arbitrage free pricing.\nCorporate Bonds and Credit Risk\nCredit ratings. Default risk and credit spread. Credit derivatives.\nMortgages and Their Derivatives",
+            "This is AF3507 This is AF3507 This is AF3507 AF3507's Subject Synopsis/ Indicative Syllabus: Types of company\u2019s meetings and their significance; the role and function of auditors\nand inspectors; the protection of minority members.\nExternal Regulation of Companies\nInsider dealing provisions; audit requirements; the role of the Stock Exchange; powers\nand functions of the Securities and Futures Commission and Market Misconduct\nTribunal; powers and duties of the Financial Secretary.\nWinding Up of Companies\nCompulsory & voluntary winding up; appointment of liquidators; winding up\nprocedures.",
+            "AF2111's Subject Synopsis/ Indicative Syllabus: Weygandt, J & et al, 2012, Accounting Principles, 10th Edition, John Wiley & Sons,\n(Asia) Pte Ltd.\nLarson & Chiapetta, 2013, Fundamental Accounting Principles, McGraw-Hill\nIrwin.\nMarshall, McManus & Viele, 2014, Accounting - What the Numbers Mean, McGraw-\nHill Irwin.\nDyson, J. R. 2010. Accounting for Non-Accounting Students, Financial Times\nPrentice Hall.",
+            "This is AF1605 This is AF1605 This is AF1605 AF1605's Assessment Methods in Alignment with Intended Learning Outcomes: Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d\nContinuous Assessment 50% \uf0fc \uf0fc \uf0fc \uf0fc\nPresentation 10% \uf0fc \uf0fc \uf0fc \uf0fc\nWritten assignments 15% \uf0fc \uf0fc \uf0fc \uf0fc\nMid-term test 20% \uf0fc \uf0fc \uf0fc\nAttendance and\n5% \uf0fc \uf0fc \uf0fc \uf0fc\nparticipation in tutorial\nFinal Examination 50% \uf0fc \uf0fc \uf0fc \uf0fc\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes:\nThe continuous assessment components include attendance and participation,\npresentation of problem set questions, written assignments (including a report on\nproblem set questions and an essay on applications of economic concepts) and mid-\nterm test.\nPresentation and written assignments will allow the instructors to observe and assess\nindividual student\u2019s achievement of a particular learning outcome based on how well\nthe student elaborate their answers using economic concepts introduced in this course.\nTest and examination are used to gauge how much students have understood the\noverall subject contents and to assess students\u2019 achievement of all learning outcomes.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "AF3507's Subject Synopsis/ Indicative Syllabus: Types of company\u2019s meetings and their significance; the role and function of auditors\nand inspectors; the protection of minority members.\nExternal Regulation of Companies\nInsider dealing provisions; audit requirements; the role of the Stock Exchange; powers\nand functions of the Securities and Futures Commission and Market Misconduct\nTribunal; powers and duties of the Financial Secretary.\nWinding Up of Companies\nCompulsory & voluntary winding up; appointment of liquidators; winding up\nprocedures.",
+            "AF2108's Reading List and References: Recommended Textbook\nWeygandt, Kimmel and Kieso, Weygandt, Kieso and Kimmel, Financial Accounting with\nInternational Financial Reporting Standards, , 5th edition, 2022, Wiley.\nRecommended References\nWilliams, Haka, Bettner, Carcello, Financial Accounting, 18th edition, 2020, McGraw-\nHill.\nFerrell, Fraedrich and Ferrell, Ethical Decision Making in Business, 12th edition, 2018,\nCengage.\nHarrison, Horngren, Thomas, Suwardy, Financial Accounting International Financial\nReporting Standards, Global edition, 11th edition, 2020, Pearson.",
+            "This is AF3507 This is AF3507 This is AF3507 AF3507's Teaching/Learning Methodology: Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "AF3507's Teaching/Learning Methodology: Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "AF1605's Assessment Methods in Alignment with Intended Learning Outcomes: Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d\nContinuous Assessment 50% \uf0fc \uf0fc \uf0fc \uf0fc\nPresentation 10% \uf0fc \uf0fc \uf0fc \uf0fc\nWritten assignments 15% \uf0fc \uf0fc \uf0fc \uf0fc\nMid-term test 20% \uf0fc \uf0fc \uf0fc\nAttendance and\n5% \uf0fc \uf0fc \uf0fc \uf0fc\nparticipation in tutorial\nFinal Examination 50% \uf0fc \uf0fc \uf0fc \uf0fc\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes:\nThe continuous assessment components include attendance and participation,\npresentation of problem set questions, written assignments (including a report on\nproblem set questions and an essay on applications of economic concepts) and mid-\nterm test.\nPresentation and written assignments will allow the instructors to observe and assess\nindividual student\u2019s achievement of a particular learning outcome based on how well\nthe student elaborate their answers using economic concepts introduced in this course.\nTest and examination are used to gauge how much students have understood the\noverall subject contents and to assess students\u2019 achievement of all learning outcomes.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "This is AF3111 This is AF3111 This is AF3111 AF3111's Subject Synopsis/ Indicative Syllabus: Financial Liabilities\nFinancial instrument; Classification of financial liability; Initial recognition and\nsubsequent measurement of financial liability; Distinction of financial liability from\nequity instrument; Financial liability with the characteristic of equity; Split accounting\nfor the compound instrument.\nProvisions, Contingent Liabilities and Contingent Assets\nDistinction between accruals, provisions and contingent liabilities; Definition,\nrecognition and measurement of provision, contingent liabilities and contingent assets;\nChange in provisions; Restructuring provision; Provision for onerous contracts.\nLeases\nClassification of lease from the lessor\u2019s perspective; Accounting for lessee on a single\nlease model and lessor on finance and operating leases; Sales and leaseback\narrangements; Leasehold property.\nShareholders\u2019 Equity\nBackground of Companies Ordinance; Distributable profits.\nIncome Taxes\nIntroduction to profit tax calculation; Permanent and timing difference; Over- and\nunder-provisions; Conceptual basis for recognition of temporary difference and tax"
+        ],
+        [
+            "AF3110's Subject Synopsis/ Indicative Syllabus: Foundations of Financial Reporting\nThe Conceptual Framework. The Regulatory Format and Content. The Statement of\nFinancial Position, The Statement of Profit or Loss and Other Comprehensive Income,\nand The Statement of Changes in Equity.\nOperating Activities of a Business\nRevenue from Contracts with Customers. Cost of Sales and Inventory Valuation.\nDiscontinued Operations.\nInvesting Activities of a Business\nProperty, Plant and Equipment. Investment Properties. Financial Assets. Intangible\nassets. Non-current Assets Held for Sale.\nOthers\nBorrowing Costs. Change in Accounting Policies, Accounting Estimates and Errors.\nEvents after the Reporting Period. Impairment of Assets. SME-FRS and HKFRS for\nPrivate Entities.",
+            "AF3318's Subject Synopsis/ Indicative Syllabus: economic capital; Introduction to Insurance regulation, with a focus on solvency\nregulation\nSpecifics of Insurance\nIntroduction of factors that affect insurance pricing; Factors that limit the\ninsurability of risk: moral hazard and adverse selection (review); Contractual\nprovisions that limit coverage: deductibles, coinsurance, policy limits\nLife Insurance and Annuities\nOverview of the specific features of these two products; Introduction of mortality\ntables; introduction to tax implications of investment in life insurance and\nannuities; calculation of pricing of various types of life insurance and annuities",
+            "AF4326's Subject Synopsis/ Indicative Syllabus (Note 2): The Basic Products\nBond price arithmetic. Treasury bills, notes, bonds and strips. Organization of\ngovernment bond markets. Spot rates, par rates and forward rates. Constructing zero\ncurves.\nRisk Management\nMeasures of price sensitivity. Simple hedging strategies using fixed income\nderivatives. Eurodollar futures. Bond futures. Interest rate swaps.\nPricing Interest Rate Claims\nTheories of the term structure. Arbitrage free pricing.\nCorporate Bonds and Credit Risk\nCredit ratings. Default risk and credit spread. Credit derivatives.\nMortgages and Their Derivatives",
+            "This is AF3110 This is AF3110 This is AF3110 AF3110's Subject Synopsis/ Indicative Syllabus: Foundations of Financial Reporting\nThe Conceptual Framework. The Regulatory Format and Content. The Statement of\nFinancial Position, The Statement of Profit or Loss and Other Comprehensive Income,\nand The Statement of Changes in Equity.\nOperating Activities of a Business\nRevenue from Contracts with Customers. Cost of Sales and Inventory Valuation.\nDiscontinued Operations.\nInvesting Activities of a Business\nProperty, Plant and Equipment. Investment Properties. Financial Assets. Intangible\nassets. Non-current Assets Held for Sale.\nOthers\nBorrowing Costs. Change in Accounting Policies, Accounting Estimates and Errors.\nEvents after the Reporting Period. Impairment of Assets. SME-FRS and HKFRS for\nPrivate Entities.",
+            "This is AF2111 This is AF2111 This is AF2111 AF2111's Subject Synopsis/ Indicative Syllabus: Weygandt, J & et al, 2012, Accounting Principles, 10th Edition, John Wiley & Sons,\n(Asia) Pte Ltd.\nLarson & Chiapetta, 2013, Fundamental Accounting Principles, McGraw-Hill\nIrwin.\nMarshall, McManus & Viele, 2014, Accounting - What the Numbers Mean, McGraw-\nHill Irwin.\nDyson, J. R. 2010. Accounting for Non-Accounting Students, Financial Times\nPrentice Hall.",
+            "AF2111's Subject Synopsis/ Indicative Syllabus: Weygandt, J & et al, 2012, Accounting Principles, 10th Edition, John Wiley & Sons,\n(Asia) Pte Ltd.\nLarson & Chiapetta, 2013, Fundamental Accounting Principles, McGraw-Hill\nIrwin.\nMarshall, McManus & Viele, 2014, Accounting - What the Numbers Mean, McGraw-\nHill Irwin.\nDyson, J. R. 2010. Accounting for Non-Accounting Students, Financial Times\nPrentice Hall.",
+            "This is AF2108 This is AF2108 This is AF2108 AF2108's Reading List and References: Recommended Textbook\nWeygandt, Kimmel and Kieso, Weygandt, Kieso and Kimmel, Financial Accounting with\nInternational Financial Reporting Standards, , 5th edition, 2022, Wiley.\nRecommended References\nWilliams, Haka, Bettner, Carcello, Financial Accounting, 18th edition, 2020, McGraw-\nHill.\nFerrell, Fraedrich and Ferrell, Ethical Decision Making in Business, 12th edition, 2018,\nCengage.\nHarrison, Horngren, Thomas, Suwardy, Financial Accounting International Financial\nReporting Standards, Global edition, 11th edition, 2020, Pearson.",
+            "This is AF4326 This is AF4326 This is AF4326 AF4326's Subject Synopsis/ Indicative Syllabus (Note 2): The Basic Products\nBond price arithmetic. Treasury bills, notes, bonds and strips. Organization of\ngovernment bond markets. Spot rates, par rates and forward rates. Constructing zero\ncurves.\nRisk Management\nMeasures of price sensitivity. Simple hedging strategies using fixed income\nderivatives. Eurodollar futures. Bond futures. Interest rate swaps.\nPricing Interest Rate Claims\nTheories of the term structure. Arbitrage free pricing.\nCorporate Bonds and Credit Risk\nCredit ratings. Default risk and credit spread. Credit derivatives.\nMortgages and Their Derivatives",
+            "This is AF4513 This is AF4513 This is AF4513 AF4513's Assessment Methods in Alignment with Intended Learning Outcomes: Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d e f\n1. Mid Term Test 20% \u221a \u221a\n2. Participation 5% \u221a \u221a \u221a \u221a \u221a \u221a\n3. Group Assignments 25% \u221a \u221a \u221a \u221a \u221a \u221a\n4. Final Examination 50% \u221a \u221a \u221a \u221a \u221a \u221a\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes: the various methods are designed to ensure that all\nstudents taking this subject \u2013\n\u2022 Consider the issues which are presented in the lectures\n\u2022 Read the key sections of the relevant chapter of the adopted text book\n\u2022 Discuss the ethical issues arising from the cases and other questions contained\nin the text book\n\u2022 Appreciate that different approached (theories) may be adopted to deal with\nethical issues\n\u2022 Participate in presenting the group\u2019s views on the case or question to be\npresented.\nFeedback is given to students promptly and all students are invited to join seminar\ngroup discussions.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "This is AF3507 This is AF3507 This is AF3507 AF3507's Subject Synopsis/ Indicative Syllabus: Types of company\u2019s meetings and their significance; the role and function of auditors\nand inspectors; the protection of minority members.\nExternal Regulation of Companies\nInsider dealing provisions; audit requirements; the role of the Stock Exchange; powers\nand functions of the Securities and Futures Commission and Market Misconduct\nTribunal; powers and duties of the Financial Secretary.\nWinding Up of Companies\nCompulsory & voluntary winding up; appointment of liquidators; winding up\nprocedures.",
+            "This is AF3626 This is AF3626 This is AF3626 AF3626's Teaching/Learning Methodology: The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "This is AF3318 This is AF3318 This is AF3318 AF3318's Subject Synopsis/ Indicative Syllabus: economic capital; Introduction to Insurance regulation, with a focus on solvency\nregulation\nSpecifics of Insurance\nIntroduction of factors that affect insurance pricing; Factors that limit the\ninsurability of risk: moral hazard and adverse selection (review); Contractual\nprovisions that limit coverage: deductibles, coinsurance, policy limits\nLife Insurance and Annuities\nOverview of the specific features of these two products; Introduction of mortality\ntables; introduction to tax implications of investment in life insurance and\nannuities; calculation of pricing of various types of life insurance and annuities",
+            "This is AF3318 This is AF3318 This is AF3318 AF3318's Teaching/Learning Methodology: Lectures will be conducted on the topics of the syllabus. Lecture time will be used\nflexibly for discussing with students key concepts and their applications and\ncarrying out other learning activities with them. Students are encouraged to\nparticipate actively in the class discussion. To collect feedback from students\u2019\nlearning in a timely fashion, pop-up quizzes will be conducted from time to time\nin class. Overall, the course aims at developing students\u2019 critical thinking and\nanalytical skills in the area of insurance, and fostering your teamwork,\ncommunication, and presentation skills.\nProblem sets are provided for self-practice and for preparation for exams. Weekly\noffice hours will be held for academic consultation. Individual appointments\noutside of regular office hours can be arranged via email.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students."
+        ],
+        [
+            "AF4326's Subject Synopsis/ Indicative Syllabus (Note 2): The Basic Products\nBond price arithmetic. Treasury bills, notes, bonds and strips. Organization of\ngovernment bond markets. Spot rates, par rates and forward rates. Constructing zero\ncurves.\nRisk Management\nMeasures of price sensitivity. Simple hedging strategies using fixed income\nderivatives. Eurodollar futures. Bond futures. Interest rate swaps.\nPricing Interest Rate Claims\nTheories of the term structure. Arbitrage free pricing.\nCorporate Bonds and Credit Risk\nCredit ratings. Default risk and credit spread. Credit derivatives.\nMortgages and Their Derivatives",
+            "This is AF3626 This is AF3626 This is AF3626 AF3626's Teaching/Learning Methodology: The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "AF3626's Teaching/Learning Methodology: The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "This is AF4326 This is AF4326 This is AF4326 AF4326's Subject Synopsis/ Indicative Syllabus (Note 2): The Basic Products\nBond price arithmetic. Treasury bills, notes, bonds and strips. Organization of\ngovernment bond markets. Spot rates, par rates and forward rates. Constructing zero\ncurves.\nRisk Management\nMeasures of price sensitivity. Simple hedging strategies using fixed income\nderivatives. Eurodollar futures. Bond futures. Interest rate swaps.\nPricing Interest Rate Claims\nTheories of the term structure. Arbitrage free pricing.\nCorporate Bonds and Credit Risk\nCredit ratings. Default risk and credit spread. Credit derivatives.\nMortgages and Their Derivatives",
+            "This is AF4513 This is AF4513 This is AF4513 AF4513's Assessment Methods in Alignment with Intended Learning Outcomes: Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d e f\n1. Mid Term Test 20% \u221a \u221a\n2. Participation 5% \u221a \u221a \u221a \u221a \u221a \u221a\n3. Group Assignments 25% \u221a \u221a \u221a \u221a \u221a \u221a\n4. Final Examination 50% \u221a \u221a \u221a \u221a \u221a \u221a\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes: the various methods are designed to ensure that all\nstudents taking this subject \u2013\n\u2022 Consider the issues which are presented in the lectures\n\u2022 Read the key sections of the relevant chapter of the adopted text book\n\u2022 Discuss the ethical issues arising from the cases and other questions contained\nin the text book\n\u2022 Appreciate that different approached (theories) may be adopted to deal with\nethical issues\n\u2022 Participate in presenting the group\u2019s views on the case or question to be\npresented.\nFeedback is given to students promptly and all students are invited to join seminar\ngroup discussions.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "This is AF3507 This is AF3507 This is AF3507 AF3507's Teaching/Learning Methodology: Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "AF3213's Subject Synopsis/ Indicative Syllabus: Basic Concepts and Methods of Data Analytics\nData preparation and cleaning; Data analytics approaches; Data visualization and\nsummarization.\nApplications of Data Analytics in Accounting and Finance\nDiagnostic, predictive and prescriptive analytics in managerial and financial\naccounting and consumer banking.\nIntroduction of XBRL\nXBRL (extensible Business Reporting Language) for Internet communication\namong businesses.\nData Visualization\nCommunicate results effectively using clear language and visualizations.",
+            "AF3507's Teaching/Learning Methodology: Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "AF4513's Assessment Methods in Alignment with Intended Learning Outcomes: Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d e f\n1. Mid Term Test 20% \u221a \u221a\n2. Participation 5% \u221a \u221a \u221a \u221a \u221a \u221a\n3. Group Assignments 25% \u221a \u221a \u221a \u221a \u221a \u221a\n4. Final Examination 50% \u221a \u221a \u221a \u221a \u221a \u221a\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes: the various methods are designed to ensure that all\nstudents taking this subject \u2013\n\u2022 Consider the issues which are presented in the lectures\n\u2022 Read the key sections of the relevant chapter of the adopted text book\n\u2022 Discuss the ethical issues arising from the cases and other questions contained\nin the text book\n\u2022 Appreciate that different approached (theories) may be adopted to deal with\nethical issues\n\u2022 Participate in presenting the group\u2019s views on the case or question to be\npresented.\nFeedback is given to students promptly and all students are invited to join seminar\ngroup discussions.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "This is AF3213 This is AF3213 This is AF3213 AF3213's Subject Synopsis/ Indicative Syllabus: Basic Concepts and Methods of Data Analytics\nData preparation and cleaning; Data analytics approaches; Data visualization and\nsummarization.\nApplications of Data Analytics in Accounting and Finance\nDiagnostic, predictive and prescriptive analytics in managerial and financial\naccounting and consumer banking.\nIntroduction of XBRL\nXBRL (extensible Business Reporting Language) for Internet communication\namong businesses.\nData Visualization\nCommunicate results effectively using clear language and visualizations."
+        ],
+        [
+            "Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d e f\n1. Mid Term Test 20% \u221a \u221a\n2. Participation 5% \u221a \u221a \u221a \u221a \u221a \u221a\n3. Group Assignments 25% \u221a \u221a \u221a \u221a \u221a \u221a\n4. Final Examination 50% \u221a \u221a \u221a \u221a \u221a \u221a\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes: the various methods are designed to ensure that all\nstudents taking this subject \u2013\n\u2022 Consider the issues which are presented in the lectures\n\u2022 Read the key sections of the relevant chapter of the adopted text book\n\u2022 Discuss the ethical issues arising from the cases and other questions contained\nin the text book\n\u2022 Appreciate that different approached (theories) may be adopted to deal with\nethical issues\n\u2022 Participate in presenting the group\u2019s views on the case or question to be\npresented.\nFeedback is given to students promptly and all students are invited to join seminar\ngroup discussions.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d e f\n1. Mid Term Test 20% \u221a \u221a\n2. Participation 5% \u221a \u221a \u221a \u221a \u221a \u221a\n3. Group Assignments 25% \u221a \u221a \u221a \u221a \u221a \u221a\n4. Final Examination 50% \u221a \u221a \u221a \u221a \u221a \u221a\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes: the various methods are designed to ensure that all\nstudents taking this subject \u2013\n\u2022 Consider the issues which are presented in the lectures\n\u2022 Read the key sections of the relevant chapter of the adopted text book\n\u2022 Discuss the ethical issues arising from the cases and other questions contained\nin the text book\n\u2022 Appreciate that different approached (theories) may be adopted to deal with\nethical issues\n\u2022 Participate in presenting the group\u2019s views on the case or question to be\npresented.\nFeedback is given to students promptly and all students are invited to join seminar\ngroup discussions.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d e f\n1. Mid Term Test 20% \u221a \u221a\n2. Participation 5% \u221a \u221a \u221a \u221a \u221a \u221a\n3. Group Assignments 25% \u221a \u221a \u221a \u221a \u221a \u221a\n4. Final Examination 50% \u221a \u221a \u221a \u221a \u221a \u221a\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes: the various methods are designed to ensure that all\nstudents taking this subject \u2013\n\u2022 Consider the issues which are presented in the lectures\n\u2022 Read the key sections of the relevant chapter of the adopted text book\n\u2022 Discuss the ethical issues arising from the cases and other questions contained\nin the text book\n\u2022 Appreciate that different approached (theories) may be adopted to deal with\nethical issues\n\u2022 Participate in presenting the group\u2019s views on the case or question to be\npresented.\nFeedback is given to students promptly and all students are invited to join seminar\ngroup discussions.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d e f\n1. Mid Term Test 20% \u221a \u221a\n2. Participation 5% \u221a \u221a \u221a \u221a \u221a \u221a\n3. Group Assignments 25% \u221a \u221a \u221a \u221a \u221a \u221a\n4. Final Examination 50% \u221a \u221a \u221a \u221a \u221a \u221a\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes: the various methods are designed to ensure that all\nstudents taking this subject \u2013\n\u2022 Consider the issues which are presented in the lectures\n\u2022 Read the key sections of the relevant chapter of the adopted text book\n\u2022 Discuss the ethical issues arising from the cases and other questions contained\nin the text book\n\u2022 Appreciate that different approached (theories) may be adopted to deal with\nethical issues\n\u2022 Participate in presenting the group\u2019s views on the case or question to be\npresented.\nFeedback is given to students promptly and all students are invited to join seminar\ngroup discussions.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d e f\n1. Mid Term Test 20% \u221a \u221a\n2. Participation 5% \u221a \u221a \u221a \u221a \u221a \u221a\n3. Group Assignments 25% \u221a \u221a \u221a \u221a \u221a \u221a\n4. Final Examination 50% \u221a \u221a \u221a \u221a \u221a \u221a\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes: the various methods are designed to ensure that all\nstudents taking this subject \u2013\n\u2022 Consider the issues which are presented in the lectures\n\u2022 Read the key sections of the relevant chapter of the adopted text book\n\u2022 Discuss the ethical issues arising from the cases and other questions contained\nin the text book\n\u2022 Appreciate that different approached (theories) may be adopted to deal with\nethical issues\n\u2022 Participate in presenting the group\u2019s views on the case or question to be\npresented.\nFeedback is given to students promptly and all students are invited to join seminar\ngroup discussions.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect."
+        ],
+        [
+            "AF3507's Teaching/Learning Methodology: Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d e f\n1. Mid Term Test 20% \u221a \u221a\n2. Participation 5% \u221a \u221a \u221a \u221a \u221a \u221a\n3. Group Assignments 25% \u221a \u221a \u221a \u221a \u221a \u221a\n4. Final Examination 50% \u221a \u221a \u221a \u221a \u221a \u221a\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes: the various methods are designed to ensure that all\nstudents taking this subject \u2013\n\u2022 Consider the issues which are presented in the lectures\n\u2022 Read the key sections of the relevant chapter of the adopted text book\n\u2022 Discuss the ethical issues arising from the cases and other questions contained\nin the text book\n\u2022 Appreciate that different approached (theories) may be adopted to deal with\nethical issues\n\u2022 Participate in presenting the group\u2019s views on the case or question to be\npresented.\nFeedback is given to students promptly and all students are invited to join seminar\ngroup discussions.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d e f\n1. Mid Term Test 20% \u221a \u221a\n2. Participation 5% \u221a \u221a \u221a \u221a \u221a \u221a\n3. Group Assignments 25% \u221a \u221a \u221a \u221a \u221a \u221a\n4. Final Examination 50% \u221a \u221a \u221a \u221a \u221a \u221a\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes: the various methods are designed to ensure that all\nstudents taking this subject \u2013\n\u2022 Consider the issues which are presented in the lectures\n\u2022 Read the key sections of the relevant chapter of the adopted text book\n\u2022 Discuss the ethical issues arising from the cases and other questions contained\nin the text book\n\u2022 Appreciate that different approached (theories) may be adopted to deal with\nethical issues\n\u2022 Participate in presenting the group\u2019s views on the case or question to be\npresented.\nFeedback is given to students promptly and all students are invited to join seminar\ngroup discussions.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d e f\n1. Mid Term Test 20% \u221a \u221a\n2. Participation 5% \u221a \u221a \u221a \u221a \u221a \u221a\n3. Group Assignments 25% \u221a \u221a \u221a \u221a \u221a \u221a\n4. Final Examination 50% \u221a \u221a \u221a \u221a \u221a \u221a\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes: the various methods are designed to ensure that all\nstudents taking this subject \u2013\n\u2022 Consider the issues which are presented in the lectures\n\u2022 Read the key sections of the relevant chapter of the adopted text book\n\u2022 Discuss the ethical issues arising from the cases and other questions contained\nin the text book\n\u2022 Appreciate that different approached (theories) may be adopted to deal with\nethical issues\n\u2022 Participate in presenting the group\u2019s views on the case or question to be\npresented.\nFeedback is given to students promptly and all students are invited to join seminar\ngroup discussions.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d e f\n1. Mid Term Test 20% \u221a \u221a\n2. Participation 5% \u221a \u221a \u221a \u221a \u221a \u221a\n3. Group Assignments 25% \u221a \u221a \u221a \u221a \u221a \u221a\n4. Final Examination 50% \u221a \u221a \u221a \u221a \u221a \u221a\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes: the various methods are designed to ensure that all\nstudents taking this subject \u2013\n\u2022 Consider the issues which are presented in the lectures\n\u2022 Read the key sections of the relevant chapter of the adopted text book\n\u2022 Discuss the ethical issues arising from the cases and other questions contained\nin the text book\n\u2022 Appreciate that different approached (theories) may be adopted to deal with\nethical issues\n\u2022 Participate in presenting the group\u2019s views on the case or question to be\npresented.\nFeedback is given to students promptly and all students are invited to join seminar\ngroup discussions.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d e f\n1. Mid Term Test 20% \u221a \u221a\n2. Participation 5% \u221a \u221a \u221a \u221a \u221a \u221a\n3. Group Assignments 25% \u221a \u221a \u221a \u221a \u221a \u221a\n4. Final Examination 50% \u221a \u221a \u221a \u221a \u221a \u221a\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes: the various methods are designed to ensure that all\nstudents taking this subject \u2013\n\u2022 Consider the issues which are presented in the lectures\n\u2022 Read the key sections of the relevant chapter of the adopted text book\n\u2022 Discuss the ethical issues arising from the cases and other questions contained\nin the text book\n\u2022 Appreciate that different approached (theories) may be adopted to deal with\nethical issues\n\u2022 Participate in presenting the group\u2019s views on the case or question to be\npresented.\nFeedback is given to students promptly and all students are invited to join seminar\ngroup discussions.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "This is AF3507 This is AF3507 This is AF3507 AF3507's Teaching/Learning Methodology: Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "AF4513's Assessment Methods in Alignment with Intended Learning Outcomes: Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d e f\n1. Mid Term Test 20% \u221a \u221a\n2. Participation 5% \u221a \u221a \u221a \u221a \u221a \u221a\n3. Group Assignments 25% \u221a \u221a \u221a \u221a \u221a \u221a\n4. Final Examination 50% \u221a \u221a \u221a \u221a \u221a \u221a\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes: the various methods are designed to ensure that all\nstudents taking this subject \u2013\n\u2022 Consider the issues which are presented in the lectures\n\u2022 Read the key sections of the relevant chapter of the adopted text book\n\u2022 Discuss the ethical issues arising from the cases and other questions contained\nin the text book\n\u2022 Appreciate that different approached (theories) may be adopted to deal with\nethical issues\n\u2022 Participate in presenting the group\u2019s views on the case or question to be\npresented.\nFeedback is given to students promptly and all students are invited to join seminar\ngroup discussions.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "This is AF4513 This is AF4513 This is AF4513 AF4513's Assessment Methods in Alignment with Intended Learning Outcomes: Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d e f\n1. Mid Term Test 20% \u221a \u221a\n2. Participation 5% \u221a \u221a \u221a \u221a \u221a \u221a\n3. Group Assignments 25% \u221a \u221a \u221a \u221a \u221a \u221a\n4. Final Examination 50% \u221a \u221a \u221a \u221a \u221a \u221a\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes: the various methods are designed to ensure that all\nstudents taking this subject \u2013\n\u2022 Consider the issues which are presented in the lectures\n\u2022 Read the key sections of the relevant chapter of the adopted text book\n\u2022 Discuss the ethical issues arising from the cases and other questions contained\nin the text book\n\u2022 Appreciate that different approached (theories) may be adopted to deal with\nethical issues\n\u2022 Participate in presenting the group\u2019s views on the case or question to be\npresented.\nFeedback is given to students promptly and all students are invited to join seminar\ngroup discussions.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge.",
+            "This is AF1605 This is AF1605 This is AF1605 AF1605's Assessment Methods in Alignment with Intended Learning Outcomes: Specific assessment % Intended subject learning outcomes to be\nmethods/tasks weighting assessed (Please tick as appropriate)\na b c d\nContinuous Assessment 50% \uf0fc \uf0fc \uf0fc \uf0fc\nPresentation 10% \uf0fc \uf0fc \uf0fc \uf0fc\nWritten assignments 15% \uf0fc \uf0fc \uf0fc \uf0fc\nMid-term test 20% \uf0fc \uf0fc \uf0fc\nAttendance and\n5% \uf0fc \uf0fc \uf0fc \uf0fc\nparticipation in tutorial\nFinal Examination 50% \uf0fc \uf0fc \uf0fc \uf0fc\nTotal 100 %\nExplanation of the appropriateness of the assessment methods in assessing the\nintended learning outcomes:\nThe continuous assessment components include attendance and participation,\npresentation of problem set questions, written assignments (including a report on\nproblem set questions and an essay on applications of economic concepts) and mid-\nterm test.\nPresentation and written assignments will allow the instructors to observe and assess\nindividual student\u2019s achievement of a particular learning outcome based on how well\nthe student elaborate their answers using economic concepts introduced in this course.\nTest and examination are used to gauge how much students have understood the\noverall subject contents and to assess students\u2019 achievement of all learning outcomes.\nTo reflect the significant technology content in this subject, 10% (or more) of the\noverall weighting of this subject is based on individual assessment concerning\ntechnology-related knowledge."
+        ],
+        [
+            "AF4326's Subject Synopsis/ Indicative Syllabus (Note 2): The Basic Products\nBond price arithmetic. Treasury bills, notes, bonds and strips. Organization of\ngovernment bond markets. Spot rates, par rates and forward rates. Constructing zero\ncurves.\nRisk Management\nMeasures of price sensitivity. Simple hedging strategies using fixed income\nderivatives. Eurodollar futures. Bond futures. Interest rate swaps.\nPricing Interest Rate Claims\nTheories of the term structure. Arbitrage free pricing.\nCorporate Bonds and Credit Risk\nCredit ratings. Default risk and credit spread. Credit derivatives.\nMortgages and Their Derivatives",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "The methodology is a combination of lectures, problem sets and tutorials.\nLectures focus on illustrating important concepts and their linkages, summarizing\ncore points and insights, as well as highlighting the skills to solve relevant models.\nWhen necessary, problems or questions are raised from the reality and guide\nstudents to related topics. Students are encouraged to discuss those questions, to\nthink actively and critically, and to talk about their opinions or solutions.\nProblem sets provide students with a chance to review the core knowledge lectured\nin the class, including numerical examples, open-ended questions, and some\napplications to real-world situations. A tutorial is conducted after each problem set is\nexercised by students. It provides with an opportunity to deepen students\u2019\nunderstanding and reinforce their skills. Problem sets and tutorials also serve as a\nchannel through which timely feedbacks will be collected from and given to students.",
+            "Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "Legal principles and concepts will be introduced through lectures. In seminars, students\nwill gain a better understanding of key legal principles, and apply them to various issues\nand scenarios involving companies and their directors, shareholders and other\nstakeholders, and/or to think about those principles in a critical manner. By working and\nwriting an essay assignment, the students will elaborate, in a deeper and more extensive\nway, on a selected topic of HK company law.\nIn seminars, the students will be required to describe concepts and answer questions\neither by oral presentations or by writing exercises. To this purpose, seminars may\ninclude a variety of tasks including problem and essay questions. Problem questions in\nseminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling\nstudents to develop the ability to identify, explain and apply legal rules to resolve\nbusiness problems, issues and/or challenges. Multiple Choice Questions (MCQs) and\nQuizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to\nacquired good knowledge, clear understanding and accurate application of the relevant\nlegal concepts and principles of law.\nEssay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the\nability to identify, explain and analyze critically key issues of HK company law, its\nreform and policy effects. Students will also be required to participate actively in\nseminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making\ncomments or critiques, advancing explanations, or stating arguments.\nDiscussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),\n(f) and (g). This activity allows the students to learn how to write and develop concepts\nand arguments in a logical, analytical and critical manner, and how to use basic\nresearch tools including internet, library and other resources to this effect.",
+            "In addition to exam evaluations, in-class surveys and exercises, individual\nassignments, and a financial planning report are designed to educate and evaluate\nstudents.\nIn-class surveys and exercises: Students are encouraged to participate in surveys and\nexercises to discuss and review what they learn effectively.\nIndividual assignments: Four Assignments will be assigned to students. Assignments\nare related to some case studies or simple quantitative analyses. Students can upload\ntheir solution by typing it via Microsoft Word, Excel, or scanning their own hand-\nwriting. The due date of a problem set is one week after the problem set is posted.\nMid-term report (an integrated essay): Students are required to submit a financial\nplanning report in the middle of the semester. Fictional clients\u2019 quantitative and\nqualitative information is given. Based on the scenario, students should propose a\nrecommendation for the clients\u2019 wealth management in terms of consumption\nplanning, tax planning, investment planning, and asset allocation strategy to maximize\ntheir wealth. The questions are open-ended: there is no specific answer regarding the\nrecommendation. Students may propose a recommendation freely but based on\nreasonable analysis. The report could be an integrated essay.",
+            "In addition to exam evaluations, in-class surveys and exercises, individual\nassignments, and a financial planning report are designed to educate and evaluate\nstudents.\nIn-class surveys and exercises: Students are encouraged to participate in surveys and\nexercises to discuss and review what they learn effectively.\nIndividual assignments: Four Assignments will be assigned to students. Assignments\nare related to some case studies or simple quantitative analyses. Students can upload\ntheir solution by typing it via Microsoft Word, Excel, or scanning their own hand-\nwriting. The due date of a problem set is one week after the problem set is posted.\nMid-term report (an integrated essay): Students are required to submit a financial\nplanning report in the middle of the semester. Fictional clients\u2019 quantitative and\nqualitative information is given. Based on the scenario, students should propose a\nrecommendation for the clients\u2019 wealth management in terms of consumption\nplanning, tax planning, investment planning, and asset allocation strategy to maximize\ntheir wealth. The questions are open-ended: there is no specific answer regarding the\nrecommendation. Students may propose a recommendation freely but based on\nreasonable analysis. The report could be an integrated essay.",
+            "In addition to exam evaluations, in-class surveys and exercises, individual\nassignments, and a financial planning report are designed to educate and evaluate\nstudents.\nIn-class surveys and exercises: Students are encouraged to participate in surveys and\nexercises to discuss and review what they learn effectively.\nIndividual assignments: Four Assignments will be assigned to students. Assignments\nare related to some case studies or simple quantitative analyses. Students can upload\ntheir solution by typing it via Microsoft Word, Excel, or scanning their own hand-\nwriting. The due date of a problem set is one week after the problem set is posted.\nMid-term report (an integrated essay): Students are required to submit a financial\nplanning report in the middle of the semester. Fictional clients\u2019 quantitative and\nqualitative information is given. Based on the scenario, students should propose a\nrecommendation for the clients\u2019 wealth management in terms of consumption\nplanning, tax planning, investment planning, and asset allocation strategy to maximize\ntheir wealth. The questions are open-ended: there is no specific answer regarding the\nrecommendation. Students may propose a recommendation freely but based on\nreasonable analysis. The report could be an integrated essay.",
+            "In addition to exam evaluations, in-class surveys and exercises, individual\nassignments, and a financial planning report are designed to educate and evaluate\nstudents.\nIn-class surveys and exercises: Students are encouraged to participate in surveys and\nexercises to discuss and review what they learn effectively.\nIndividual assignments: Four Assignments will be assigned to students. Assignments\nare related to some case studies or simple quantitative analyses. Students can upload\ntheir solution by typing it via Microsoft Word, Excel, or scanning their own hand-\nwriting. The due date of a problem set is one week after the problem set is posted.\nMid-term report (an integrated essay): Students are required to submit a financial\nplanning report in the middle of the semester. Fictional clients\u2019 quantitative and\nqualitative information is given. Based on the scenario, students should propose a\nrecommendation for the clients\u2019 wealth management in terms of consumption\nplanning, tax planning, investment planning, and asset allocation strategy to maximize\ntheir wealth. The questions are open-ended: there is no specific answer regarding the\nrecommendation. Students may propose a recommendation freely but based on\nreasonable analysis. The report could be an integrated essay."
+        ]
+    ],
+    "uris": null,
+    "data": null
+}

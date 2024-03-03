@@ -1,0 +1,631 @@
+{
+    "ids": [
+        [
+            "96527639-aadb-4da2-8baf-73a354bb10a4",
+            "3ef7674e-5357-4bed-ac6f-5f7a6a074653",
+            "35387410-8ad2-4bce-b792-791304e21f8f",
+            "ccf08bef-7054-4072-87fe-331fb9aa9416",
+            "2db35842-781a-4d73-8e44-eefa2a3f9b97",
+            "b8faecd7-f407-4a0e-8cfa-dcb194e8c7c3",
+            "10842f41-09ea-4db9-a7d0-17bf5c802f64",
+            "d6be50ef-6227-4c8d-8361-fabffa533fbe",
+            "ae7404f0-c80b-4288-ba44-f7a6eddc7d00",
+            "38c58730-1725-47e0-8c8e-99e31a27cc01",
+            "bc7afac4-4a1b-49a6-9c86-111bd375a298",
+            "3ad0ca6c-a0b8-4ca1-8aeb-1367f56d48c4",
+            "ecee3348-cd3c-43a7-bdcf-30f51a9da7b7",
+            "84a2ebc1-898c-4fbb-8b16-2d513cc63285",
+            "8bf706fd-20f8-4702-a9ae-40125bdfbace"
+        ],
+        [
+            "ccf08bef-7054-4072-87fe-331fb9aa9416",
+            "96527639-aadb-4da2-8baf-73a354bb10a4",
+            "35387410-8ad2-4bce-b792-791304e21f8f",
+            "3ef7674e-5357-4bed-ac6f-5f7a6a074653",
+            "2db35842-781a-4d73-8e44-eefa2a3f9b97",
+            "3ad0ca6c-a0b8-4ca1-8aeb-1367f56d48c4",
+            "38c58730-1725-47e0-8c8e-99e31a27cc01",
+            "d6be50ef-6227-4c8d-8361-fabffa533fbe",
+            "10842f41-09ea-4db9-a7d0-17bf5c802f64",
+            "b8faecd7-f407-4a0e-8cfa-dcb194e8c7c3",
+            "c62ddda4-ade0-499f-975d-6800062fe3d4",
+            "ecee3348-cd3c-43a7-bdcf-30f51a9da7b7",
+            "ae7404f0-c80b-4288-ba44-f7a6eddc7d00",
+            "84a2ebc1-898c-4fbb-8b16-2d513cc63285",
+            "bc7afac4-4a1b-49a6-9c86-111bd375a298"
+        ],
+        [
+            "96527639-aadb-4da2-8baf-73a354bb10a4",
+            "ccf08bef-7054-4072-87fe-331fb9aa9416",
+            "35387410-8ad2-4bce-b792-791304e21f8f",
+            "3ef7674e-5357-4bed-ac6f-5f7a6a074653",
+            "10842f41-09ea-4db9-a7d0-17bf5c802f64",
+            "2db35842-781a-4d73-8e44-eefa2a3f9b97",
+            "d6be50ef-6227-4c8d-8361-fabffa533fbe",
+            "b8faecd7-f407-4a0e-8cfa-dcb194e8c7c3",
+            "ecee3348-cd3c-43a7-bdcf-30f51a9da7b7",
+            "8bf706fd-20f8-4702-a9ae-40125bdfbace",
+            "c62ddda4-ade0-499f-975d-6800062fe3d4",
+            "ae7404f0-c80b-4288-ba44-f7a6eddc7d00",
+            "38c58730-1725-47e0-8c8e-99e31a27cc01",
+            "66c8dc29-7c97-47bd-863b-4be4ca2dadc1",
+            "0c38c9eb-4a51-4843-8e23-7a5d0d48160a"
+        ],
+        [
+            "96527639-aadb-4da2-8baf-73a354bb10a4",
+            "ccf08bef-7054-4072-87fe-331fb9aa9416",
+            "3ef7674e-5357-4bed-ac6f-5f7a6a074653",
+            "35387410-8ad2-4bce-b792-791304e21f8f",
+            "3ad0ca6c-a0b8-4ca1-8aeb-1367f56d48c4",
+            "2db35842-781a-4d73-8e44-eefa2a3f9b97",
+            "d6be50ef-6227-4c8d-8361-fabffa533fbe",
+            "38c58730-1725-47e0-8c8e-99e31a27cc01",
+            "c62ddda4-ade0-499f-975d-6800062fe3d4",
+            "b8faecd7-f407-4a0e-8cfa-dcb194e8c7c3",
+            "ae7404f0-c80b-4288-ba44-f7a6eddc7d00",
+            "ecee3348-cd3c-43a7-bdcf-30f51a9da7b7",
+            "84a2ebc1-898c-4fbb-8b16-2d513cc63285",
+            "10842f41-09ea-4db9-a7d0-17bf5c802f64",
+            "bc7afac4-4a1b-49a6-9c86-111bd375a298"
+        ],
+        [
+            "96527639-aadb-4da2-8baf-73a354bb10a4",
+            "ccf08bef-7054-4072-87fe-331fb9aa9416",
+            "35387410-8ad2-4bce-b792-791304e21f8f",
+            "3ef7674e-5357-4bed-ac6f-5f7a6a074653",
+            "d6be50ef-6227-4c8d-8361-fabffa533fbe",
+            "2db35842-781a-4d73-8e44-eefa2a3f9b97",
+            "10842f41-09ea-4db9-a7d0-17bf5c802f64",
+            "ecee3348-cd3c-43a7-bdcf-30f51a9da7b7",
+            "b8faecd7-f407-4a0e-8cfa-dcb194e8c7c3",
+            "c62ddda4-ade0-499f-975d-6800062fe3d4",
+            "8bf706fd-20f8-4702-a9ae-40125bdfbace",
+            "38c58730-1725-47e0-8c8e-99e31a27cc01",
+            "ae7404f0-c80b-4288-ba44-f7a6eddc7d00",
+            "66c8dc29-7c97-47bd-863b-4be4ca2dadc1",
+            "3ad0ca6c-a0b8-4ca1-8aeb-1367f56d48c4"
+        ],
+        [
+            "ccf08bef-7054-4072-87fe-331fb9aa9416",
+            "96527639-aadb-4da2-8baf-73a354bb10a4",
+            "35387410-8ad2-4bce-b792-791304e21f8f",
+            "3ef7674e-5357-4bed-ac6f-5f7a6a074653",
+            "2db35842-781a-4d73-8e44-eefa2a3f9b97",
+            "d6be50ef-6227-4c8d-8361-fabffa533fbe",
+            "ecee3348-cd3c-43a7-bdcf-30f51a9da7b7",
+            "b8faecd7-f407-4a0e-8cfa-dcb194e8c7c3",
+            "c62ddda4-ade0-499f-975d-6800062fe3d4",
+            "10842f41-09ea-4db9-a7d0-17bf5c802f64",
+            "ae7404f0-c80b-4288-ba44-f7a6eddc7d00",
+            "38c58730-1725-47e0-8c8e-99e31a27cc01",
+            "8bf706fd-20f8-4702-a9ae-40125bdfbace",
+            "3ad0ca6c-a0b8-4ca1-8aeb-1367f56d48c4",
+            "8e391f48-8658-4386-97c6-929dbe4b2a42"
+        ]
+    ],
+    "distances": [
+        [
+            16.055844379880433,
+            21.869404312557815,
+            22.00792556848687,
+            23.30716838232498,
+            24.106355521685472,
+            24.28532370941968,
+            24.868421586048573,
+            24.995919047547893,
+            25.184688758640693,
+            25.278660566434716,
+            25.576393129318593,
+            25.590497029214752,
+            25.80597688281183,
+            25.897760145545615,
+            26.143403296974473
+        ],
+        [
+            25.180116312151164,
+            25.878643599059238,
+            33.79106165247399,
+            33.7936847934791,
+            36.70855915069943,
+            37.5185358420799,
+            37.655762201803824,
+            37.884935579862585,
+            37.90603365634916,
+            38.02326198203359,
+            38.199930239694716,
+            38.667109848446735,
+            39.0803729819079,
+            39.128197538563434,
+            39.57796102041966
+        ],
+        [
+            18.633773223459187,
+            21.171364952422163,
+            24.390388569250458,
+            25.496836937173693,
+            25.607428843402875,
+            25.729445624418442,
+            25.787511349830282,
+            26.401172906394084,
+            26.42037122119574,
+            26.58334488225352,
+            26.720427374242607,
+            27.529200370014692,
+            27.674993261411085,
+            27.84220362809896,
+            28.046273501817417
+        ],
+        [
+            29.584074677457885,
+            31.331505162561374,
+            37.92310639523253,
+            38.05033684458892,
+            40.97559554246265,
+            40.98319557320521,
+            41.54229179072563,
+            41.584319714395,
+            41.861908796144455,
+            42.232324675243426,
+            42.52742101052536,
+            42.60610427552852,
+            43.09553673957704,
+            43.181306448224625,
+            43.19649957602342
+        ],
+        [
+            26.68929321760071,
+            28.55895995828338,
+            34.077023256490854,
+            34.40940982445066,
+            35.35733815355644,
+            35.61866237066137,
+            35.71588611713259,
+            35.914772800670804,
+            36.25088374707563,
+            36.386658205864464,
+            37.100133919733864,
+            37.728993939930255,
+            38.15556805227514,
+            38.47188888983185,
+            38.48985636630961
+        ],
+        [
+            38.26839781598792,
+            42.0023590721293,
+            54.773626761836134,
+            55.618656583628365,
+            58.35505499345673,
+            58.72238805882623,
+            59.313276985460064,
+            59.661078148680595,
+            59.72276377745909,
+            60.05658875378566,
+            60.29255463665268,
+            60.32384085322693,
+            60.49056843887565,
+            60.93048258960705,
+            61.61356866197383
+        ]
+    ],
+    "metadatas": [
+        [
+            {
+                "Header 2": "Credit Transfer Information",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 5": "HKSAR Government Subsidy",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Am I Eligible to Apply?",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Enquiries",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 5": "HKSAR Government Subsidy",
+                "doc_name": "summer_exchange_info.html"
+            }
+        ],
+        [
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Credit Transfer Information",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Enquiries",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 5": "HKSAR Government Subsidy",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Financial Support",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Am I Eligible to Apply?",
+                "doc_name": "summer_exchange_info.html"
+            }
+        ],
+        [
+            {
+                "Header 2": "Credit Transfer Information",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 5": "HKSAR Government Subsidy",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 5": "HKSAR Government Subsidy",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Financial Support",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Budgeting",
+                "doc_name": "summer_exchange_info.html"
+            }
+        ],
+        [
+            {
+                "Header 2": "Credit Transfer Information",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Enquiries",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Financial Support",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 5": "HKSAR Government Subsidy",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Am I Eligible to Apply?",
+                "doc_name": "summer_exchange_info.html"
+            }
+        ],
+        [
+            {
+                "Header 2": "Credit Transfer Information",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 5": "HKSAR Government Subsidy",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Financial Support",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 5": "HKSAR Government Subsidy",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Enquiries",
+                "doc_name": "summer_exchange_info.html"
+            }
+        ],
+        [
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Credit Transfer Information",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Financial Support",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 5": "HKSAR Government Subsidy",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 5": "HKSAR Government Subsidy",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "Header 2": "Enquiries",
+                "doc_name": "summer_exchange_info.html"
+            },
+            {
+                "doc_name": "summer_exchange_info.html"
+            }
+        ]
+    ],
+    "embeddings": null,
+    "documents": [
+        [
+            "Credit Transfer Information: Successful credit transfer applications in the past 5 years are presented on the Credit Transfer Information (Outbound Activities) page here. It serves as a good reference point for your offshore learning planning. Please approach your programme offering departments directly to seek pre-approval and final endorsement upon the completion of your offshore learning activities.",
+            "c department on credit transfer.  \n2. Interview for Successful Applicants  \nEligible applicants will be invited by email to sign up online for an interview slot during 1 and 2 February 2024. Face-to-face interview with the Global Engagement Office will be taken place from 6 to 8 February 2024. No alternative interview format/date could be arranged. Details of the interview process will be sent to successful applicants by email.  \n3. Offer Announcement and Confirmation  \nGEO will announce application results to students via email from late February 2024. Students should confirm their offer by t",
+            "When and How to Apply?  \n1. Complete Online Application Form  \nYou are required to complete the Summer Exchange Online Application Form by 23:59 (Hong Kong Time), 28 January 2024. A 150 words personal statement is required so please prepare in advance. Late/incomplete application will not be processed.  \nYou can pick up to 5 preferred choices of exchange institutions/programmes and it is your responsibility to ensure the chosen Host institutions have the appropriate programmes and subjects to fulfil your degree requirements at PolyU. Please check with your academic department on credit transfe",
+            "e. Late submission will jeopardise your submission.  \nCredit Transfer Information \u00a0 Budgeting",
+            "xchange programmes; and If you have attended all briefing sessions as required by GEO before departure  \nHKSAR Government Subsidy  \nEducation Bureau of the HKSAR Government offers Means-tested and Non-means-tested Schemes in support of Global Exchange. Read below for eligibility:  \n\u00a0  \nMeans-tested Schemes  \nYou are a Local student with a Hong Kong Identity Card and enrolled in full-time undergraduate programme You are a recipient of grant under the Tertiary Student Finance Scheme \u2013 Publicly-funded Programmes by Student Finance Office (SFO); OR your family member is a recipient of the Comprehe",
+            "Special Remarks  \nYou must declare to GEO if you receive sponsorship(s) and/or scholarship(s) from other source(s). You are required to provide relevant document(s) of such funding you receive.  \nPolyU reserves the right to withhold the payment of GEO Funding for Global Exchange/Government Subsidy if you do not declare other funding received (whether it is received before or after the approval of your application).  \nAs a PolyU Global Exchange student, you are obliged to:  \nBe a PolyU Ambassador and help to promote exchange opportunities at PolyU to fellow students at your Host university Subm",
+            "HKSAR Government Subsidy: ddle East)\u00a0 3,000  \nAfrica\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 7,000  \nOceania & Europe\u00a0 \u00a0 \u00a0 \u00a0 \u00a08,000  \nNorth America\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a09,000  \nCentral & South America & Caribbean 15,000  \n14-28 days\u00a0 \u00a06,000  \n29-90 days\u00a0 10,000  \n91-180 days\u00a0 25,000  \n** The amount of financial level will be adjusted upward to 50% if the level of student finance approved by SFO is lower than 50%  \n\u00a0  \nNon-means-tested Scheme  \n** Formula: (Destination + Duration)  \nDestination (HKD)  \n+  \nDuration (HKD)  \nAsia (Inc Middle East)\u00a0 \u00a0900  \n\u00a0 \u00a0Africa\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a02,100  \nOceania & Europe\u00a0 \u00a0 \u00a0 \u00a02,400  \nCentral & So",
+            "is a recipient of the Comprehensive Social Security Assistance (CSSA)  \n\u00a0i. Scheme for Subsidy on Exchange (SSE)  \nYou participate in a Global Exchange for 4 weeks or more in summer You are eligible for SSE\u00a0once only\u00a0throughout your undergraduate studies  \nii. Scheme for Means-tested Subsidy on Exchange to \"Belt and Road\" regions (Means-tested SSEBR)  \nYou participate in a Global Exchange in a \"Belt and Road\" regions (except Chinese Mainland, Taiwan and Macau) for 4 weeks or more in summer You are eligible for Means-tested SSEBR twice at most at two different \"Belt and Road\" regions, subject t",
+            "GEO Subsidy for Global Exchange  \nThe subsidy provides financial assistance to students participating in Global Exchange at PolyU\u2019s Student Exchange Partner institutions with tuition fee waiver and earn credit(s) upon completion of such Exchange. Exchange period is at least 4 weeks for Summer Exchange.  \nYou are eligible to the funding:  \nThe first GEO outbound exchange activity involves physical travel during your entire undergraduate study; and If you are a full-time UGC-funded degree-seeking undergraduate students (Local and Non-Local) participating in Global Exchange programmes; and If you",
+            "s at your Host university Submit Post-Exchange report within one month of the completion of your exchange period Be a peer advisor at least twice after your return from exchange study to provide advice and sharing your experience to future outbound students  \nIf a student does not fulfill the above obligations, PolyU reserves the right to claw back paid exchange funding.  \nStudent Stories  \nUniversity of Stuttgart, Germany  \nChan Hui Xin  \nThe Summer Exchange has widened my eyesight and exposed me to a greater world...  \nRead More  \nUniversiti Brunei Darussalam, Brunei  \nKaren Law  \nThis excha",
+            "Am I Eligible to Apply?: The Summer Exchange Programme offers PolyU undergraduate students to spend a summer at one of our Partner institutions. Please click here to see a list of available destinations for Summer Exchange 2024.  \nAll full-time PolyU undergraduate students in UGC-funded programmes, except final-year students, in any faculty/school are welcomed to join the Summer Exchange Programme.  \n\u00a0  \nJoin us! GEO Information Session \u2013 Summer Outbound Opportunities and Funding Available 2023/24 Date:\u00a0 \u00a016 January 2024 (Tuesday) Time:\u00a0 15:00 \u2013 16:00 Venue:\u00a0FJ301, PolyU (face-to-face) & Zoom (online)\u00a0 Mode of Deliver",
+            "Enquiries: If you have a question that isn\u2019t answered above, talk to a student mobility advisor. Please state clearly your name, PolyU student ID number, exchange period and destination in your enquiry, whenever it is by email or on telephone; or you can even book-in for a private session, email us the date and time at least 2 working days in advance.  \nEmail: outbound.exchange@polyu.edu.hk  \nTel: 2766 5116  \nWalk-in enquiry hours: Mondays to Fridays (except public holidays): 3:00pm \u2013 5:00pm  \nAddress: Global Engagement Office,\u00a0ST305, 3/F, Ng Wing Hong Building  \n\u00a0  \n\u00a0",
+            "t and Road\" regions, subject to maximum amount of subsidy to be received, i.e. HKD60,000, discounted by your level of student finance approved by SFO.  \n\u00a0  \nNon-means-tested Schemes  \ni. Non-means-tested Subsidy on Global Exchange to \"Belt and \"Road\" regions (Non-means-tested SSEBR)  \nYou are a Local student with a Hong Kong Identity Card and enrolled in full-time undergraduate programme. You participate in a Global Exchange in any \"Belt and Road\" regions except Chinese mainland, Taiwan and Macau. You are eligible for Non-means-tested SSEBR once only throughout your undergraduate studies.  \n\u00a0 ",
+            "hould confirm their offer by the offer acceptance deadline. Upon students\u2019 confirmation, GEO will send out confirmation email and nominate you to Partner institution. Once you have received your confirmation of nomination, you can start preparing for the application to your Host institution. You must submit your application to Host institution by application deadline. If Host institution requires you to submit your application via Home university, you should consult GEO and submit a complete set of documents to GEO\u00a0at least two weeks before the application deadline. Late submission will jeopar",
+            "HKSAR Government Subsidy: Means-tested Schemes  \ni. Scheme for Subsidy on Exchange (SSE)  \nii. Scheme for Means-tested Subsidy on Exchange to \"Belt and Road\" regions (Means-tested SSEBR)  \nThe amount of Government Subsidy is calculated by applying the approved level of student finance to the maximum level of subsidy based on the latest available application result from Student Finance Office (SFO).  \n\u00a0  \n** Formula: (Destination + Duration) x %  \nDestination (HKD)  \n+  \nDuration (HKD)  \nx  \n**Proportion of Grant (%) approved  \nas advised by The Student Finance  \nOffice (SFO)  \nAsia (Inc Middle East)\u00a0 3,000  \nAfrica\u00a0 \u00a0 "
+        ],
+        [
+            "e. Late submission will jeopardise your submission.  \nCredit Transfer Information \u00a0 Budgeting",
+            "Credit Transfer Information: Successful credit transfer applications in the past 5 years are presented on the Credit Transfer Information (Outbound Activities) page here. It serves as a good reference point for your offshore learning planning. Please approach your programme offering departments directly to seek pre-approval and final endorsement upon the completion of your offshore learning activities.",
+            "When and How to Apply?  \n1. Complete Online Application Form  \nYou are required to complete the Summer Exchange Online Application Form by 23:59 (Hong Kong Time), 28 January 2024. A 150 words personal statement is required so please prepare in advance. Late/incomplete application will not be processed.  \nYou can pick up to 5 preferred choices of exchange institutions/programmes and it is your responsibility to ensure the chosen Host institutions have the appropriate programmes and subjects to fulfil your degree requirements at PolyU. Please check with your academic department on credit transfe",
+            "c department on credit transfer.  \n2. Interview for Successful Applicants  \nEligible applicants will be invited by email to sign up online for an interview slot during 1 and 2 February 2024. Face-to-face interview with the Global Engagement Office will be taken place from 6 to 8 February 2024. No alternative interview format/date could be arranged. Details of the interview process will be sent to successful applicants by email.  \n3. Offer Announcement and Confirmation  \nGEO will announce application results to students via email from late February 2024. Students should confirm their offer by t",
+            "xchange programmes; and If you have attended all briefing sessions as required by GEO before departure  \nHKSAR Government Subsidy  \nEducation Bureau of the HKSAR Government offers Means-tested and Non-means-tested Schemes in support of Global Exchange. Read below for eligibility:  \n\u00a0  \nMeans-tested Schemes  \nYou are a Local student with a Hong Kong Identity Card and enrolled in full-time undergraduate programme You are a recipient of grant under the Tertiary Student Finance Scheme \u2013 Publicly-funded Programmes by Student Finance Office (SFO); OR your family member is a recipient of the Comprehe",
+            "Enquiries: If you have a question that isn\u2019t answered above, talk to a student mobility advisor. Please state clearly your name, PolyU student ID number, exchange period and destination in your enquiry, whenever it is by email or on telephone; or you can even book-in for a private session, email us the date and time at least 2 working days in advance.  \nEmail: outbound.exchange@polyu.edu.hk  \nTel: 2766 5116  \nWalk-in enquiry hours: Mondays to Fridays (except public holidays): 3:00pm \u2013 5:00pm  \nAddress: Global Engagement Office,\u00a0ST305, 3/F, Ng Wing Hong Building  \n\u00a0  \n\u00a0",
+            "s at your Host university Submit Post-Exchange report within one month of the completion of your exchange period Be a peer advisor at least twice after your return from exchange study to provide advice and sharing your experience to future outbound students  \nIf a student does not fulfill the above obligations, PolyU reserves the right to claw back paid exchange funding.  \nStudent Stories  \nUniversity of Stuttgart, Germany  \nChan Hui Xin  \nThe Summer Exchange has widened my eyesight and exposed me to a greater world...  \nRead More  \nUniversiti Brunei Darussalam, Brunei  \nKaren Law  \nThis excha",
+            "is a recipient of the Comprehensive Social Security Assistance (CSSA)  \n\u00a0i. Scheme for Subsidy on Exchange (SSE)  \nYou participate in a Global Exchange for 4 weeks or more in summer You are eligible for SSE\u00a0once only\u00a0throughout your undergraduate studies  \nii. Scheme for Means-tested Subsidy on Exchange to \"Belt and Road\" regions (Means-tested SSEBR)  \nYou participate in a Global Exchange in a \"Belt and Road\" regions (except Chinese Mainland, Taiwan and Macau) for 4 weeks or more in summer You are eligible for Means-tested SSEBR twice at most at two different \"Belt and Road\" regions, subject t",
+            "HKSAR Government Subsidy: ddle East)\u00a0 3,000  \nAfrica\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 7,000  \nOceania & Europe\u00a0 \u00a0 \u00a0 \u00a0 \u00a08,000  \nNorth America\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a09,000  \nCentral & South America & Caribbean 15,000  \n14-28 days\u00a0 \u00a06,000  \n29-90 days\u00a0 10,000  \n91-180 days\u00a0 25,000  \n** The amount of financial level will be adjusted upward to 50% if the level of student finance approved by SFO is lower than 50%  \n\u00a0  \nNon-means-tested Scheme  \n** Formula: (Destination + Duration)  \nDestination (HKD)  \n+  \nDuration (HKD)  \nAsia (Inc Middle East)\u00a0 \u00a0900  \n\u00a0 \u00a0Africa\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a02,100  \nOceania & Europe\u00a0 \u00a0 \u00a0 \u00a02,400  \nCentral & So",
+            "Special Remarks  \nYou must declare to GEO if you receive sponsorship(s) and/or scholarship(s) from other source(s). You are required to provide relevant document(s) of such funding you receive.  \nPolyU reserves the right to withhold the payment of GEO Funding for Global Exchange/Government Subsidy if you do not declare other funding received (whether it is received before or after the approval of your application).  \nAs a PolyU Global Exchange student, you are obliged to:  \nBe a PolyU Ambassador and help to promote exchange opportunities at PolyU to fellow students at your Host university Subm",
+            "Financial Support: Global Exchange participations are supported by a range of financial assistance. Eligibility and exact amount vary across destinations and durations. Details will be provided to successful participants during the Pre-departure Briefing and in a follow-up email from GEO. Online Application for GEO Exchange Funding by said deadlines is required. No late application will be entertained. Your Faculty/School/Department may offer additional sponsorships and/or scholarships aim at covering expenses such as flights, accommodation or living costs. Check with your Faculty/School/Department and/or Studen",
+            "t and Road\" regions, subject to maximum amount of subsidy to be received, i.e. HKD60,000, discounted by your level of student finance approved by SFO.  \n\u00a0  \nNon-means-tested Schemes  \ni. Non-means-tested Subsidy on Global Exchange to \"Belt and \"Road\" regions (Non-means-tested SSEBR)  \nYou are a Local student with a Hong Kong Identity Card and enrolled in full-time undergraduate programme. You participate in a Global Exchange in any \"Belt and Road\" regions except Chinese mainland, Taiwan and Macau. You are eligible for Non-means-tested SSEBR once only throughout your undergraduate studies.  \n\u00a0 ",
+            "GEO Subsidy for Global Exchange  \nThe subsidy provides financial assistance to students participating in Global Exchange at PolyU\u2019s Student Exchange Partner institutions with tuition fee waiver and earn credit(s) upon completion of such Exchange. Exchange period is at least 4 weeks for Summer Exchange.  \nYou are eligible to the funding:  \nThe first GEO outbound exchange activity involves physical travel during your entire undergraduate study; and If you are a full-time UGC-funded degree-seeking undergraduate students (Local and Non-Local) participating in Global Exchange programmes; and If you",
+            "hould confirm their offer by the offer acceptance deadline. Upon students\u2019 confirmation, GEO will send out confirmation email and nominate you to Partner institution. Once you have received your confirmation of nomination, you can start preparing for the application to your Host institution. You must submit your application to Host institution by application deadline. If Host institution requires you to submit your application via Home university, you should consult GEO and submit a complete set of documents to GEO\u00a0at least two weeks before the application deadline. Late submission will jeopar",
+            "Am I Eligible to Apply?: The Summer Exchange Programme offers PolyU undergraduate students to spend a summer at one of our Partner institutions. Please click here to see a list of available destinations for Summer Exchange 2024.  \nAll full-time PolyU undergraduate students in UGC-funded programmes, except final-year students, in any faculty/school are welcomed to join the Summer Exchange Programme.  \n\u00a0  \nJoin us! GEO Information Session \u2013 Summer Outbound Opportunities and Funding Available 2023/24 Date:\u00a0 \u00a016 January 2024 (Tuesday) Time:\u00a0 15:00 \u2013 16:00 Venue:\u00a0FJ301, PolyU (face-to-face) & Zoom (online)\u00a0 Mode of Deliver"
+        ],
+        [
+            "Credit Transfer Information: Successful credit transfer applications in the past 5 years are presented on the Credit Transfer Information (Outbound Activities) page here. It serves as a good reference point for your offshore learning planning. Please approach your programme offering departments directly to seek pre-approval and final endorsement upon the completion of your offshore learning activities.",
+            "e. Late submission will jeopardise your submission.  \nCredit Transfer Information \u00a0 Budgeting",
+            "When and How to Apply?  \n1. Complete Online Application Form  \nYou are required to complete the Summer Exchange Online Application Form by 23:59 (Hong Kong Time), 28 January 2024. A 150 words personal statement is required so please prepare in advance. Late/incomplete application will not be processed.  \nYou can pick up to 5 preferred choices of exchange institutions/programmes and it is your responsibility to ensure the chosen Host institutions have the appropriate programmes and subjects to fulfil your degree requirements at PolyU. Please check with your academic department on credit transfe",
+            "c department on credit transfer.  \n2. Interview for Successful Applicants  \nEligible applicants will be invited by email to sign up online for an interview slot during 1 and 2 February 2024. Face-to-face interview with the Global Engagement Office will be taken place from 6 to 8 February 2024. No alternative interview format/date could be arranged. Details of the interview process will be sent to successful applicants by email.  \n3. Offer Announcement and Confirmation  \nGEO will announce application results to students via email from late February 2024. Students should confirm their offer by t",
+            "HKSAR Government Subsidy: ddle East)\u00a0 3,000  \nAfrica\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 7,000  \nOceania & Europe\u00a0 \u00a0 \u00a0 \u00a0 \u00a08,000  \nNorth America\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a09,000  \nCentral & South America & Caribbean 15,000  \n14-28 days\u00a0 \u00a06,000  \n29-90 days\u00a0 10,000  \n91-180 days\u00a0 25,000  \n** The amount of financial level will be adjusted upward to 50% if the level of student finance approved by SFO is lower than 50%  \n\u00a0  \nNon-means-tested Scheme  \n** Formula: (Destination + Duration)  \nDestination (HKD)  \n+  \nDuration (HKD)  \nAsia (Inc Middle East)\u00a0 \u00a0900  \n\u00a0 \u00a0Africa\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a02,100  \nOceania & Europe\u00a0 \u00a0 \u00a0 \u00a02,400  \nCentral & So",
+            "xchange programmes; and If you have attended all briefing sessions as required by GEO before departure  \nHKSAR Government Subsidy  \nEducation Bureau of the HKSAR Government offers Means-tested and Non-means-tested Schemes in support of Global Exchange. Read below for eligibility:  \n\u00a0  \nMeans-tested Schemes  \nYou are a Local student with a Hong Kong Identity Card and enrolled in full-time undergraduate programme You are a recipient of grant under the Tertiary Student Finance Scheme \u2013 Publicly-funded Programmes by Student Finance Office (SFO); OR your family member is a recipient of the Comprehe",
+            "is a recipient of the Comprehensive Social Security Assistance (CSSA)  \n\u00a0i. Scheme for Subsidy on Exchange (SSE)  \nYou participate in a Global Exchange for 4 weeks or more in summer You are eligible for SSE\u00a0once only\u00a0throughout your undergraduate studies  \nii. Scheme for Means-tested Subsidy on Exchange to \"Belt and Road\" regions (Means-tested SSEBR)  \nYou participate in a Global Exchange in a \"Belt and Road\" regions (except Chinese Mainland, Taiwan and Macau) for 4 weeks or more in summer You are eligible for Means-tested SSEBR twice at most at two different \"Belt and Road\" regions, subject t",
+            "Special Remarks  \nYou must declare to GEO if you receive sponsorship(s) and/or scholarship(s) from other source(s). You are required to provide relevant document(s) of such funding you receive.  \nPolyU reserves the right to withhold the payment of GEO Funding for Global Exchange/Government Subsidy if you do not declare other funding received (whether it is received before or after the approval of your application).  \nAs a PolyU Global Exchange student, you are obliged to:  \nBe a PolyU Ambassador and help to promote exchange opportunities at PolyU to fellow students at your Host university Subm",
+            "t and Road\" regions, subject to maximum amount of subsidy to be received, i.e. HKD60,000, discounted by your level of student finance approved by SFO.  \n\u00a0  \nNon-means-tested Schemes  \ni. Non-means-tested Subsidy on Global Exchange to \"Belt and \"Road\" regions (Non-means-tested SSEBR)  \nYou are a Local student with a Hong Kong Identity Card and enrolled in full-time undergraduate programme. You participate in a Global Exchange in any \"Belt and Road\" regions except Chinese mainland, Taiwan and Macau. You are eligible for Non-means-tested SSEBR once only throughout your undergraduate studies.  \n\u00a0 ",
+            "HKSAR Government Subsidy: Means-tested Schemes  \ni. Scheme for Subsidy on Exchange (SSE)  \nii. Scheme for Means-tested Subsidy on Exchange to \"Belt and Road\" regions (Means-tested SSEBR)  \nThe amount of Government Subsidy is calculated by applying the approved level of student finance to the maximum level of subsidy based on the latest available application result from Student Finance Office (SFO).  \n\u00a0  \n** Formula: (Destination + Duration) x %  \nDestination (HKD)  \n+  \nDuration (HKD)  \nx  \n**Proportion of Grant (%) approved  \nas advised by The Student Finance  \nOffice (SFO)  \nAsia (Inc Middle East)\u00a0 3,000  \nAfrica\u00a0 \u00a0 ",
+            "Financial Support: Global Exchange participations are supported by a range of financial assistance. Eligibility and exact amount vary across destinations and durations. Details will be provided to successful participants during the Pre-departure Briefing and in a follow-up email from GEO. Online Application for GEO Exchange Funding by said deadlines is required. No late application will be entertained. Your Faculty/School/Department may offer additional sponsorships and/or scholarships aim at covering expenses such as flights, accommodation or living costs. Check with your Faculty/School/Department and/or Studen",
+            "GEO Subsidy for Global Exchange  \nThe subsidy provides financial assistance to students participating in Global Exchange at PolyU\u2019s Student Exchange Partner institutions with tuition fee waiver and earn credit(s) upon completion of such Exchange. Exchange period is at least 4 weeks for Summer Exchange.  \nYou are eligible to the funding:  \nThe first GEO outbound exchange activity involves physical travel during your entire undergraduate study; and If you are a full-time UGC-funded degree-seeking undergraduate students (Local and Non-Local) participating in Global Exchange programmes; and If you",
+            "s at your Host university Submit Post-Exchange report within one month of the completion of your exchange period Be a peer advisor at least twice after your return from exchange study to provide advice and sharing your experience to future outbound students  \nIf a student does not fulfill the above obligations, PolyU reserves the right to claw back paid exchange funding.  \nStudent Stories  \nUniversity of Stuttgart, Germany  \nChan Hui Xin  \nThe Summer Exchange has widened my eyesight and exposed me to a greater world...  \nRead More  \nUniversiti Brunei Darussalam, Brunei  \nKaren Law  \nThis excha",
+            "ur undergraduate studies.  \n\u00a0 ii.\u00a0Non-means-tested Subsidies on Global Exchange to Chinese Mainland (Non-means-tested MES)  \nYou are a Local or Non-local student and enrolled in full-time undergraduate programme. You participate in a Global Exchange in Chinese Mainland. You are eligible for Non-means-tested MES once only throughout your undergraduate studies.  \nFunding Amount (valid for 2023/24)  \nGEO Subsidy for Global Exchange Destinations GEO Subsidy for Global Exchange Africa HKD11,000\u00a0 Americas\u00a0 HKD11,000\u00a0 Australasia HKD11,000 Europe HKD11,000 Israel HKD11,000 Japan / Korea / Singapore H",
+            "Budgeting: As an exchange student, your summer tuition fee is waived. Keep the following costs in mind when budgeting for an exchange.  \nRound trip ticket Accommodation VISA application fees Insurance Daily expenses (food, laundry, etc.) Textbooks and stationery  \nThe costs of the above may vary from country to country, so make sure you check the Host institutions\u2019 website for more information.  \n\u00a0"
+        ],
+        [
+            "Credit Transfer Information: Successful credit transfer applications in the past 5 years are presented on the Credit Transfer Information (Outbound Activities) page here. It serves as a good reference point for your offshore learning planning. Please approach your programme offering departments directly to seek pre-approval and final endorsement upon the completion of your offshore learning activities.",
+            "e. Late submission will jeopardise your submission.  \nCredit Transfer Information \u00a0 Budgeting",
+            "c department on credit transfer.  \n2. Interview for Successful Applicants  \nEligible applicants will be invited by email to sign up online for an interview slot during 1 and 2 February 2024. Face-to-face interview with the Global Engagement Office will be taken place from 6 to 8 February 2024. No alternative interview format/date could be arranged. Details of the interview process will be sent to successful applicants by email.  \n3. Offer Announcement and Confirmation  \nGEO will announce application results to students via email from late February 2024. Students should confirm their offer by t",
+            "When and How to Apply?  \n1. Complete Online Application Form  \nYou are required to complete the Summer Exchange Online Application Form by 23:59 (Hong Kong Time), 28 January 2024. A 150 words personal statement is required so please prepare in advance. Late/incomplete application will not be processed.  \nYou can pick up to 5 preferred choices of exchange institutions/programmes and it is your responsibility to ensure the chosen Host institutions have the appropriate programmes and subjects to fulfil your degree requirements at PolyU. Please check with your academic department on credit transfe",
+            "Enquiries: If you have a question that isn\u2019t answered above, talk to a student mobility advisor. Please state clearly your name, PolyU student ID number, exchange period and destination in your enquiry, whenever it is by email or on telephone; or you can even book-in for a private session, email us the date and time at least 2 working days in advance.  \nEmail: outbound.exchange@polyu.edu.hk  \nTel: 2766 5116  \nWalk-in enquiry hours: Mondays to Fridays (except public holidays): 3:00pm \u2013 5:00pm  \nAddress: Global Engagement Office,\u00a0ST305, 3/F, Ng Wing Hong Building  \n\u00a0  \n\u00a0",
+            "xchange programmes; and If you have attended all briefing sessions as required by GEO before departure  \nHKSAR Government Subsidy  \nEducation Bureau of the HKSAR Government offers Means-tested and Non-means-tested Schemes in support of Global Exchange. Read below for eligibility:  \n\u00a0  \nMeans-tested Schemes  \nYou are a Local student with a Hong Kong Identity Card and enrolled in full-time undergraduate programme You are a recipient of grant under the Tertiary Student Finance Scheme \u2013 Publicly-funded Programmes by Student Finance Office (SFO); OR your family member is a recipient of the Comprehe",
+            "is a recipient of the Comprehensive Social Security Assistance (CSSA)  \n\u00a0i. Scheme for Subsidy on Exchange (SSE)  \nYou participate in a Global Exchange for 4 weeks or more in summer You are eligible for SSE\u00a0once only\u00a0throughout your undergraduate studies  \nii. Scheme for Means-tested Subsidy on Exchange to \"Belt and Road\" regions (Means-tested SSEBR)  \nYou participate in a Global Exchange in a \"Belt and Road\" regions (except Chinese Mainland, Taiwan and Macau) for 4 weeks or more in summer You are eligible for Means-tested SSEBR twice at most at two different \"Belt and Road\" regions, subject t",
+            "s at your Host university Submit Post-Exchange report within one month of the completion of your exchange period Be a peer advisor at least twice after your return from exchange study to provide advice and sharing your experience to future outbound students  \nIf a student does not fulfill the above obligations, PolyU reserves the right to claw back paid exchange funding.  \nStudent Stories  \nUniversity of Stuttgart, Germany  \nChan Hui Xin  \nThe Summer Exchange has widened my eyesight and exposed me to a greater world...  \nRead More  \nUniversiti Brunei Darussalam, Brunei  \nKaren Law  \nThis excha",
+            "Financial Support: Global Exchange participations are supported by a range of financial assistance. Eligibility and exact amount vary across destinations and durations. Details will be provided to successful participants during the Pre-departure Briefing and in a follow-up email from GEO. Online Application for GEO Exchange Funding by said deadlines is required. No late application will be entertained. Your Faculty/School/Department may offer additional sponsorships and/or scholarships aim at covering expenses such as flights, accommodation or living costs. Check with your Faculty/School/Department and/or Studen",
+            "Special Remarks  \nYou must declare to GEO if you receive sponsorship(s) and/or scholarship(s) from other source(s). You are required to provide relevant document(s) of such funding you receive.  \nPolyU reserves the right to withhold the payment of GEO Funding for Global Exchange/Government Subsidy if you do not declare other funding received (whether it is received before or after the approval of your application).  \nAs a PolyU Global Exchange student, you are obliged to:  \nBe a PolyU Ambassador and help to promote exchange opportunities at PolyU to fellow students at your Host university Subm",
+            "GEO Subsidy for Global Exchange  \nThe subsidy provides financial assistance to students participating in Global Exchange at PolyU\u2019s Student Exchange Partner institutions with tuition fee waiver and earn credit(s) upon completion of such Exchange. Exchange period is at least 4 weeks for Summer Exchange.  \nYou are eligible to the funding:  \nThe first GEO outbound exchange activity involves physical travel during your entire undergraduate study; and If you are a full-time UGC-funded degree-seeking undergraduate students (Local and Non-Local) participating in Global Exchange programmes; and If you",
+            "t and Road\" regions, subject to maximum amount of subsidy to be received, i.e. HKD60,000, discounted by your level of student finance approved by SFO.  \n\u00a0  \nNon-means-tested Schemes  \ni. Non-means-tested Subsidy on Global Exchange to \"Belt and \"Road\" regions (Non-means-tested SSEBR)  \nYou are a Local student with a Hong Kong Identity Card and enrolled in full-time undergraduate programme. You participate in a Global Exchange in any \"Belt and Road\" regions except Chinese mainland, Taiwan and Macau. You are eligible for Non-means-tested SSEBR once only throughout your undergraduate studies.  \n\u00a0 ",
+            "hould confirm their offer by the offer acceptance deadline. Upon students\u2019 confirmation, GEO will send out confirmation email and nominate you to Partner institution. Once you have received your confirmation of nomination, you can start preparing for the application to your Host institution. You must submit your application to Host institution by application deadline. If Host institution requires you to submit your application via Home university, you should consult GEO and submit a complete set of documents to GEO\u00a0at least two weeks before the application deadline. Late submission will jeopar",
+            "HKSAR Government Subsidy: ddle East)\u00a0 3,000  \nAfrica\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 7,000  \nOceania & Europe\u00a0 \u00a0 \u00a0 \u00a0 \u00a08,000  \nNorth America\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a09,000  \nCentral & South America & Caribbean 15,000  \n14-28 days\u00a0 \u00a06,000  \n29-90 days\u00a0 10,000  \n91-180 days\u00a0 25,000  \n** The amount of financial level will be adjusted upward to 50% if the level of student finance approved by SFO is lower than 50%  \n\u00a0  \nNon-means-tested Scheme  \n** Formula: (Destination + Duration)  \nDestination (HKD)  \n+  \nDuration (HKD)  \nAsia (Inc Middle East)\u00a0 \u00a0900  \n\u00a0 \u00a0Africa\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a02,100  \nOceania & Europe\u00a0 \u00a0 \u00a0 \u00a02,400  \nCentral & So",
+            "Am I Eligible to Apply?: The Summer Exchange Programme offers PolyU undergraduate students to spend a summer at one of our Partner institutions. Please click here to see a list of available destinations for Summer Exchange 2024.  \nAll full-time PolyU undergraduate students in UGC-funded programmes, except final-year students, in any faculty/school are welcomed to join the Summer Exchange Programme.  \n\u00a0  \nJoin us! GEO Information Session \u2013 Summer Outbound Opportunities and Funding Available 2023/24 Date:\u00a0 \u00a016 January 2024 (Tuesday) Time:\u00a0 15:00 \u2013 16:00 Venue:\u00a0FJ301, PolyU (face-to-face) & Zoom (online)\u00a0 Mode of Deliver"
+        ],
+        [
+            "Credit Transfer Information: Successful credit transfer applications in the past 5 years are presented on the Credit Transfer Information (Outbound Activities) page here. It serves as a good reference point for your offshore learning planning. Please approach your programme offering departments directly to seek pre-approval and final endorsement upon the completion of your offshore learning activities.",
+            "e. Late submission will jeopardise your submission.  \nCredit Transfer Information \u00a0 Budgeting",
+            "When and How to Apply?  \n1. Complete Online Application Form  \nYou are required to complete the Summer Exchange Online Application Form by 23:59 (Hong Kong Time), 28 January 2024. A 150 words personal statement is required so please prepare in advance. Late/incomplete application will not be processed.  \nYou can pick up to 5 preferred choices of exchange institutions/programmes and it is your responsibility to ensure the chosen Host institutions have the appropriate programmes and subjects to fulfil your degree requirements at PolyU. Please check with your academic department on credit transfe",
+            "c department on credit transfer.  \n2. Interview for Successful Applicants  \nEligible applicants will be invited by email to sign up online for an interview slot during 1 and 2 February 2024. Face-to-face interview with the Global Engagement Office will be taken place from 6 to 8 February 2024. No alternative interview format/date could be arranged. Details of the interview process will be sent to successful applicants by email.  \n3. Offer Announcement and Confirmation  \nGEO will announce application results to students via email from late February 2024. Students should confirm their offer by t",
+            "is a recipient of the Comprehensive Social Security Assistance (CSSA)  \n\u00a0i. Scheme for Subsidy on Exchange (SSE)  \nYou participate in a Global Exchange for 4 weeks or more in summer You are eligible for SSE\u00a0once only\u00a0throughout your undergraduate studies  \nii. Scheme for Means-tested Subsidy on Exchange to \"Belt and Road\" regions (Means-tested SSEBR)  \nYou participate in a Global Exchange in a \"Belt and Road\" regions (except Chinese Mainland, Taiwan and Macau) for 4 weeks or more in summer You are eligible for Means-tested SSEBR twice at most at two different \"Belt and Road\" regions, subject t",
+            "xchange programmes; and If you have attended all briefing sessions as required by GEO before departure  \nHKSAR Government Subsidy  \nEducation Bureau of the HKSAR Government offers Means-tested and Non-means-tested Schemes in support of Global Exchange. Read below for eligibility:  \n\u00a0  \nMeans-tested Schemes  \nYou are a Local student with a Hong Kong Identity Card and enrolled in full-time undergraduate programme You are a recipient of grant under the Tertiary Student Finance Scheme \u2013 Publicly-funded Programmes by Student Finance Office (SFO); OR your family member is a recipient of the Comprehe",
+            "HKSAR Government Subsidy: ddle East)\u00a0 3,000  \nAfrica\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 7,000  \nOceania & Europe\u00a0 \u00a0 \u00a0 \u00a0 \u00a08,000  \nNorth America\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a09,000  \nCentral & South America & Caribbean 15,000  \n14-28 days\u00a0 \u00a06,000  \n29-90 days\u00a0 10,000  \n91-180 days\u00a0 25,000  \n** The amount of financial level will be adjusted upward to 50% if the level of student finance approved by SFO is lower than 50%  \n\u00a0  \nNon-means-tested Scheme  \n** Formula: (Destination + Duration)  \nDestination (HKD)  \n+  \nDuration (HKD)  \nAsia (Inc Middle East)\u00a0 \u00a0900  \n\u00a0 \u00a0Africa\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a02,100  \nOceania & Europe\u00a0 \u00a0 \u00a0 \u00a02,400  \nCentral & So",
+            "t and Road\" regions, subject to maximum amount of subsidy to be received, i.e. HKD60,000, discounted by your level of student finance approved by SFO.  \n\u00a0  \nNon-means-tested Schemes  \ni. Non-means-tested Subsidy on Global Exchange to \"Belt and \"Road\" regions (Non-means-tested SSEBR)  \nYou are a Local student with a Hong Kong Identity Card and enrolled in full-time undergraduate programme. You participate in a Global Exchange in any \"Belt and Road\" regions except Chinese mainland, Taiwan and Macau. You are eligible for Non-means-tested SSEBR once only throughout your undergraduate studies.  \n\u00a0 ",
+            "Special Remarks  \nYou must declare to GEO if you receive sponsorship(s) and/or scholarship(s) from other source(s). You are required to provide relevant document(s) of such funding you receive.  \nPolyU reserves the right to withhold the payment of GEO Funding for Global Exchange/Government Subsidy if you do not declare other funding received (whether it is received before or after the approval of your application).  \nAs a PolyU Global Exchange student, you are obliged to:  \nBe a PolyU Ambassador and help to promote exchange opportunities at PolyU to fellow students at your Host university Subm",
+            "Financial Support: Global Exchange participations are supported by a range of financial assistance. Eligibility and exact amount vary across destinations and durations. Details will be provided to successful participants during the Pre-departure Briefing and in a follow-up email from GEO. Online Application for GEO Exchange Funding by said deadlines is required. No late application will be entertained. Your Faculty/School/Department may offer additional sponsorships and/or scholarships aim at covering expenses such as flights, accommodation or living costs. Check with your Faculty/School/Department and/or Studen",
+            "HKSAR Government Subsidy: Means-tested Schemes  \ni. Scheme for Subsidy on Exchange (SSE)  \nii. Scheme for Means-tested Subsidy on Exchange to \"Belt and Road\" regions (Means-tested SSEBR)  \nThe amount of Government Subsidy is calculated by applying the approved level of student finance to the maximum level of subsidy based on the latest available application result from Student Finance Office (SFO).  \n\u00a0  \n** Formula: (Destination + Duration) x %  \nDestination (HKD)  \n+  \nDuration (HKD)  \nx  \n**Proportion of Grant (%) approved  \nas advised by The Student Finance  \nOffice (SFO)  \nAsia (Inc Middle East)\u00a0 3,000  \nAfrica\u00a0 \u00a0 ",
+            "s at your Host university Submit Post-Exchange report within one month of the completion of your exchange period Be a peer advisor at least twice after your return from exchange study to provide advice and sharing your experience to future outbound students  \nIf a student does not fulfill the above obligations, PolyU reserves the right to claw back paid exchange funding.  \nStudent Stories  \nUniversity of Stuttgart, Germany  \nChan Hui Xin  \nThe Summer Exchange has widened my eyesight and exposed me to a greater world...  \nRead More  \nUniversiti Brunei Darussalam, Brunei  \nKaren Law  \nThis excha",
+            "GEO Subsidy for Global Exchange  \nThe subsidy provides financial assistance to students participating in Global Exchange at PolyU\u2019s Student Exchange Partner institutions with tuition fee waiver and earn credit(s) upon completion of such Exchange. Exchange period is at least 4 weeks for Summer Exchange.  \nYou are eligible to the funding:  \nThe first GEO outbound exchange activity involves physical travel during your entire undergraduate study; and If you are a full-time UGC-funded degree-seeking undergraduate students (Local and Non-Local) participating in Global Exchange programmes; and If you",
+            "ur undergraduate studies.  \n\u00a0 ii.\u00a0Non-means-tested Subsidies on Global Exchange to Chinese Mainland (Non-means-tested MES)  \nYou are a Local or Non-local student and enrolled in full-time undergraduate programme. You participate in a Global Exchange in Chinese Mainland. You are eligible for Non-means-tested MES once only throughout your undergraduate studies.  \nFunding Amount (valid for 2023/24)  \nGEO Subsidy for Global Exchange Destinations GEO Subsidy for Global Exchange Africa HKD11,000\u00a0 Americas\u00a0 HKD11,000\u00a0 Australasia HKD11,000 Europe HKD11,000 Israel HKD11,000 Japan / Korea / Singapore H",
+            "Enquiries: If you have a question that isn\u2019t answered above, talk to a student mobility advisor. Please state clearly your name, PolyU student ID number, exchange period and destination in your enquiry, whenever it is by email or on telephone; or you can even book-in for a private session, email us the date and time at least 2 working days in advance.  \nEmail: outbound.exchange@polyu.edu.hk  \nTel: 2766 5116  \nWalk-in enquiry hours: Mondays to Fridays (except public holidays): 3:00pm \u2013 5:00pm  \nAddress: Global Engagement Office,\u00a0ST305, 3/F, Ng Wing Hong Building  \n\u00a0  \n\u00a0"
+        ],
+        [
+            "e. Late submission will jeopardise your submission.  \nCredit Transfer Information \u00a0 Budgeting",
+            "Credit Transfer Information: Successful credit transfer applications in the past 5 years are presented on the Credit Transfer Information (Outbound Activities) page here. It serves as a good reference point for your offshore learning planning. Please approach your programme offering departments directly to seek pre-approval and final endorsement upon the completion of your offshore learning activities.",
+            "When and How to Apply?  \n1. Complete Online Application Form  \nYou are required to complete the Summer Exchange Online Application Form by 23:59 (Hong Kong Time), 28 January 2024. A 150 words personal statement is required so please prepare in advance. Late/incomplete application will not be processed.  \nYou can pick up to 5 preferred choices of exchange institutions/programmes and it is your responsibility to ensure the chosen Host institutions have the appropriate programmes and subjects to fulfil your degree requirements at PolyU. Please check with your academic department on credit transfe",
+            "c department on credit transfer.  \n2. Interview for Successful Applicants  \nEligible applicants will be invited by email to sign up online for an interview slot during 1 and 2 February 2024. Face-to-face interview with the Global Engagement Office will be taken place from 6 to 8 February 2024. No alternative interview format/date could be arranged. Details of the interview process will be sent to successful applicants by email.  \n3. Offer Announcement and Confirmation  \nGEO will announce application results to students via email from late February 2024. Students should confirm their offer by t",
+            "xchange programmes; and If you have attended all briefing sessions as required by GEO before departure  \nHKSAR Government Subsidy  \nEducation Bureau of the HKSAR Government offers Means-tested and Non-means-tested Schemes in support of Global Exchange. Read below for eligibility:  \n\u00a0  \nMeans-tested Schemes  \nYou are a Local student with a Hong Kong Identity Card and enrolled in full-time undergraduate programme You are a recipient of grant under the Tertiary Student Finance Scheme \u2013 Publicly-funded Programmes by Student Finance Office (SFO); OR your family member is a recipient of the Comprehe",
+            "is a recipient of the Comprehensive Social Security Assistance (CSSA)  \n\u00a0i. Scheme for Subsidy on Exchange (SSE)  \nYou participate in a Global Exchange for 4 weeks or more in summer You are eligible for SSE\u00a0once only\u00a0throughout your undergraduate studies  \nii. Scheme for Means-tested Subsidy on Exchange to \"Belt and Road\" regions (Means-tested SSEBR)  \nYou participate in a Global Exchange in a \"Belt and Road\" regions (except Chinese Mainland, Taiwan and Macau) for 4 weeks or more in summer You are eligible for Means-tested SSEBR twice at most at two different \"Belt and Road\" regions, subject t",
+            "t and Road\" regions, subject to maximum amount of subsidy to be received, i.e. HKD60,000, discounted by your level of student finance approved by SFO.  \n\u00a0  \nNon-means-tested Schemes  \ni. Non-means-tested Subsidy on Global Exchange to \"Belt and \"Road\" regions (Non-means-tested SSEBR)  \nYou are a Local student with a Hong Kong Identity Card and enrolled in full-time undergraduate programme. You participate in a Global Exchange in any \"Belt and Road\" regions except Chinese mainland, Taiwan and Macau. You are eligible for Non-means-tested SSEBR once only throughout your undergraduate studies.  \n\u00a0 ",
+            "Special Remarks  \nYou must declare to GEO if you receive sponsorship(s) and/or scholarship(s) from other source(s). You are required to provide relevant document(s) of such funding you receive.  \nPolyU reserves the right to withhold the payment of GEO Funding for Global Exchange/Government Subsidy if you do not declare other funding received (whether it is received before or after the approval of your application).  \nAs a PolyU Global Exchange student, you are obliged to:  \nBe a PolyU Ambassador and help to promote exchange opportunities at PolyU to fellow students at your Host university Subm",
+            "Financial Support: Global Exchange participations are supported by a range of financial assistance. Eligibility and exact amount vary across destinations and durations. Details will be provided to successful participants during the Pre-departure Briefing and in a follow-up email from GEO. Online Application for GEO Exchange Funding by said deadlines is required. No late application will be entertained. Your Faculty/School/Department may offer additional sponsorships and/or scholarships aim at covering expenses such as flights, accommodation or living costs. Check with your Faculty/School/Department and/or Studen",
+            "HKSAR Government Subsidy: ddle East)\u00a0 3,000  \nAfrica\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 7,000  \nOceania & Europe\u00a0 \u00a0 \u00a0 \u00a0 \u00a08,000  \nNorth America\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a09,000  \nCentral & South America & Caribbean 15,000  \n14-28 days\u00a0 \u00a06,000  \n29-90 days\u00a0 10,000  \n91-180 days\u00a0 25,000  \n** The amount of financial level will be adjusted upward to 50% if the level of student finance approved by SFO is lower than 50%  \n\u00a0  \nNon-means-tested Scheme  \n** Formula: (Destination + Duration)  \nDestination (HKD)  \n+  \nDuration (HKD)  \nAsia (Inc Middle East)\u00a0 \u00a0900  \n\u00a0 \u00a0Africa\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a02,100  \nOceania & Europe\u00a0 \u00a0 \u00a0 \u00a02,400  \nCentral & So",
+            "GEO Subsidy for Global Exchange  \nThe subsidy provides financial assistance to students participating in Global Exchange at PolyU\u2019s Student Exchange Partner institutions with tuition fee waiver and earn credit(s) upon completion of such Exchange. Exchange period is at least 4 weeks for Summer Exchange.  \nYou are eligible to the funding:  \nThe first GEO outbound exchange activity involves physical travel during your entire undergraduate study; and If you are a full-time UGC-funded degree-seeking undergraduate students (Local and Non-Local) participating in Global Exchange programmes; and If you",
+            "s at your Host university Submit Post-Exchange report within one month of the completion of your exchange period Be a peer advisor at least twice after your return from exchange study to provide advice and sharing your experience to future outbound students  \nIf a student does not fulfill the above obligations, PolyU reserves the right to claw back paid exchange funding.  \nStudent Stories  \nUniversity of Stuttgart, Germany  \nChan Hui Xin  \nThe Summer Exchange has widened my eyesight and exposed me to a greater world...  \nRead More  \nUniversiti Brunei Darussalam, Brunei  \nKaren Law  \nThis excha",
+            "HKSAR Government Subsidy: Means-tested Schemes  \ni. Scheme for Subsidy on Exchange (SSE)  \nii. Scheme for Means-tested Subsidy on Exchange to \"Belt and Road\" regions (Means-tested SSEBR)  \nThe amount of Government Subsidy is calculated by applying the approved level of student finance to the maximum level of subsidy based on the latest available application result from Student Finance Office (SFO).  \n\u00a0  \n** Formula: (Destination + Duration) x %  \nDestination (HKD)  \n+  \nDuration (HKD)  \nx  \n**Proportion of Grant (%) approved  \nas advised by The Student Finance  \nOffice (SFO)  \nAsia (Inc Middle East)\u00a0 3,000  \nAfrica\u00a0 \u00a0 ",
+            "Enquiries: If you have a question that isn\u2019t answered above, talk to a student mobility advisor. Please state clearly your name, PolyU student ID number, exchange period and destination in your enquiry, whenever it is by email or on telephone; or you can even book-in for a private session, email us the date and time at least 2 working days in advance.  \nEmail: outbound.exchange@polyu.edu.hk  \nTel: 2766 5116  \nWalk-in enquiry hours: Mondays to Fridays (except public holidays): 3:00pm \u2013 5:00pm  \nAddress: Global Engagement Office,\u00a0ST305, 3/F, Ng Wing Hong Building  \n\u00a0  \n\u00a0",
+            "runei  \nKaren Law  \nThis exchange has been a very rewarding experience for personal development and cultural exchange...  \nRead More  \nNanyang Technological University, Singapore  \nWan Ka Wing  \nDuring the Summer of 2018-2019, I was so glad to have joined the Summer Exchange programme...  \nRead More  \nEnquiries"
+        ]
+    ],
+    "uris": null,
+    "data": null
+}

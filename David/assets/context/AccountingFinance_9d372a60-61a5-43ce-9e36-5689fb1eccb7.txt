@@ -1,0 +1,224 @@
+@3ee915a0-e6f5-4526-8dc9-19a1510f360b//This is AF3110 This is AF3110 This is AF3110 AF3110's Subject Synopsis/ Indicative Syllabus: Foundations of Financial Reporting
+The Conceptual Framework. The Regulatory Format and Content. The Statement of
+Financial Position, The Statement of Profit or Loss and Other Comprehensive Income,
+and The Statement of Changes in Equity.
+Operating Activities of a Business
+Revenue from Contracts with Customers. Cost of Sales and Inventory Valuation.
+Discontinued Operations.
+Investing Activities of a Business
+Property, Plant and Equipment. Investment Properties. Financial Assets. Intangible
+assets. Non-current Assets Held for Sale.
+Others
+Borrowing Costs. Change in Accounting Policies, Accounting Estimates and Errors.
+Events after the Reporting Period. Impairment of Assets. SME-FRS and HKFRS for
+Private Entities.//
+@28f4d4ee-203f-4611-b393-8edd27521da4//This is AF2108 This is AF2108 This is AF2108 AF2108's Reading List and References: Recommended Textbook
+Weygandt, Kimmel and Kieso, Weygandt, Kieso and Kimmel, Financial Accounting with
+International Financial Reporting Standards, , 5th edition, 2022, Wiley.
+Recommended References
+Williams, Haka, Bettner, Carcello, Financial Accounting, 18th edition, 2020, McGraw-
+Hill.
+Ferrell, Fraedrich and Ferrell, Ethical Decision Making in Business, 12th edition, 2018,
+Cengage.
+Harrison, Horngren, Thomas, Suwardy, Financial Accounting International Financial
+Reporting Standards, Global edition, 11th edition, 2020, Pearson.//
+@44b4cdda-99c6-4d48-b8dd-02b23ec2066e//This is AF2111 This is AF2111 This is AF2111 AF2111's Subject Synopsis/ Indicative Syllabus: Weygandt, J & et al, 2012, Accounting Principles, 10th Edition, John Wiley & Sons,
+(Asia) Pte Ltd.
+Larson & Chiapetta, 2013, Fundamental Accounting Principles, McGraw-Hill
+Irwin.
+Marshall, McManus & Viele, 2014, Accounting - What the Numbers Mean, McGraw-
+Hill Irwin.
+Dyson, J. R. 2010. Accounting for Non-Accounting Students, Financial Times
+Prentice Hall.//
+@a5bbf879-d6b2-4cc7-9db8-65c4cb57423f//AF4326's Subject Synopsis/ Indicative Syllabus (Note 2): The Basic Products
+Bond price arithmetic. Treasury bills, notes, bonds and strips. Organization of
+government bond markets. Spot rates, par rates and forward rates. Constructing zero
+curves.
+Risk Management
+Measures of price sensitivity. Simple hedging strategies using fixed income
+derivatives. Eurodollar futures. Bond futures. Interest rate swaps.
+Pricing Interest Rate Claims
+Theories of the term structure. Arbitrage free pricing.
+Corporate Bonds and Credit Risk
+Credit ratings. Default risk and credit spread. Credit derivatives.
+Mortgages and Their Derivatives//
+@ef1caf2a-aebc-4920-8e6f-d269d4cda14a//AF3110's Subject Synopsis/ Indicative Syllabus: Foundations of Financial Reporting
+The Conceptual Framework. The Regulatory Format and Content. The Statement of
+Financial Position, The Statement of Profit or Loss and Other Comprehensive Income,
+and The Statement of Changes in Equity.
+Operating Activities of a Business
+Revenue from Contracts with Customers. Cost of Sales and Inventory Valuation.
+Discontinued Operations.
+Investing Activities of a Business
+Property, Plant and Equipment. Investment Properties. Financial Assets. Intangible
+assets. Non-current Assets Held for Sale.
+Others
+Borrowing Costs. Change in Accounting Policies, Accounting Estimates and Errors.
+Events after the Reporting Period. Impairment of Assets. SME-FRS and HKFRS for
+Private Entities.//
+@94ebfb40-5dcc-4e5f-9754-91c270449134//This is AF4326 This is AF4326 This is AF4326 AF4326's Subject Synopsis/ Indicative Syllabus (Note 2): The Basic Products
+Bond price arithmetic. Treasury bills, notes, bonds and strips. Organization of
+government bond markets. Spot rates, par rates and forward rates. Constructing zero
+curves.
+Risk Management
+Measures of price sensitivity. Simple hedging strategies using fixed income
+derivatives. Eurodollar futures. Bond futures. Interest rate swaps.
+Pricing Interest Rate Claims
+Theories of the term structure. Arbitrage free pricing.
+Corporate Bonds and Credit Risk
+Credit ratings. Default risk and credit spread. Credit derivatives.
+Mortgages and Their Derivatives//
+@85941065-978d-4be1-bf71-5d69aa70c28c//This is AF3507 This is AF3507 This is AF3507 AF3507's Subject Synopsis/ Indicative Syllabus: Types of company’s meetings and their significance; the role and function of auditors
+and inspectors; the protection of minority members.
+External Regulation of Companies
+Insider dealing provisions; audit requirements; the role of the Stock Exchange; powers
+and functions of the Securities and Futures Commission and Market Misconduct
+Tribunal; powers and duties of the Financial Secretary.
+Winding Up of Companies
+Compulsory & voluntary winding up; appointment of liquidators; winding up
+procedures.//
+@73d8e0e2-4c84-48b7-ab67-2a09abdf6815//AF2111's Subject Synopsis/ Indicative Syllabus: Weygandt, J & et al, 2012, Accounting Principles, 10th Edition, John Wiley & Sons,
+(Asia) Pte Ltd.
+Larson & Chiapetta, 2013, Fundamental Accounting Principles, McGraw-Hill
+Irwin.
+Marshall, McManus & Viele, 2014, Accounting - What the Numbers Mean, McGraw-
+Hill Irwin.
+Dyson, J. R. 2010. Accounting for Non-Accounting Students, Financial Times
+Prentice Hall.//
+@77df7b0e-d50d-4510-9cab-98907a58bfe8//This is AF1605 This is AF1605 This is AF1605 AF1605's Assessment Methods in Alignment with Intended Learning Outcomes: Specific assessment % Intended subject learning outcomes to be
+methods/tasks weighting assessed (Please tick as appropriate)
+a b c d
+Continuous Assessment 50%    
+Presentation 10%    
+Written assignments 15%    
+Mid-term test 20%   
+Attendance and
+5%    
+participation in tutorial
+Final Examination 50%    
+Total 100 %
+Explanation of the appropriateness of the assessment methods in assessing the
+intended learning outcomes:
+The continuous assessment components include attendance and participation,
+presentation of problem set questions, written assignments (including a report on
+problem set questions and an essay on applications of economic concepts) and mid-
+term test.
+Presentation and written assignments will allow the instructors to observe and assess
+individual student’s achievement of a particular learning outcome based on how well
+the student elaborate their answers using economic concepts introduced in this course.
+Test and examination are used to gauge how much students have understood the
+overall subject contents and to assess students’ achievement of all learning outcomes.
+To reflect the significant technology content in this subject, 10% (or more) of the
+overall weighting of this subject is based on individual assessment concerning
+technology-related knowledge.//
+@3272cc69-5720-4b74-b085-7e91c1fe3267//AF3507's Subject Synopsis/ Indicative Syllabus: Types of company’s meetings and their significance; the role and function of auditors
+and inspectors; the protection of minority members.
+External Regulation of Companies
+Insider dealing provisions; audit requirements; the role of the Stock Exchange; powers
+and functions of the Securities and Futures Commission and Market Misconduct
+Tribunal; powers and duties of the Financial Secretary.
+Winding Up of Companies
+Compulsory & voluntary winding up; appointment of liquidators; winding up
+procedures.//
+@08af0cce-98ef-4865-954b-bcc5cdcd044b//AF2108's Reading List and References: Recommended Textbook
+Weygandt, Kimmel and Kieso, Weygandt, Kieso and Kimmel, Financial Accounting with
+International Financial Reporting Standards, , 5th edition, 2022, Wiley.
+Recommended References
+Williams, Haka, Bettner, Carcello, Financial Accounting, 18th edition, 2020, McGraw-
+Hill.
+Ferrell, Fraedrich and Ferrell, Ethical Decision Making in Business, 12th edition, 2018,
+Cengage.
+Harrison, Horngren, Thomas, Suwardy, Financial Accounting International Financial
+Reporting Standards, Global edition, 11th edition, 2020, Pearson.//
+@a606bd5f-cea2-469f-8dea-138c01e1cfe9//This is AF3507 This is AF3507 This is AF3507 AF3507's Teaching/Learning Methodology: Legal principles and concepts will be introduced through lectures. In seminars, students
+will gain a better understanding of key legal principles, and apply them to various issues
+and scenarios involving companies and their directors, shareholders and other
+stakeholders, and/or to think about those principles in a critical manner. By working and
+writing an essay assignment, the students will elaborate, in a deeper and more extensive
+way, on a selected topic of HK company law.
+In seminars, the students will be required to describe concepts and answer questions
+either by oral presentations or by writing exercises. To this purpose, seminars may
+include a variety of tasks including problem and essay questions. Problem questions in
+seminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling
+students to develop the ability to identify, explain and apply legal rules to resolve
+business problems, issues and/or challenges. Multiple Choice Questions (MCQs) and
+Quizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to
+acquired good knowledge, clear understanding and accurate application of the relevant
+legal concepts and principles of law.
+Essay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the
+ability to identify, explain and analyze critically key issues of HK company law, its
+reform and policy effects. Students will also be required to participate actively in
+seminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making
+comments or critiques, advancing explanations, or stating arguments.
+Discussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),
+(f) and (g). This activity allows the students to learn how to write and develop concepts
+and arguments in a logical, analytical and critical manner, and how to use basic
+research tools including internet, library and other resources to this effect.//
+@fc33fa5b-639e-412f-b6b1-de85ecb9c94b//AF3507's Teaching/Learning Methodology: Legal principles and concepts will be introduced through lectures. In seminars, students
+will gain a better understanding of key legal principles, and apply them to various issues
+and scenarios involving companies and their directors, shareholders and other
+stakeholders, and/or to think about those principles in a critical manner. By working and
+writing an essay assignment, the students will elaborate, in a deeper and more extensive
+way, on a selected topic of HK company law.
+In seminars, the students will be required to describe concepts and answer questions
+either by oral presentations or by writing exercises. To this purpose, seminars may
+include a variety of tasks including problem and essay questions. Problem questions in
+seminars align with the intended learning outcomes (ILOs) (a), (c) and (d) by enabling
+students to develop the ability to identify, explain and apply legal rules to resolve
+business problems, issues and/or challenges. Multiple Choice Questions (MCQs) and
+Quizzes which are in line with ILOs (a), (b), (c) and (d) d will enable students to
+acquired good knowledge, clear understanding and accurate application of the relevant
+legal concepts and principles of law.
+Essay assignment questions reflect ILOs (a), (d), (e) and (g) as students develop the
+ability to identify, explain and analyze critically key issues of HK company law, its
+reform and policy effects. Students will also be required to participate actively in
+seminars, in line with ILOs (c), (d) and (f), by raising relevant questions, making
+comments or critiques, advancing explanations, or stating arguments.
+Discussing and writing on an essay assignment study is aligned with ILOs (c), (d), (e),
+(f) and (g). This activity allows the students to learn how to write and develop concepts
+and arguments in a logical, analytical and critical manner, and how to use basic
+research tools including internet, library and other resources to this effect.//
+@6ed273e0-5fb6-45ac-bc59-240c43624c4c//AF1605's Assessment Methods in Alignment with Intended Learning Outcomes: Specific assessment % Intended subject learning outcomes to be
+methods/tasks weighting assessed (Please tick as appropriate)
+a b c d
+Continuous Assessment 50%    
+Presentation 10%    
+Written assignments 15%    
+Mid-term test 20%   
+Attendance and
+5%    
+participation in tutorial
+Final Examination 50%    
+Total 100 %
+Explanation of the appropriateness of the assessment methods in assessing the
+intended learning outcomes:
+The continuous assessment components include attendance and participation,
+presentation of problem set questions, written assignments (including a report on
+problem set questions and an essay on applications of economic concepts) and mid-
+term test.
+Presentation and written assignments will allow the instructors to observe and assess
+individual student’s achievement of a particular learning outcome based on how well
+the student elaborate their answers using economic concepts introduced in this course.
+Test and examination are used to gauge how much students have understood the
+overall subject contents and to assess students’ achievement of all learning outcomes.
+To reflect the significant technology content in this subject, 10% (or more) of the
+overall weighting of this subject is based on individual assessment concerning
+technology-related knowledge.//
+@b4a0a774-56ab-40ae-bd29-c0e81d19d833//This is AF3111 This is AF3111 This is AF3111 AF3111's Subject Synopsis/ Indicative Syllabus: Financial Liabilities
+Financial instrument; Classification of financial liability; Initial recognition and
+subsequent measurement of financial liability; Distinction of financial liability from
+equity instrument; Financial liability with the characteristic of equity; Split accounting
+for the compound instrument.
+Provisions, Contingent Liabilities and Contingent Assets
+Distinction between accruals, provisions and contingent liabilities; Definition,
+recognition and measurement of provision, contingent liabilities and contingent assets;
+Change in provisions; Restructuring provision; Provision for onerous contracts.
+Leases
+Classification of lease from the lessor’s perspective; Accounting for lessee on a single
+lease model and lessor on finance and operating leases; Sales and leaseback
+arrangements; Leasehold property.
+Shareholders’ Equity
+Background of Companies Ordinance; Distributable profits.
+Income Taxes
+Introduction to profit tax calculation; Permanent and timing difference; Over- and
+under-provisions; Conceptual basis for recognition of temporary difference and tax

@@ -1,0 +1,691 @@
+{
+    "ids": [
+        [
+            "996dcb90-4516-45a7-bb5f-bc1443496f0e",
+            "dfa3c2ed-bd74-4734-ba0f-3c8590521c25",
+            "01cc7557-909e-4680-8846-8bedf80d7786",
+            "52b44214-fa4b-4863-baba-ebf9808ad78d",
+            "3de3a7ac-e628-4052-a966-e1cffbc89dfd",
+            "ee1c8a53-a96d-4f36-8f68-a723460eb500",
+            "3dd1640b-225d-41ca-877a-265d122d5406",
+            "241aab21-e409-49f8-ad7a-fc8318e8c2c8",
+            "f744415f-b34d-40bc-aff4-85e37615bf10",
+            "60d74945-eacf-41b7-87dc-1d6e6d613d19",
+            "da21ac79-1b87-4d4a-a6a4-abbec9613015",
+            "6f4b73bf-d2bf-474b-8074-bc3901824b91",
+            "11167ff4-be20-4ebf-a196-3b487d61b971",
+            "a80fd1df-2b70-497b-8abe-65dab11be0f8",
+            "3ceee435-43b8-45a2-a656-82792ee4d8b8"
+        ],
+        [
+            "01cc7557-909e-4680-8846-8bedf80d7786",
+            "dfa3c2ed-bd74-4734-ba0f-3c8590521c25",
+            "3dd1640b-225d-41ca-877a-265d122d5406",
+            "3de3a7ac-e628-4052-a966-e1cffbc89dfd",
+            "996dcb90-4516-45a7-bb5f-bc1443496f0e",
+            "52b44214-fa4b-4863-baba-ebf9808ad78d",
+            "ee1c8a53-a96d-4f36-8f68-a723460eb500",
+            "241aab21-e409-49f8-ad7a-fc8318e8c2c8",
+            "6f4b73bf-d2bf-474b-8074-bc3901824b91",
+            "13606252-6dfa-45cd-b3b7-962118b2d2ea",
+            "11167ff4-be20-4ebf-a196-3b487d61b971",
+            "f744415f-b34d-40bc-aff4-85e37615bf10",
+            "4de4b7d5-144c-4139-b46e-2a4c4bf9f00b",
+            "da21ac79-1b87-4d4a-a6a4-abbec9613015",
+            "e55edec3-26f8-4580-8a0d-7dd895bb0413"
+        ],
+        [
+            "df556aac-08b9-494c-bd65-ebdc170aef34",
+            "1c08f6b6-9dc6-453c-9d75-c7da0b2bdda4",
+            "068d610e-739b-499c-ba02-6d998b1306ca",
+            "be0fb5df-29f8-4d38-bf28-6898b955f01e",
+            "1b060c13-b45b-4659-a179-7e475dfe5c9e",
+            "996dcb90-4516-45a7-bb5f-bc1443496f0e",
+            "ee1c8a53-a96d-4f36-8f68-a723460eb500",
+            "90a767b7-7836-43be-ac26-f1f62c6d315b",
+            "62054493-db3f-4c37-bc79-699ca70e876d",
+            "aaf23fc8-bdb3-4136-8043-2dd5f3fe0147",
+            "5a4c3844-cc89-4034-a17b-3f810de00642",
+            "cccbc427-a9c6-4664-9251-af5930655c5a",
+            "da21ac79-1b87-4d4a-a6a4-abbec9613015",
+            "eed57e47-e2f4-4585-84cf-200302c113e7",
+            "203dc98b-3af7-4345-812c-237f1d9cde8a"
+        ],
+        [
+            "996dcb90-4516-45a7-bb5f-bc1443496f0e",
+            "52b44214-fa4b-4863-baba-ebf9808ad78d",
+            "11167ff4-be20-4ebf-a196-3b487d61b971",
+            "f744415f-b34d-40bc-aff4-85e37615bf10",
+            "ee1c8a53-a96d-4f36-8f68-a723460eb500",
+            "241aab21-e409-49f8-ad7a-fc8318e8c2c8",
+            "3c9925d4-4905-480f-9bf0-fae1c7305b2a",
+            "191e4acc-1401-4f0b-8614-2e8a4f3d1794",
+            "da21ac79-1b87-4d4a-a6a4-abbec9613015",
+            "dfa3c2ed-bd74-4734-ba0f-3c8590521c25",
+            "7ff267b2-2757-4c0f-ad78-198d5e79b6bb",
+            "01cc7557-909e-4680-8846-8bedf80d7786",
+            "3ceee435-43b8-45a2-a656-82792ee4d8b8",
+            "c544eff0-0023-43c6-9bc9-b8d6e749f847",
+            "6c07e6b2-1448-40a2-bb02-7281f33b094c"
+        ],
+        [
+            "dfa3c2ed-bd74-4734-ba0f-3c8590521c25",
+            "996dcb90-4516-45a7-bb5f-bc1443496f0e",
+            "3de3a7ac-e628-4052-a966-e1cffbc89dfd",
+            "a80fd1df-2b70-497b-8abe-65dab11be0f8",
+            "3c9925d4-4905-480f-9bf0-fae1c7305b2a",
+            "191e4acc-1401-4f0b-8614-2e8a4f3d1794",
+            "f744415f-b34d-40bc-aff4-85e37615bf10",
+            "3ceee435-43b8-45a2-a656-82792ee4d8b8",
+            "52b44214-fa4b-4863-baba-ebf9808ad78d",
+            "60d74945-eacf-41b7-87dc-1d6e6d613d19",
+            "86e6f8a4-0bf3-4e7e-81e9-35874d67acfb",
+            "ee5f552e-b9ef-43ac-916d-a67c5eef9dd1",
+            "ee1c8a53-a96d-4f36-8f68-a723460eb500",
+            "d021c78b-f183-4650-989d-86568e4b0af8",
+            "28dda83f-e85e-4e48-a928-7a74bc8f5167"
+        ],
+        [
+            "01cc7557-909e-4680-8846-8bedf80d7786",
+            "52b44214-fa4b-4863-baba-ebf9808ad78d",
+            "996dcb90-4516-45a7-bb5f-bc1443496f0e",
+            "dfa3c2ed-bd74-4734-ba0f-3c8590521c25",
+            "3dd1640b-225d-41ca-877a-265d122d5406",
+            "241aab21-e409-49f8-ad7a-fc8318e8c2c8",
+            "ee1c8a53-a96d-4f36-8f68-a723460eb500",
+            "3de3a7ac-e628-4052-a966-e1cffbc89dfd",
+            "11167ff4-be20-4ebf-a196-3b487d61b971",
+            "f744415f-b34d-40bc-aff4-85e37615bf10",
+            "da21ac79-1b87-4d4a-a6a4-abbec9613015",
+            "d37583be-8ee7-431c-b7e2-11286105bd9a",
+            "f3571243-3c88-4ab7-b53e-26025d19e143",
+            "781e748f-b145-4420-90a9-41aec129b593",
+            "9a13005d-f805-4bc3-8ad4-c2615e59dcc3"
+        ]
+    ],
+    "distances": [
+        [
+            12.741556167602539,
+            12.797887802124023,
+            13.04538631439209,
+            13.053248405456543,
+            13.148975372314453,
+            13.505324363708496,
+            13.638411521911621,
+            13.789850234985352,
+            13.815850257873535,
+            14.323969841003418,
+            14.363860130310059,
+            14.443026542663574,
+            14.511102676391602,
+            14.732257843017578,
+            14.75403961899821
+        ],
+        [
+            10.791325569152832,
+            11.107625007629395,
+            11.284648895263672,
+            11.532381057739258,
+            11.611632347106934,
+            11.692749977111816,
+            12.374825477600098,
+            12.559845924377441,
+            12.560792922973633,
+            12.784587860107422,
+            12.961788177490234,
+            13.008142471313477,
+            13.054363250732422,
+            13.10757064819336,
+            13.533404350280762
+        ],
+        [
+            15.553837776184082,
+            15.553837776184082,
+            15.553837776184082,
+            15.553837776184082,
+            15.553837776184082,
+            16.90984344482422,
+            17.02326774597168,
+            17.42757225036621,
+            17.42757225036621,
+            17.42757225036621,
+            17.42757225036621,
+            17.42757225036621,
+            17.882596969604492,
+            18.0784969329834,
+            18.07859992980957
+        ],
+        [
+            15.331088066101074,
+            15.48251724243164,
+            16.393056869506836,
+            16.508150100708008,
+            16.51409912109375,
+            16.999591827392578,
+            17.09065055847168,
+            17.24892807006836,
+            17.545581817626953,
+            17.54886245727539,
+            17.582244873046875,
+            17.655887603759766,
+            17.65786988834385,
+            17.747373580932617,
+            17.76405143737793
+        ],
+        [
+            15.655730247497559,
+            16.11878204345703,
+            16.217077255249023,
+            16.431249618530273,
+            16.453847885131836,
+            16.458057403564453,
+            16.94120979309082,
+            17.015017747507954,
+            17.06463623046875,
+            17.075008392333984,
+            17.13738441467285,
+            17.34583854675293,
+            17.379873275756836,
+            17.38953971862793,
+            17.533058166503906
+        ],
+        [
+            13.742477416992188,
+            14.64168930053711,
+            14.650299072265625,
+            15.048072814941406,
+            15.275354385375977,
+            15.418086051940918,
+            15.747407913208008,
+            15.817032814025879,
+            16.081832885742188,
+            16.24534797668457,
+            16.657514572143555,
+            16.692405700683594,
+            16.692405700683594,
+            16.692405700683594,
+            16.692405700683594
+        ]
+    ],
+    "metadatas": [
+        [
+            {
+                "course_code": "AF3313",
+                "information_type": "Pre-requisite / Co-requisite / Exclusion"
+            },
+            {
+                "course_code": "AF3318",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3318",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3316",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF1605",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3214",
+                "information_type": "Pre-requisite/ Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF1605",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4326",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3317",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3211",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3212",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3513",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4317",
+                "information_type": "Pre-requisite / Co- requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3313",
+                "information_type": "Pre-requisite / Co-requisite / Exclusion"
+            },
+            {
+                "course_code": "AF3316",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            }
+        ],
+        [
+            {
+                "course_code": "AF3318",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3318",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF1605",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF1605",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3313",
+                "information_type": "Pre-requisite / Co-requisite / Exclusion"
+            },
+            {
+                "course_code": "AF3316",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3214",
+                "information_type": "Pre-requisite/ Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4326",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3513",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF2108",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4317",
+                "information_type": "Pre-requisite / Co- requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3317",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF2602",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3212",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3513",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            }
+        ],
+        [
+            {
+                "course_code": "AF4912",
+                "information_type": "Pre-requisite/ Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4912",
+                "information_type": "Pre-requisite/ Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4912",
+                "information_type": "Pre-requisite/ Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4912",
+                "information_type": "Pre-requisite/ Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4912",
+                "information_type": "Pre-requisite/ Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3313",
+                "information_type": "Pre-requisite / Co-requisite / Exclusion"
+            },
+            {
+                "course_code": "AF3214",
+                "information_type": "Pre-requisite/ Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3210",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3210",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3210",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3210",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3210",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3212",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4912",
+                "information_type": "Pre-requisite/ Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3212",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            }
+        ],
+        [
+            {
+                "course_code": "AF3313",
+                "information_type": "Pre-requisite / Co-requisite / Exclusion"
+            },
+            {
+                "course_code": "AF3316",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4317",
+                "information_type": "Pre-requisite / Co- requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3317",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3214",
+                "information_type": "Pre-requisite/ Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4326",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3210",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3212",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3318",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4331",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3318",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3316",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4323",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4322",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            }
+        ],
+        [
+            {
+                "course_code": "AF3318",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3313",
+                "information_type": "Pre-requisite / Co-requisite / Exclusion"
+            },
+            {
+                "course_code": "AF1605",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3313",
+                "information_type": "Pre-requisite / Co-requisite / Exclusion"
+            },
+            {
+                "course_code": "AF3210",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3317",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3316",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3316",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3211",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF2108",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4325",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3214",
+                "information_type": "Pre-requisite/ Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3507",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3213",
+                "information_type": "Pre-requisite/ Co- requisite/ Exclusion"
+            }
+        ],
+        [
+            {
+                "course_code": "AF3318",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3316",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3313",
+                "information_type": "Pre-requisite / Co-requisite / Exclusion"
+            },
+            {
+                "course_code": "AF3318",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF1605",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4326",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3214",
+                "information_type": "Pre-requisite/ Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF1605",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4317",
+                "information_type": "Pre-requisite / Co- requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3317",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF3212",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4326",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4326",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4326",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            },
+            {
+                "course_code": "AF4326",
+                "information_type": "Pre-requisite / Co-requisite/ Exclusion"
+            }
+        ]
+    ],
+    "embeddings": null,
+    "documents": [
+        [
+            "AF3313's Pre-requisite / Co-requisite / Exclusion: Pre-requisite: Financial Accounting (AF2108) or equivalent",
+            "This is AF3318 This is AF3318 This is AF3318 AF3318's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF3318's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF3316's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Business Finance (AF3313)",
+            "This is AF1605 This is AF1605 This is AF1605 AF1605's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF3214's Pre-requisite/ Co-requisite/ Exclusion: Pre-requisite: Financial Accounting (AF2108) and Business Finance\n(AF3313)",
+            "AF1605's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF4326's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Investments (AF3316)",
+            "AF3317's Pre-requisite / Co-requisite/ Exclusion: Pre-requisites: Business Finance (AF3313) and Introduction to Statistics for\nBusiness (AMA1501) or equivalent",
+            "AF3211's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Information Technology for Business (MM2421) or Managing Business\nInformation Systems & Applications (MM2422) or Business Information Systems\n(MM3422)",
+            "AF3212's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Financial Accounting 1 (AF2108) and Business Finance\n(AF3313)",
+            "This is AF3513 This is AF3513 This is AF3513 AF3513's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF4317's Pre-requisite / Co- requisite/ Exclusion: Pre-requisite: AF3313 Business Finance",
+            "This is AF3313 This is AF3313 This is AF3313 AF3313's Pre-requisite / Co-requisite / Exclusion: Pre-requisite: Financial Accounting (AF2108) or equivalent",
+            "This is AF3316 This is AF3316 This is AF3316 AF3316's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Business Finance (AF3313)"
+        ],
+        [
+            "AF3318's Pre-requisite / Co-requisite/ Exclusion: None",
+            "This is AF3318 This is AF3318 This is AF3318 AF3318's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF1605's Pre-requisite / Co-requisite/ Exclusion: None",
+            "This is AF1605 This is AF1605 This is AF1605 AF1605's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF3313's Pre-requisite / Co-requisite / Exclusion: Pre-requisite: Financial Accounting (AF2108) or equivalent",
+            "AF3316's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Business Finance (AF3313)",
+            "AF3214's Pre-requisite/ Co-requisite/ Exclusion: Pre-requisite: Financial Accounting (AF2108) and Business Finance\n(AF3313)",
+            "AF4326's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Investments (AF3316)",
+            "This is AF3513 This is AF3513 This is AF3513 AF3513's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF2108's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF4317's Pre-requisite / Co- requisite/ Exclusion: Pre-requisite: AF3313 Business Finance",
+            "AF3317's Pre-requisite / Co-requisite/ Exclusion: Pre-requisites: Business Finance (AF3313) and Introduction to Statistics for\nBusiness (AMA1501) or equivalent",
+            "AF2602's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF3212's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Financial Accounting 1 (AF2108) and Business Finance\n(AF3313)",
+            "AF3513's Pre-requisite / Co-requisite/ Exclusion: None"
+        ],
+        [
+            "Pre-requisite: AF2108 Financial Accounting and AF3313 Business Finance",
+            "Pre-requisite: AF2108 Financial Accounting and AF3313 Business Finance",
+            "Pre-requisite: AF2108 Financial Accounting and AF3313 Business Finance",
+            "Pre-requisite: AF2108 Financial Accounting and AF3313 Business Finance",
+            "Pre-requisite: AF2108 Financial Accounting and AF3313 Business Finance",
+            "AF3313's Pre-requisite / Co-requisite / Exclusion: Pre-requisite: Financial Accounting (AF2108) or equivalent",
+            "AF3214's Pre-requisite/ Co-requisite/ Exclusion: Pre-requisite: Financial Accounting (AF2108) and Business Finance\n(AF3313)",
+            "Pre-requisite: AF2108 Financial Accounting or equivalent, and AF2504 Introduction\nto Business Law or AF3513 Business Law",
+            "Pre-requisite: AF2108 Financial Accounting or equivalent, and AF2504 Introduction\nto Business Law or AF3513 Business Law",
+            "Pre-requisite: AF2108 Financial Accounting or equivalent, and AF2504 Introduction\nto Business Law or AF3513 Business Law",
+            "Pre-requisite: AF2108 Financial Accounting or equivalent, and AF2504 Introduction\nto Business Law or AF3513 Business Law",
+            "Pre-requisite: AF2108 Financial Accounting or equivalent, and AF2504 Introduction\nto Business Law or AF3513 Business Law",
+            "AF3212's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Financial Accounting 1 (AF2108) and Business Finance\n(AF3313)",
+            "AF4912's Pre-requisite/ Co-requisite/ Exclusion: Pre-requisite: AF2108 Financial Accounting and AF3313 Business Finance",
+            "Pre-requisite: Financial Accounting 1 (AF2108) and Business Finance\n(AF3313)"
+        ],
+        [
+            "AF3313's Pre-requisite / Co-requisite / Exclusion: Pre-requisite: Financial Accounting (AF2108) or equivalent",
+            "AF3316's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Business Finance (AF3313)",
+            "AF4317's Pre-requisite / Co- requisite/ Exclusion: Pre-requisite: AF3313 Business Finance",
+            "AF3317's Pre-requisite / Co-requisite/ Exclusion: Pre-requisites: Business Finance (AF3313) and Introduction to Statistics for\nBusiness (AMA1501) or equivalent",
+            "AF3214's Pre-requisite/ Co-requisite/ Exclusion: Pre-requisite: Financial Accounting (AF2108) and Business Finance\n(AF3313)",
+            "AF4326's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Investments (AF3316)",
+            "AF3210's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: AF2108 Financial Accounting or equivalent, and AF2504 Introduction\nto Business Law or AF3513 Business Law",
+            "AF3507's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Introduction to Business Law (AF2504) or Business Law (AF3513)",
+            "AF3212's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Financial Accounting 1 (AF2108) and Business Finance\n(AF3313)",
+            "This is AF3318 This is AF3318 This is AF3318 AF3318's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF4331's Pre-requisite / Co-requisite/ Exclusion: Pre-requisites: Business Finance (AF 3313)",
+            "AF3318's Pre-requisite / Co-requisite/ Exclusion: None",
+            "This is AF3316 This is AF3316 This is AF3316 AF3316's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Business Finance (AF3313)",
+            "AF4323's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Business Finance (AF3313)",
+            "AF4322's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Business Finance (AF3313)"
+        ],
+        [
+            "This is AF3318 This is AF3318 This is AF3318 AF3318's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF3313's Pre-requisite / Co-requisite / Exclusion: Pre-requisite: Financial Accounting (AF2108) or equivalent",
+            "This is AF1605 This is AF1605 This is AF1605 AF1605's Pre-requisite / Co-requisite/ Exclusion: None",
+            "This is AF3313 This is AF3313 This is AF3313 AF3313's Pre-requisite / Co-requisite / Exclusion: Pre-requisite: Financial Accounting (AF2108) or equivalent",
+            "AF3210's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: AF2108 Financial Accounting or equivalent, and AF2504 Introduction\nto Business Law or AF3513 Business Law",
+            "AF3507's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Introduction to Business Law (AF2504) or Business Law (AF3513)",
+            "AF3317's Pre-requisite / Co-requisite/ Exclusion: Pre-requisites: Business Finance (AF3313) and Introduction to Statistics for\nBusiness (AMA1501) or equivalent",
+            "This is AF3316 This is AF3316 This is AF3316 AF3316's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Business Finance (AF3313)",
+            "AF3316's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Business Finance (AF3313)",
+            "AF3211's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Information Technology for Business (MM2421) or Managing Business\nInformation Systems & Applications (MM2422) or Business Information Systems\n(MM3422)",
+            "This is AF2108 This is AF2108 This is AF2108 AF2108's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF4325's Pre-requisite / Co-requisite/ Exclusion: Pre-requisites:\n1. Any ONE of the finance theory related subjects\nBusiness Finance (AF3313)\nInvestment (AF3316)\nCorporate Finance (AF4320)\nManagement of Financial Institutions (AF4322)\nFinancial Planning (AF4324)\n2. Students should have a basic mathematical background and financial\nknowledge.\n3. Students should be comfortable with managing MS Excel spreadsheets.",
+            "AF3214's Pre-requisite/ Co-requisite/ Exclusion: Pre-requisite: Financial Accounting (AF2108) and Business Finance\n(AF3313)",
+            "This is AF3507 This is AF3507 This is AF3507 AF3507's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Introduction to Business Law (AF2504) or Business Law (AF3513)",
+            "AF3213's Pre-requisite/ Co- requisite/ Exclusion: Pre-requisites:\nIntroduction to Statistics for Business (AMA1501) or equivalent and\nFinancial Accounting (AF2108) or equivalent and\nManagement Accounting 1 (AF2110) and\nIntroduction to Business Analytics (LGT2425/MM2425) or Business Analytics\n(LGT3425/MM3425)"
+        ],
+        [
+            "AF3318's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF3316's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Business Finance (AF3313)",
+            "AF3313's Pre-requisite / Co-requisite / Exclusion: Pre-requisite: Financial Accounting (AF2108) or equivalent",
+            "This is AF3318 This is AF3318 This is AF3318 AF3318's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF1605's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF4326's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Investments (AF3316)",
+            "AF3214's Pre-requisite/ Co-requisite/ Exclusion: Pre-requisite: Financial Accounting (AF2108) and Business Finance\n(AF3313)",
+            "This is AF1605 This is AF1605 This is AF1605 AF1605's Pre-requisite / Co-requisite/ Exclusion: None",
+            "AF4317's Pre-requisite / Co- requisite/ Exclusion: Pre-requisite: AF3313 Business Finance",
+            "AF3317's Pre-requisite / Co-requisite/ Exclusion: Pre-requisites: Business Finance (AF3313) and Introduction to Statistics for\nBusiness (AMA1501) or equivalent",
+            "AF3212's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Financial Accounting 1 (AF2108) and Business Finance\n(AF3313)",
+            "Pre-requisite: Investments (AF3316)",
+            "Pre-requisite: Investments (AF3316)",
+            "Pre-requisite: Investments (AF3316)",
+            "Pre-requisite: Investments (AF3316)"
+        ]
+    ],
+    "uris": null,
+    "data": null
+}

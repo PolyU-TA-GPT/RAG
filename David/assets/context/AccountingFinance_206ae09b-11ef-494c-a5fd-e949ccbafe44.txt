@@ -1,0 +1,20 @@
+@996dcb90-4516-45a7-bb5f-bc1443496f0e//AF3313's Pre-requisite / Co-requisite / Exclusion: Pre-requisite: Financial Accounting (AF2108) or equivalent//
+@dfa3c2ed-bd74-4734-ba0f-3c8590521c25//This is AF3318 This is AF3318 This is AF3318 AF3318's Pre-requisite / Co-requisite/ Exclusion: None//
+@01cc7557-909e-4680-8846-8bedf80d7786//AF3318's Pre-requisite / Co-requisite/ Exclusion: None//
+@52b44214-fa4b-4863-baba-ebf9808ad78d//AF3316's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Business Finance (AF3313)//
+@3de3a7ac-e628-4052-a966-e1cffbc89dfd//This is AF1605 This is AF1605 This is AF1605 AF1605's Pre-requisite / Co-requisite/ Exclusion: None//
+@ee1c8a53-a96d-4f36-8f68-a723460eb500//AF3214's Pre-requisite/ Co-requisite/ Exclusion: Pre-requisite: Financial Accounting (AF2108) and Business Finance
+(AF3313)//
+@3dd1640b-225d-41ca-877a-265d122d5406//AF1605's Pre-requisite / Co-requisite/ Exclusion: None//
+@241aab21-e409-49f8-ad7a-fc8318e8c2c8//AF4326's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Investments (AF3316)//
+@f744415f-b34d-40bc-aff4-85e37615bf10//AF3317's Pre-requisite / Co-requisite/ Exclusion: Pre-requisites: Business Finance (AF3313) and Introduction to Statistics for
+Business (AMA1501) or equivalent//
+@60d74945-eacf-41b7-87dc-1d6e6d613d19//AF3211's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Information Technology for Business (MM2421) or Managing Business
+Information Systems & Applications (MM2422) or Business Information Systems
+(MM3422)//
+@da21ac79-1b87-4d4a-a6a4-abbec9613015//AF3212's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Financial Accounting 1 (AF2108) and Business Finance
+(AF3313)//
+@6f4b73bf-d2bf-474b-8074-bc3901824b91//This is AF3513 This is AF3513 This is AF3513 AF3513's Pre-requisite / Co-requisite/ Exclusion: None//
+@11167ff4-be20-4ebf-a196-3b487d61b971//AF4317's Pre-requisite / Co- requisite/ Exclusion: Pre-requisite: AF3313 Business Finance//
+@a80fd1df-2b70-497b-8abe-65dab11be0f8//This is AF3313 This is AF3313 This is AF3313 AF3313's Pre-requisite / Co-requisite / Exclusion: Pre-requisite: Financial Accounting (AF2108) or equivalent//
+@3ceee435-43b8-45a2-a656-82792ee4d8b8//This is AF3316 This is AF3316 This is AF3316 AF3316's Pre-requisite / Co-requisite/ Exclusion: Pre-requisite: Business Finance (AF3313)
