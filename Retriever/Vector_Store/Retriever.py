@@ -204,7 +204,7 @@ def load_split_pdf(filepath: str) :
     counter = 0
     #print("The original 13th page is: ", docs[12])
     for doc in docs:
-        if (len(doc) > 600):
+        if (len(doc) > 700):
             doc_splits = text_splitter.split_text(doc)
             splits.extend(doc_splits)
             counter += 1
@@ -251,7 +251,8 @@ def test():
     #query_text = "What are available summer exchange institutions located in Singapore? Please also tell me requirements of them."
     
     # rephrase the queries
-    query_list = rephrase(question=query_text,rephrase_num=2,temp=0)
+    rephrase_num = 2
+    query_list = rephrase(question=query_text,rephrase_num=rephrase_num,temp=0)
     print(query_list)
    
     query_embeddings = embedder.encode(query_list).tolist() # tensor to list
@@ -260,8 +261,8 @@ def test():
     #print("The following is the full query result as a dictionary:")
     #print(query_result, "\n")
 
-    query_result_chunks = query_result["documents"][0]
-    query_result_ids = query_result["ids"][0]
+    query_result_chunks = [j for i in range(rephrase_num+1) for j in query_result["documents"][i]]
+    query_result_ids = [j for i in range(rephrase_num+1) for j in query_result["ids"][i]]
    
 
     with open ("{}/assets/retrieval/{}_{}.json".format(cur_dir, collection_name, str(uuid.uuid4())).format(), 'w') as retrieval:
@@ -300,8 +301,8 @@ def test():
 
 
 if __name__ == "__main__":
-    #retriever = Retriever()
-    #retriever.delete_collection("SummerExchange")
+    retriever = Retriever()
+    retriever.delete_collection("SummerExchange")
 
     test()
    

@@ -91,6 +91,7 @@ def generate(context,question,Local=False,temp=0):
         hf = ChatOpenAI(
           base_url="https://openrouter.ai/api/v1",
           openai_api_key=getenv("OPENROUTER_API_KEY"),
+          temperature=temp
         )
     #------------------------------------------------------------
     
@@ -155,6 +156,7 @@ def rephrase(question, rephrase_num, temp=0):
     hf = ChatOpenAI(
         base_url="https://openrouter.ai/api/v1",
         openai_api_key=getenv("OPENROUTER_API_KEY"),
+        temperature=temp
     )
     from langchain.prompts import PromptTemplate
     # template = """Question: {question}
