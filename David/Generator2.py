@@ -108,7 +108,7 @@ class Generator2:
             # gets API Key from environment variable OPENAI_API_KEY
             hf = ChatOpenAI(
             base_url="https://openrouter.ai/api/v1",
-            openai_api_key="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",#getenv("OPENROUTER_API_KEY"),
+            openai_api_key="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",#getenv("OPENROUTER_API_KEY"),
             temperature=temp
             )
         #------------------------------------------------------------
@@ -194,7 +194,7 @@ class Generator2:
         # gets API Key from environment variable OPENAI_API_KEY
         hf = ChatOpenAI(
             base_url="https://openrouter.ai/api/v1",
-            openai_api_key="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",#getenv("OPENROUTER_API_KEY"),
+            openai_api_key="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",#getenv("OPENROUTER_API_KEY"),
             temperature=temp
         )
 
@@ -254,7 +254,7 @@ STRONG QUESTION (1/{num2}):"""
         # gets API Key from environment variable OPENAI_API_KEY
         hf = ChatOpenAI(
             base_url="https://openrouter.ai/api/v1",
-            openai_api_key="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",#getenv("OPENROUTER_API_KEY"),
+            openai_api_key="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",#getenv("OPENROUTER_API_KEY"),
             temperature=temp
         )
 

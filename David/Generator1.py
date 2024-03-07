@@ -91,7 +91,7 @@ def generate(context,question,Local=False,temp=0):
         # gets API Key from environment variable OPENAI_API_KEY
         hf = ChatOpenAI(
           base_url="https://openrouter.ai/api/v1",
-          openai_api_key=getenv("OPENROUTER_API_KEY"),
+          openai_api_key="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", #getenv("OPENROUTER_API_KEY"),
           temperature=temp
         )
     #------------------------------------------------------------
@@ -146,7 +146,7 @@ Now do the real task below!
     prompt = PromptTemplate.from_template(template)
     
     chain = prompt | hf
-    
+  
     return chain.invoke({"context":context,"question": question}).content
 
 def rephrase(question, rephrase_num, temp=0):
@@ -156,7 +156,8 @@ def rephrase(question, rephrase_num, temp=0):
     # gets API Key from environment variable OPENAI_API_KEY
     hf = ChatOpenAI(
         base_url="https://openrouter.ai/api/v1",
-        openai_api_key=os.environ['OPENROUTER_API_KEY'],
+        openai_api_key="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",
+        #os.environ['OPENROUTER_API_KEY'],
     )
     from langchain.prompts import PromptTemplate
     # template = """Question: {question}

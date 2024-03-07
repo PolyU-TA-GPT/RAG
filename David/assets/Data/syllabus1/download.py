@@ -22,7 +22,6 @@ def download_course(subject):
 # download_course("af")
 # download_course("ap")
 # download_course("bme")
-# download_course("cbs")
 # download_course("cee")
 # download_course("chc")
 # download_course("comp")
@@ -50,4 +49,11 @@ def rename(subject):
             # 重命名文件
             os.rename(file_path, new_file_path)
 
-rename("bme")
+# rename("bme")
+# rename("chc")
+# rename("eee")
+# rename("engl")
+# rename("ise")
+# rename("lsgi")
+# rename("me")
+# rename("mm")

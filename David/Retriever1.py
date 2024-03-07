@@ -114,7 +114,7 @@ class Retriever:
         collection = self.getCollection(collection_name)
         result = collection.query(
             query_embeddings=query_embeddings,
-            n_results=15,
+            n_results=3,
         )
         return result
 

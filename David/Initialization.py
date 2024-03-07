@@ -13,6 +13,19 @@ class Initialization:
     def __init__(self):
         cur_dir = os.path.dirname(os.path.abspath(__file__))
         retriever = Retriever()
+        try:
+            retriever.delete_collection("SummerExchangePdf")
+        except ValueError:
+            pass
+        try:
+            retriever.delete_collection("AccountingFinance")
+        except ValueError:
+            pass
+        try:
+            retriever.delete_collection("Computing")
+        except ValueError:
+            pass
+
         self.retriever = retriever
         self.cur_dir = cur_dir
 
@@ -20,10 +33,10 @@ class Initialization:
         textSplitting = TextSplitting()
 
         spliter_results = {}
-        # spliter_results['Summer_Outbound_Info_Session.pdf'] = load_split_pdf("{}/assets/Data/summer_exchange/Summer_Outbound_Info_Session.pdf".format(self.cur_dir))
-        spliter_results['Summary_Summer_Exchange.pdf'] = load_split_pdf("{}/assets/Data/summer_exchange/Summary_Summer_Exchange.pdf".format(self.cur_dir))
-        spliter_results['summer_exchange_info.html'] = textSplitting.split_html("{}/assets/Data/summer_exchange/summer_exchange_info.html".format(self.cur_dir))
-        spliter_results['summer_oxbridge_info.html'] = textSplitting.split_html("{}/assets/Data/summer_exchange/summer_oxbridge_info.html".format(self.cur_dir))
+        spliter_results['Summer_Outbound_Info_Session.pdf'] = load_split_pdf("{}/assets/Data/summer_exchange/Summer_Outbound_Info_Session.pdf".format(self.cur_dir))
+        # spliter_results['Summary_Summer_Exchange.pdf'] = load_split_pdf("{}/assets/Data/summer_exchange/Summary_Summer_Exchange.pdf".format(self.cur_dir))
+        # spliter_results['summer_exchange_info.html'] = textSplitting.split_html("{}/assets/Data/summer_exchange/summer_exchange_info.html".format(self.cur_dir))
+        # spliter_results['summer_oxbridge_info.html'] = textSplitting.split_html("{}/assets/Data/summer_exchange/summer_oxbridge_info.html".format(self.cur_dir))
 
         embedder = sentenceEmbeddings(model="sentence-transformers/all-MiniLM-L6-v2",
                                       max_seq_length=256, huggingface=True)
@@ -83,7 +96,7 @@ class Initialization:
                 if v == None:
                     continue
                 course_code = course_code.replace("\n", " ")
-                v = ("This is " + course_code + " ")*3 + course_code + "'s " + k + ": " + v
+                v = ("This is " + course_code +  "'s " + k +" ")*3 + ": " + v
                 embed_result = embedder.encode([v]).tolist()
                 embeddings_list = embed_result
                 documents_list = [v]
@@ -93,9 +106,10 @@ class Initialization:
 
 if __name__ == "__main__":
     init = Initialization()
-    init.summer_exchange_init()
     # init.summer_exchange_init()
-    # init.syllabus_init("AccountingFinance")
+    init.summer_exchange_init()
+    init.syllabus_init("AccountingFinance")
+    init.syllabus_init("Computing")
     # "IndustrialSystemsEngineering", : Attention!! docx
     # major_list = [ 
     #     "AccountingFinance", 
