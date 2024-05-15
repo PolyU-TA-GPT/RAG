@@ -13,13 +13,10 @@ class Scholarship_Web_Spider(scrapy.Spider):
                              callback=self.parse, headers=head)
 
     def parse(self, response):
-        # Get all the pure text inside <main class="page-content">
-        text = response.css("main.page-content ::text").getall()
-        pure_text = ' '.join(text).strip()
-        pure_text = pure_text.replace('\n', ' ').replace('  ', ' ')
-        filepath = 'scholarship_info.txt'
+        html_content = response.css("main.page-content").getall()
+        filepath = 'scholarship_info.html'
         with open(filepath, 'w') as f:
-            f.write(pure_text)
+            f.write(html_content[0])
 
 class Scholarship_Link_Spider(scrapy.Spider):
     name = "scholarship_link_spider"
@@ -43,6 +40,6 @@ class Scholarship_Link_Spider(scrapy.Spider):
                 f.write(link + "\n")
 
 process = CrawlerProcess()
-# process.crawl(Scholarship_Web_Spider)
-process.crawl(Scholarship_Link_Spider)
+process.crawl(Scholarship_Web_Spider)
+#process.crawl(Scholarship_Link_Spider)
 process.start()
