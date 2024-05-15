@@ -110,11 +110,11 @@ class Retriever:
 
     
     def query (self, collection_name: str, query_embeddings: list[list[float]]) -> dict:
-        """return n (by now, set as top-3) closest results (chunks and metadatas) in order """
+        """return n (by now, set as top-5) closest results (chunks and metadatas) in order """
         collection = self.getCollection(collection_name)
         result = collection.query(
             query_embeddings=query_embeddings,
-            n_results=15,
+            n_results=5,
         )
         return result
 

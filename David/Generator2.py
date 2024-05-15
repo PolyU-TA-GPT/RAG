@@ -2,7 +2,7 @@ class Generator2:
     """A class to generate questions and answers using RAG model."""
     PRINTDETAIL = True
     @staticmethod
-    def generate(context,question,Local=False,temp=0):
+    def generate(context,question, history:dict, Local=False,temp=0):
         """Generate an answer to the user question based on the given context.
         Parameters
         ----------
@@ -10,6 +10,12 @@ class Generator2:
             The context to generate the answer.
         question : str
             The user question.
+        history: dict
+            The history of the conversation.
+            {
+                "question": question,
+                "answer": answer
+            }
         Local : bool
             Whether to use local model or not.
         temp : float
@@ -108,7 +114,8 @@ class Generator2:
             # gets API Key from environment variable OPENAI_API_KEY
             hf = ChatOpenAI(
             base_url="https://openrouter.ai/api/v1",
-            openai_api_key="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",#getenv("OPENROUTER_API_KEY"),
+            openai_api_key="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",#getenv("OPENROUTER_API_KEY"),
+            model_name="openai/gpt-4o",
             temperature=temp
             )
         #------------------------------------------------------------
@@ -152,7 +159,9 @@ class Generator2:
     ```
 
     Now do the real task below!
-
+    If the history question and answers is not empty, please refer to the history question and answer if history is related to the current question,.
+    The history question is {history_question}
+    The history answer is {history_answer}
     ------------------------------------------------------------
         {context}
     ------------------------------------------------------------
@@ -166,7 +175,8 @@ class Generator2:
         
         chain = prompt | hf
         
-        res = chain.invoke({"context":context,"question": question}).content
+        res = chain.invoke({"context":context,"question": question,
+                            "history_question": history["question"], "history_answer": history["answer"]}).content
 
         if Generator2.PRINTDETAIL:
             print(res)
@@ -194,7 +204,7 @@ class Generator2:
         # gets API Key from environment variable OPENAI_API_KEY
         hf = ChatOpenAI(
             base_url="https://openrouter.ai/api/v1",
-            openai_api_key="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",#getenv("OPENROUTER_API_KEY"),
+            openai_api_key="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",#getenv("OPENROUTER_API_KEY"),
             temperature=temp
         )
 
@@ -254,7 +264,7 @@ STRONG QUESTION (1/{num2}):"""
         # gets API Key from environment variable OPENAI_API_KEY
         hf = ChatOpenAI(
             base_url="https://openrouter.ai/api/v1",
-            openai_api_key="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",#getenv("OPENROUTER_API_KEY"),
+            openai_api_key="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",#getenv("OPENROUTER_API_KEY"),
             temperature=temp
         )
 
@@ -371,8 +381,8 @@ if __name__ == '__main__':
         # print(result)
         # print('- '*40)
     
-    # print(results)
+    print(results)
 
     summary = Generator2.AnswersToFinalAnswer(results)
-    # print(summary)
+    print(summary)
 

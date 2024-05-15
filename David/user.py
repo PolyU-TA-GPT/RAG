@@ -36,7 +36,8 @@ def main_page():
     print("4. Minor")
     print("5. Scholarship")
     print("6. SRS")
-    print("7. Exit")
+    print("7. WIE")
+    print("8. Exit")
     print(separate_line)
     print("Please enter the number of the module you want to use:")
     module = input()
@@ -64,7 +65,7 @@ def major_display():
     major = input()
     return major
 
-def syllabus_query(major_num):
+def syllabus_query(major_num, history, rephrase_num=1):
     major = ""
     if major_num == "1":
         major = "AccountingFinance"
@@ -102,8 +103,9 @@ def syllabus_query(major_num):
     query_text = input()
     print(separate_line)
     print("rephrasing...")
-    # query_list = rephrase(question=query_text, rephrase_num=2, temp=0)
-    query_list = Generator2.strengthenUserQuestion(query_text, 5)
+    rephrase_num = rephrase_num
+    #query_list = rephrase(question=query_text, rephrase_num=rephrase_num, temp=0)
+    query_list = Generator2.strengthenUserQuestion(query_text, rephrase_num)
     query_list.append(query_text)
     print(query_list)
     print("rephrase done!")
@@ -112,8 +114,8 @@ def syllabus_query(major_num):
     query_embeddings = embedder.encode(query_list).tolist()  # tensor to list
     query_result = retriever.query(collection_name=collection_name, query_embeddings=query_embeddings)
 
-    query_result_chunks = query_result["documents"][0]
-    query_result_ids = query_result["ids"][0]
+    query_result_chunks = [j for i in range (rephrase_num + 1) for j in query_result["documents"][i]]
+    query_result_ids = [j for i in range (rephrase_num + 1) for j in query_result["ids"][i]]
     with open("{}/assets/retrieval/{}_{}.json".format(cur_dir, collection_name, str(uuid.uuid4())).format(),
               'w') as retrieval:
         json.dump(query_result, retrieval, indent=4)
@@ -131,37 +133,125 @@ def syllabus_query(major_num):
     print("This is context")
     print(context)
     # result = generate(context=context, question=query_text, temp=0)
-    result = Generator2.generate(context=context, question=query_text, temp=0)
-    for i in range(1,10,2):
-        if result.find('FINAL ANSWER:')<0:
-            time.sleep(5)
-            result = Generator2.generate(context,query_text,temp=i/10)
-            print('retrying with temperature:',i/10)
-        else:
-            break
-    result = result[result.find('FINAL ANSWER:')+14:]
-    print(result)
-    print(separate_line)
+    # result = Generator2.generate(context=context, question=query_text, temp=0)
+    # # for i in range(1,10,2):
+    # #     if result.find('FINAL ANSWER:')<0:
+    # #         time.sleep(5)
+    # #         #result = Generator2.generate(context,query_text,temp=i/10)
+    # #         result = generate(context=context, question=query_text, temp=i/10)
+    # #         print('retrying with temperature:',i/10)
+    # #     else:
+    # #         break
+    # # result = result[result.find('FINAL ANSWER:')+14:]
+    # print(result)
+    # print(separate_line)
+    results = []
+    for question in query_list:
+        result = Generator2.generate(context, question, history)
+        # print(result)
+        # for i in range(1, 10, 2):
+        #     if result.find('FINAL ANSWER:') < 0:
+        #         time.sleep(5)
+        #         result = Generator2.generate(context, question, temp=i / 10)
+        #         print('retrying with temperature:', i / 10)
+        #     else:
+        #         break
+        # result = result[result.find('FINAL ANSWER:') + 14:]
+        results += [result]
+        # print()
+        # print('- '*40)
+        # print(result)
+        # print('- '*40)
 
+        # print(results)
 
-def summer_exchange_query():
-    collection_name = "SummerExchange"
+    summary = Generator2.AnswersToFinalAnswer(results)
+    print(summary)
+    return query_text, summary
+
+def david_query(collection_name, history, rephrase_num=1):
+    collection_name = collection_name
     print(separate_line)
     print("Your Query:")
     print(separate_line)
     query_text = input()
-    # query_list = rephrase(question=query_text, rephrase_num=2, temp=0)
+    
     print("rephrasing...")
-    query_list = Generator2.strengthenUserQuestion(query_text, 5)
+    rephrase_num = rephrase_num
+    #query_list = rephrase(question=query_text, rephrase_num=rephrase_num, temp=0)
+    query_list = Generator2.strengthenUserQuestion(query_text, rephrase_num)
     query_list.append(query_text)
+    print(query_list)
     print("rephrase done!")
     print(separate_line)
     print("querying...")
     query_embeddings = embedder.encode(query_list).tolist()  # tensor to list
     query_result = retriever.query(collection_name=collection_name, query_embeddings=query_embeddings)
 
-    query_result_chunks = query_result["documents"][0]
-    query_result_ids = query_result["ids"][0]
+    query_result_chunks = [j for i in range (rephrase_num + 1) for j in query_result["documents"][i]]
+    query_result_ids = [j for i in range (rephrase_num + 1) for j in query_result["ids"][i]]
+    with open("{}/assets/retrieval/{}_{}.json".format(cur_dir, collection_name, str(uuid.uuid4())).format(),
+              'w') as retrieval:
+        json.dump(query_result, retrieval, indent=4)
+
+    num = len(query_result_chunks)
+    for i in range(num):
+        query_result_chunks[i] = query_result_chunks[i].replace('\n',' ')
+
+    context = '//\n'.join(["@" + query_result_ids[i] + "//" + query_result_chunks[i] for i in range(num)])
+    with open("{}/assets/context/{}_{}.txt".format(cur_dir, collection_name, str(uuid.uuid4())).format(),
+              'w') as context_file:
+        context_file.write(context)
+    print("query done!")
+    print(separate_line)
+    print("This is context")
+    print(context)
+
+    results = []
+    for question in query_list:
+        result = Generator2.generate(context, question, history)
+        # print(result)
+        # for i in range(1, 10, 2):
+        #     if result.find('FINAL ANSWER:') < 0:
+        #         time.sleep(5)
+        #         result = Generator2.generate(context, question, temp=i / 10)
+        #         print('retrying with temperature:', i / 10)
+        #     else:
+        #         break
+        # result = result[result.find('FINAL ANSWER:') + 14:]
+        results += [result]
+        # print()
+        # print('- '*40)
+        # print(result)
+        # print('- '*40)
+
+        # print(results)
+
+    summary = Generator2.AnswersToFinalAnswer(results)
+    print(summary)
+    return query_text, summary
+
+def summer_exchange_query(history, rephrase_num=1):
+    collection_name = "SummerExchange"
+    print(separate_line)
+    print("Your Query:")
+    print(separate_line)
+    query_text = input()
+    
+    print("rephrasing...")
+    rephrase_num = rephrase_num
+    #query_list = rephrase(question=query_text, rephrase_num=rephrase_num, temp=0)
+    query_list = Generator2.strengthenUserQuestion(query_text, rephrase_num)
+    query_list.append(query_text)
+    print(query_list)
+    print("rephrase done!")
+    print(separate_line)
+    print("querying...")
+    query_embeddings = embedder.encode(query_list).tolist()  # tensor to list
+    query_result = retriever.query(collection_name=collection_name, query_embeddings=query_embeddings)
+
+    query_result_chunks = [j for i in range (rephrase_num + 1) for j in query_result["documents"][i]]
+    query_result_ids = [j for i in range (rephrase_num + 1) for j in query_result["ids"][i]]
     with open("{}/assets/retrieval/{}_{}.json".format(cur_dir, collection_name, str(uuid.uuid4())).format(),
               'w') as retrieval:
         json.dump(query_result, retrieval, indent=4)
@@ -183,23 +273,56 @@ def summer_exchange_query():
     print("This is context")
     print(context)
     # result = generate(context=context, question=query_text, temp=0)
-    result = Generator2.generate(context=context, question=query_text, temp=0)
-    for i in range(1,10,2):
-        if result.find('FINAL ANSWER:')<0:
-            time.sleep(5)
-            result = Generator2.generate(context,query_text,temp=i/10)
-            print('retrying with temperature:',i/10)
-        else:
-            break
-    result = result[result.find('FINAL ANSWER:')+14:]
-    print(result)
-    print(separate_line)
+
+    results = []
+    for question in query_list:
+        result = Generator2.generate(context, question, history)
+        # print(result)
+        # for i in range(1, 10, 2):
+        #     if result.find('FINAL ANSWER:') < 0:
+        #         time.sleep(5)
+        #         result = Generator2.generate(context, question, temp=i / 10)
+        #         print('retrying with temperature:', i / 10)
+        #     else:
+        #         break
+        # result = result[result.find('FINAL ANSWER:') + 14:]
+        results += [result]
+        # print()
+        # print('- '*40)
+        # print(result)
+        # print('- '*40)
+
+        # print(results)
+
+
+    summary = Generator2.AnswersToFinalAnswer(results)
+    print(summary)
+    return query_text, summary
+
+
+    # result = Generator2.generate(context=context, question=query_text, temp=0)
+    #
+    # # for i in range(1,10,2):
+    # #     if result.find('FINAL ANSWER:')<0:
+    # #         time.sleep(5)
+    # #         # result = Generator2.generate(context,query_text,temp=i/10)
+    # #         result = generate(context=context, question=query_text, temp=i/10)
+    # #         print('retrying with temperature:',i/10)
+    # #     else:
+    # #         break2
+    # # result = result[result.find('FINAL ANSWER:')+14:]
+    # # result = result[result.find('ANSWER:')+8:]
+    # print(result)
+    # print(separate_line)
 
 if __name__ == "__main__":
     module = main_page()
-    while module != "7":
+    history = {"question": "", "answer": ""}
+    while module != "8":
         if module == "1":
-            summer_exchange_query()
+            query, answer  = summer_exchange_query(history)
+            history["question"] = query
+            history["answer"] = answer
             print("Do you want to continue? (y/n)")
             continue_or_not = input()
             if continue_or_not == "y":
@@ -208,7 +331,9 @@ if __name__ == "__main__":
                 break
         elif module == "2":
             major = major_display()
-            syllabus_query(major)
+            query, answer = syllabus_query(major, history)
+            history["question"] = query
+            history["answer"] = answer
             print("Do you want to continue? (y/n)")
             continue_or_not = input()
             if continue_or_not == "y":
@@ -216,12 +341,64 @@ if __name__ == "__main__":
             else:
                 break
         elif module == "3":
-            pass
+            query, answer =  david_query("CAR", history)
+            history["question"] = query
+            history["answer"] = answer
+            print("Do you want to continue? (y/n)")
+            continue_or_not = input()
+            if continue_or_not == "y":
+                module = main_page()
+            else:
+                break
         elif module == "4":
-            pass
+            query, answer = david_query("Minor", history)
+            history["question"] = query
+            history["answer"] = answer
+            print("Do you want to continue? (y/n)")
+            continue_or_not = input()
+            if continue_or_not == "y":
+                module = main_page()
+            else:
+                break
         elif module == "5":
-            pass
+            query, answer = david_query("Scholarship", history)
+            history["question"] = query
+            history["answer"] = answer
+            print("Do you want to continue? (y/n)")
+            continue_or_not = input()
+            if continue_or_not == "y":
+                module = main_page()
+            else:
+                break
         elif module == "6":
-            pass
+            query, answer = david_query("SRS", history)
+            history["question"] = query
+            history["answer"] = answer
+            print("Do you want to continue? (y/n)")
+            continue_or_not = input()
+            if continue_or_not == "y":
+                module = main_page()
+            else:
+                break
         elif module == "7":
+            query, answer = david_query("WIE", history)
+            history["question"] = query
+            history["answer"] = answer
+            print("Do you want to continue? (y/n)")
+            continue_or_not = input()
+            if continue_or_not == "y":
+                module = main_page()
+            else:
+                break
+        elif module == "8":
             break
+        else:
+            print("Invalid input!")
+            module = main_page()
+
+
+
+# What are COMP1433's intended learning outcomes?
+# What are AF3313's pre-requisites?
+# What are summer exchange types of PolyU?
+# What are universites in Singapore that provided summer exchange?
